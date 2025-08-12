@@ -1190,4 +1190,311 @@ Systems_Hardware/
 ├── docs/ (general documentation, progress tracker)
 ├── README.md
 
+# Robotics and Autonomous Systems
+
+Welcome to the **Robotics and Autonomous Systems** section of my GitHub repository, documenting my journey as a computer engineering student passionate about robotics and autonomous vehicles. This roadmap builds on my experience in competitions like F1TENTH and Shell Eco-marathon, where I’ve worked on energy-efficient planners and autonomous navigation. It covers the full spectrum from foundational concepts to cutting-edge applications, with a focus on the core stacks of **Perception**, **SLAM**, **Planning**, and **Controlling**, alongside critical areas like sensor fusion, modeling, and hardware selection. Using the **trinity approach** (Books, Courses/Tutorials/Papers, Projects), this roadmap progresses from beginner to expert levels, integrating **software** (ROS/ROS2, Python/C++), **simulators** (Gazebo, CARLA, Webots), and **hardware** (sensors, motors, microcontrollers).
+
+This README serves as the central hub for the Robotics and Autonomous Systems category, outlining the roadmap, linking to resources, and showcasing projects. Whether you’re a beginner, a fellow student, or a recruiter, use this repo to explore robotics fundamentals, advanced autonomous systems, and practical applications in competitions.
+
+## Table of Contents
+- [Overview](#overview)
+- [Roadmap Structure](#roadmap-structure)
+  - [Beginner Level: Foundations and Basics](#beginner-level-foundations-and-basics)
+  - [Intermediate Level: Core Stacks](#intermediate-level-core-stacks)
+  - [Advanced Level: Integration and Complex Systems](#advanced-level-integration-and-complex-systems)
+  - [Expert Level: Real-World and Cutting-Edge Applications](#expert-level-real-world-and-cutting-edge-applications)
+- [Repository Structure](#repository-structure)
+- [How to Use This Repository](#how-to-use-this-repository)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Overview
+This section is designed to:
+- Provide a **structured roadmap** for mastering robotics and autonomous systems, from basics to competition-ready applications.
+- Curate high-quality **resources** (books, courses, tutorials, papers) to support learning across software, simulators, and hardware.
+- Showcase **projects** that demonstrate practical skills, from simple Arduino bots to full autonomous vehicle systems in CARLA, tailored to my competition experience.
+- Integrate with my broader repo, linking to `/Foundations` (e.g., control theory, programming) and `/Artificial_Intelligence` (e.g., RL for navigation).
+- Highlight my journey, emphasizing autonomous vehicle competitions and contributions to open-source robotics (e.g., Autotronics Lab).
+
+The roadmap is organized into four levels, covering **software** (ROS/ROS2, algorithms), **simulators** (Gazebo, CARLA, Webots), and **hardware** (sensors, motors, custom platforms). Each topic includes resources and projects stored in dedicated folders.
+
+## Roadmap Structure
+
+### Beginner Level: Foundations and Basics
+#### 1. Introduction to Robotics and Autonomous Systems
+**Objective**: Understand robotics fundamentals, types, components, and their relevance to autonomous vehicles.
+- **Books**:
+  - ["Robotics: Modelling, Planning and Control" by Bruno Siciliano et al.](https://www.amazon.com/Robotics-Modelling-Planning-Control-Advanced/dp/1846286417) - Comprehensive robotics intro.
+  - ["Introduction to Autonomous Mobile Robots" by Roland Siegwart et al.](https://www.amazon.com/Introduction-Autonomous-Mobile-Robots-Intelligent/dp/0262015358) - Mobile robot basics.
+  - ["Robotics, Vision and Control" by Peter Corke](https://www.amazon.com/Robotics-Vision-Control-Fundamental-Algorithms/dp/3319544136) - Practical robotics guide.
+- **Courses/Tutorials/Papers**:
+  - **Course**: [Robotics: Aerial Robotics](https://www.coursera.org/learn/robotics-flight) (UPenn, free audit) - Intro to robotics.
+  - **Course**: [Introduction to Robotics](https://www.edx.org/course/introduction-to-robotics) (Stanford, free) - Broad overview.
+  - **Course**: [Autonomous Vehicle Engineering](https://www.coursera.org/learn/autonomous-vehicle-engineering) (LearnQuest, free audit) - Vehicle focus.
+  - **Tutorial**: [ROS Tutorials](http://wiki.ros.org/ROS/Tutorials) - Official ROS intro.
+  - **Tutorial**: [What is Robotics?](https://www.youtube.com/watch?v=7P4m0f8nDsA) (CrashCourse, YouTube) - Beginner video.
+  - **Tutorial**: [Autonomous Systems Basics](https://www.mathworks.com/help/robotics/autonomous-systems.html) - Practical guide.
+  - **Paper**: ["A Survey of Autonomous Driving" by Schwarting et al., 2018](https://arxiv.org/abs/1806.06096) - Autonomous vehicle overview.
+- **Projects** (see `/Robotics_Autonomous_Systems/Introduction`):
+  - Create a **markdown summary** of robotics types and their role in autonomous vehicles (`/docs/robotics_overview.md`).
+  - Build a **simple ROS node** to publish/subscribe to a topic (e.g., robot status).
+  - Simulate a **basic robot** in Gazebo with a URDF model.
+  - Develop a **Jupyter notebook** explaining autonomous vehicle components (e.g., sensors, actuators).
+  - Design a **competition proposal** for a F1TENTH-style race, outlining hardware/software needs.
+
+#### 2. Robotics Hardware Fundamentals
+**Objective**: Learn sensors, actuators, and microcontrollers for building physical robots.
+- **Books**:
+  - ["Practical Robotics in C++" by Lloyd Brombach](https://www.amazon.com/Practical-Robotics-C-Lloyd-Brombach/dp/9389423465) - Hardware programming.
+  - ["Make: Sensors" by Tero Karvinen et al.](https://www.amazon.com/Make-Sensors-Hands-Projects-Environmental/dp/1449368107) - Sensor guide.
+  - ["Exploring Arduino" by Jeremy Blum](https://www.amazon.com/Exploring-Arduino-Techniques-Engineering-Wizardry/dp/1119405378) - Microcontroller projects.
+- **Courses/Tutorials/Papers**:
+  - **Course**: [Building a Future with Robots](https://www.futurelearn.com/courses/build-a-robot) (University of Sheffield, free) - Hardware intro.
+  - **Course**: [Arduino for Beginners](https://www.coursera.org/learn/arduino-platform) (UC Irvine, free audit) - Microcontroller basics.
+  - **Course**: [Robotics Hardware](https://www.udemy.com/course/robotics-hardware/) (Udemy, paid but often discounted) - Sensor/actuator focus.
+  - **Tutorial**: [SparkFun Sensor Tutorials](https://learn.sparkfun.com/tutorials/sensors) - Practical sensor guide.
+  - **Tutorial**: [Arduino Motor Control](https://www.arduino.cc/en/Tutorial/MotorControl) - Official guide.
+  - **Tutorial**: [Raspberry Pi Robotics](https://www.raspberrypi.org/learn/robotics/) - Hardware projects.
+  - **Paper**: ["Sensors for Mobile Robots" by Everett, 1995](https://www.amazon.com/Sensors-Mobile-Robots-Theory-Application/dp/1568810482) - Classic sensor text.
+- **Projects** (see `/Robotics_Autonomous_Systems/Hardware_Fundamentals`):
+  - Build a **line-following robot** with Arduino and IR sensors.
+  - Interface a **camera module** (e.g., OV7670) with Raspberry Pi for basic image capture.
+  - Create a **motor control circuit** with a DC motor and H-bridge (e.g., L298N).
+  - Simulate a **sensor-actuator pair** in Webots (e.g., ultrasonic sensor and servo).
+  - Develop a **Jupyter notebook** analyzing sensor data (e.g., IMU readings).
+
+#### 3. Software Fundamentals for Robotics
+**Objective**: Master programming and ROS/ROS2 for robotics development.
+- **Books**:
+  - ["Programming Robots with ROS" by Morgan Quigley et al.](https://www.amazon.com/Programming-Robots-ROS-Examples-Tutorials/dp/1449323898) - ROS guide.
+  - ["A Gentle Introduction to ROS" by Jason M. O’Kane](https://www.amazon.com/Gentle-Introduction-ROS-Jason-OKane/dp/1492143235) - Beginner ROS.
+  - ["Learning ROS for Robotics Programming" by Enrique Fernández et al.](https://www.amazon.com/Learning-ROS-Robotics-Programming-Second/dp/1783985046) - Practical ROS.
+- **Courses/Tutorials/Papers**:
+  - **Course**: [ROS for Beginners](https://www.udemy.com/course/ros-for-beginners/) (Udemy, paid but often discounted) - ROS basics.
+  - **Course**: [Hello (Real World) ROS](https://www.coursera.org/learn/hello-real-world-ros) (ETH Zurich, free audit) - Practical ROS.
+  - **Course**: [ROS2 For Beginners](https://www.udemy.com/course/ros2-for-beginners/) (Udemy, paid but often discounted) - ROS2 intro.
+  - **Tutorial**: [ROS2 Tutorials](https://docs.ros.org/en/humble/Tutorials.html) - Official ROS2 guide.
+  - **Tutorial**: [Python for Robotics](https://realpython.com/python-robotics/) - Robotics coding.
+  - **Tutorial**: [C++ for ROS](https://www.theconstruct.ai/cpp-for-robotics/) - C++ guide.
+  - **Paper**: ["ROS: An Open-Source Robot Operating System" by Quigley et al., 2009](https://www.willowgarage.com/sites/default/files/icraoss09-ROS.pdf) - ROS foundation.
+- **Projects** (see `/Robotics_Autonomous_Systems/Software_Fundamentals`):
+  - Create a **ROS node** to control a simulated robot’s movement in Gazebo.
+  - Build a **Python script** for sensor data logging via ROS topics.
+  - Implement a **C++ ROS node** for basic robot teleoperation.
+  - Develop a **GitHub repo** with version-controlled ROS packages.
+  - Create a **Jupyter notebook** visualizing ROS topic data (e.g., odometry).
+
+#### 4. Introduction to Simulators
+**Objective**: Learn to use simulators for safe testing of robotics algorithms.
+- **Books**:
+  - ["Robot Operating System (ROS) for Absolute Beginners" by Lentin Joseph](https://www.amazon.com/Robot-Operating-System-Absolute-Beginners/dp/148427749X) - Includes Gazebo.
+  - ["Mastering ROS for Robotics Programming" by Lentin Joseph et al.](https://www.amazon.com/Mastering-Robot-Operating-System-Programming/dp/1801071020) - Simulator focus.
+  - ["Simulation for Robotics" by Stanley Deutsch](https://www.amazon.com/Simulation-Robotics-Practical-Introduction-Stanley/dp/1691234567) - Practical guide.
+- **Courses/Tutorials/Papers**:
+  - **Course**: [Robot Simulation with Gazebo](https://www.theconstruct.ai/ros-courses-library/gazebo-for-ros/) (The Construct, paid but free previews) - Gazebo basics.
+  - **Course**: [CARLA Autonomous Driving](https://www.udemy.com/course/carla-simulator/) (Udemy, paid but often discounted) - Vehicle sims.
+  - **Course**: [Webots for Robotics](https://www.cyberbotics.com/doc/guide/) (Webots, free tutorials) - Simulator intro.
+  - **Tutorial**: [Gazebo Tutorials](http://gazebosim.org/tutorials) - Official guide.
+  - **Tutorial**: [CARLA Quickstart](https://carla.readthedocs.io/en/latest/start_quickstart/) - Vehicle simulation.
+  - **Tutorial**: [Webots Getting Started](https://www.cyberbotics.com/doc/guide/getting-started) - Practical guide.
+  - **Paper**: ["Gazebo: A Simulator for Robotics Research" by Koenig and Howard, 2004](https://ieeexplore.ieee.org/document/1389473) - Simulator foundation.
+- **Projects** (see `/Robotics_Autonomous_Systems/Simulators_Introduction`):
+  - Simulate a **TurtleBot** in Gazebo with basic navigation.
+  - Create a **CARLA scenario** for a vehicle following a predefined path.
+  - Build a **Webots model** of a differential drive robot.
+  - Develop a **Jupyter notebook** comparing simulator features (Gazebo vs. CARLA).
+  - Implement a **simple obstacle avoidance** in Webots with simulated sensors.
+
+### Intermediate Level: Core Stacks
+#### 5. Perception
+**Objective**: Process sensor data for environmental understanding (e.g., object detection, lane tracking).
+- **Books**:
+  - ["Computer Vision: Algorithms and Applications" by Richard Szeliski](https://www.amazon.com/Computer-Vision-Algorithms-Applications-Texts/dp/3030343723) - Vision fundamentals.
+  - ["Learning OpenCV 4" by Adrian Kaehler and Gary Bradski](https://www.amazon.com/Learning-OpenCV-Computer-Vision-Library/dp/1492034169) - OpenCV guide.
+  - ["Point Cloud Library (PCL) Guide" by Radu B. Rusu](https://pointclouds.org/documentation/) - LiDAR processing.
+- **Courses/Tutorials/Papers**:
+  - **Course**: [Computer Vision Basics](https://www.coursera.org/learn/computer-vision-basics) (University at Buffalo, free audit) - Vision intro.
+  - **Course**: [OpenCV for Python Developers](https://www.udemy.com/course/opencv-python/) (Udemy, paid but often discounted) - Practical OpenCV.
+  - **Course**: [Robotics: Perception](https://www.coursera.org/learn/robotics-perception) (UPenn, free audit) - Robotics vision.
+  - **Tutorial**: [OpenCV Tutorials](https://docs.opencv.org/master/d9/df8/tutorial_root.html) - Official guide.
+  - **Tutorial**: [PCL Tutorials](https://pointclouds.org/documentation/) - Point cloud processing.
+  - **Tutorial**: [Camera Calibration](https://learnopencv.com/camera-calibration-using-opencv/) - Practical guide.
+  - **Paper**: ["YOLO: Real-Time Object Detection" by Redmon et al., 2016](https://arxiv.org/abs/1506.02640) - Object detection for robotics.
+- **Projects** (see `/Robotics_Autonomous_Systems/Perception`):
+  - Implement **lane detection** using OpenCV on a video dataset ([KITTI Dataset](http://www.cvlibs.net/datasets/kitti/)).
+  - Build a **ROS node** for object detection with a webcam.
+  - Process **LiDAR point clouds** using PCL for obstacle detection.
+  - Simulate **camera-based perception** in CARLA for autonomous driving.
+  - Develop a **Jupyter notebook** visualizing feature extraction for robot vision.
+
+#### 6. SLAM (Simultaneous Localization and Mapping)
+**Objective**: Enable robots to localize and map environments simultaneously.
+- **Books**:
+  - ["Probabilistic Robotics" by Sebastian Thrun et al.](https://www.amazon.com/Probabilistic-Robotics-Intelligent-Autonomous-Agents/dp/0262201623) - SLAM foundation.
+  - ["SLAM for Dummies" by Brian Gerkey](https://www.ri.cmu.edu/pub_files/2009/8/slam_for_dummies.pdf) - Accessible intro.
+  - ["Simultaneous Localization and Mapping" by Hugh Durrant-Whyte](https://www.amazon.com/Simultaneous-Localisation-Mapping-Techniques-Applications/dp/3540892257) - SLAM guide.
+- **Courses/Tutorials/Papers**:
+  - **Course**: [Robotics: Localization](https://www.coursera.org/learn/robotics-learning) (UPenn, free audit) - Localization basics.
+  - **Course**: [SLAM with ROS](https://www.theconstruct.ai/ros-courses-library/slam/) (The Construct, paid but free previews) - Practical SLAM.
+  - **Course**: [Visual SLAM](https://www.udemy.com/course/visual-slam/) (Udemy, paid but often discounted) - Vision-based SLAM.
+  - **Tutorial**: [ROS Cartographer](https://google-cartographer-ros.readthedocs.io/en/latest/) - SLAM with ROS.
+  - **Tutorial**: [ORB-SLAM3 Tutorial](https://github.com/UZ-SLAMLab/ORB_SLAM3) - Visual SLAM guide.
+  - **Tutorial**: [EKF-SLAM Explained](https://www.roboticsbusinessreview.com/slam_ekf_tutorial/) - Practical guide.
+  - **Paper**: ["ORB-SLAM3: An Accurate Open-Source Library for Visual, Visual-Inertial and Multi-Map SLAM" by Campos et al., 2020](https://arxiv.org/abs/2007.11898) - Modern SLAM.
+- **Projects** (see `/Robotics_Autonomous_Systems/SLAM`):
+  - Implement **EKF-SLAM** for a simulated robot in Gazebo.
+  - Build a **ROS node** for 2D mapping using Cartographer and LiDAR data.
+  - Create a **visual SLAM system** with ORB-SLAM3 on a camera dataset ([TUM RGB-D Dataset](https://vision.in.tum.de/data/datasets/rgbd-dataset)).
+  - Simulate **SLAM for a racecourse** in CARLA for F1TENTH.
+  - Develop a **Jupyter notebook** visualizing SLAM map generation.
+
+#### 7. Planning
+**Objective**: Develop global and local path planners for robot navigation.
+- **Books**:
+  - ["Planning Algorithms" by Steven M. LaValle](https://www.amazon.com/Planning-Algorithms-Steven-M-LaValle/dp/0521880327) - Comprehensive planning guide.
+  - ["Autonomous Mobile Robots" by Roland Siegwart et al.](https://www.amazon.com/Introduction-Autonomous-Mobile-Robots-Intelligent/dp/0262015358) - Navigation focus.
+  - ["Principles of Robot Motion" by Howie Choset et al.](https://www.amazon.com/Principles-Robot-Motion-Planning-Navigation/dp/0262033275) - Motion planning.
+- **Courses/Tutorials/Papers**:
+  - **Course**: [Robotics: Computational Motion Planning](https://www.coursera.org/learn/robotics-motion-planning) (UPenn, free audit) - Planning basics.
+  - **Course**: [Path Planning with ROS](https://www.theconstruct.ai/ros-courses-library/path-planning/) (The Construct, paid but free previews) - ROS planning.
+  - **Course**: [Motion Planning for Self-Driving Cars](https://www.coursera.org/learn/motion-planning-self-driving-cars) (University of Toronto, free audit) - Vehicle focus.
+  - **Tutorial**: [A* Pathfinding](https://www.redblobgames.com/pathfinding/a-star/introduction.html) - Interactive guide.
+  - **Tutorial**: [ROS Navigation Stack](http://wiki.ros.org/navigation/Tutorials) - Official guide.
+  - **Tutorial**: [Frenet Planner](https://www.f1tenth.org/learn/planning.html) - Competition-relevant planner.
+  - **Paper**: ["Optimal Sampling-Based Motion Planning" by Karaman and Frazzoli, 2011](https://arxiv.org/abs/1105.1186) - RRT* foundation.
+- **Projects** (see `/Robotics_Autonomous_Systems/Planning`):
+  - Implement **A* pathfinding** for a robot in Gazebo ([OpenStreetMap Data](https://www.openstreetmap.org/)).
+  - Build a **ROS navigation stack** for obstacle avoidance on a TurtleBot.
+  - Create a **Frenet planner** for an autonomous vehicle in CARLA, optimizing energy efficiency.
+  - Develop a **Jupyter notebook** visualizing RRT paths for a racecourse.
+  - Simulate **dynamic window approach** for local planning in Webots.
+
+#### 8. Controlling
+**Objective**: Design controllers for precise robot/vehicle motion.
+- **Books**:
+  - ["Modern Robotics: Mechanics, Planning, and Control" by Kevin M. Lynch and Frank C. Park](https://www.amazon.com/Modern-Robotics-Mechanics-Planning-Control/dp/1107156300) - Control focus.
+  - ["Feedback Control for Computer Systems" by Philipp K. Janert](https://www.amazon.com/Feedback-Control-Computer-Systems-Philipp/dp/1449361692) - Practical control.
+  - ["Control of Robot Manipulators" by Mark W. Spong et al.](https://www.amazon.com/Robot-Modeling-Control-Mark-Spong/dp/0471649902) - Robotics control.
+- **Courses/Tutorials/Papers**:
+  - **Course**: [Control of Mobile Robots](https://www.coursera.org/learn/mobile-robot) (Georgia Tech, free audit) - Robotics control.
+  - **Course**: [PID Control with Arduino](https://www.udemy.com/course/pid-control-with-arduino/) (Udemy, paid but often discounted) - PID basics.
+  - **Course**: [Model Predictive Control](https://www.coursera.org/learn/model-predictive-control) (ETH Zurich, free audit) - Advanced control.
+  - **Tutorial**: [PID Controller Basics](https://www.mathworks.com/help/control/getstarted/pid-control.html) - Practical guide.
+  - **Tutorial**: [ROS Control](http://wiki.ros.org/ros_control) - Official guide.
+  - **Tutorial**: [MPC for Robotics](https://www.theconstruct.ai/mpc-for-robotics/) - Advanced control.
+  - **Paper**: ["Model Predictive Control: Theory and Practice" by Camacho and Bordons, 2007](https://www.amazon.com/Model-Predictive-Control-Eduardo-Camacho/dp/1852336943) - MPC foundation.
+- **Projects** (see `/Robotics_Autonomous_Systems/Controlling`):
+  - Implement a **PID controller** for a robot’s speed in Arduino.
+  - Build a **ROS control node** for a TurtleBot’s navigation.
+  - Simulate **MPC** for an autonomous vehicle in CARLA.
+  - Develop a **Jupyter notebook** analyzing PID tuning for stability.
+  - Create a **state-space controller** for a robotic arm in Gazebo.
+
+### Advanced Level: Integration and Complex Systems
+#### 9. Sensor Fusion and State Estimation
+**Objective**: Integrate multi-sensor data for robust state estimation.
+- **Books**:
+  - ["Probabilistic Robotics" by Sebastian Thrun et al.](https://www.amazon.com/Probabilistic-Robotics-Intelligent-Autonomous-Agents/dp/0262201623) - Sensor fusion focus.
+  - ["State Estimation for Robotics" by Timothy D. Barfoot](https://www.amazon.com/State-Estimation-Robotics-Timothy-Barfoot/dp/1107159393) - Comprehensive guide.
+  - ["Kalman Filtering and Neural Networks" by Simon Haykin](https://www.amazon.com/Kalman-Filtering-Neural-Networks-Simon/dp/0471369985) - Kalman focus.
+- **Courses/Tutorials/Papers**:
+  - **Course**: [Robotics: Estimation and Learning](https://www.coursera.org/learn/robotics-learning) (UPenn, free audit) - State estimation.
+  - **Course**: [Sensor Fusion for Autonomous Systems](https://www.udemy.com/course/sensor-fusion/) (Udemy, paid but often discounted) - Practical fusion.
+  - **Course**: [Kalman Filter for Robotics](https://www.theconstruct.ai/kalman-filter-for-robotics/) (The Construct, paid but free previews) - Kalman focus.
+  - **Tutorial**: [Kalman Filter Tutorial](https://www.kalmanfilter.net/) - Interactive guide.
+  - **Tutorial**: [Particle Filters](https://www.mathworks.com/help/robotics/ug/particle-filter.html) - Practical guide.
+  - **Tutorial**: [ROS Sensor Fusion](https://www.theconstruct.ai/ros-sensor-fusion/) - ROS integration.
+  - **Paper**: ["A New Approach to Linear Filtering" by Kalman, 1960](https://www.cs.unc.edu/~welch/kalman/media/pdf/Kalman1960.pdf) - Kalman filter foundation.
+- **Projects** (see `/Robotics_Autonomous_Systems/Sensor_Fusion`):
+  - Implement a **Kalman filter** for IMU/GPS fusion in Python.
+  - Build a **ROS node** for multi-sensor fusion (camera + LiDAR).
+  - Simulate **particle filter localization** in CARLA with noisy data.
+  - Develop a **Jupyter notebook** visualizing sensor fusion accuracy.
+  - Create a **real-time fusion system** on NVIDIA Jetson for a competition vehicle.
+
+#### 10. Kinematics, Dynamics, and Modeling
+**Objective**: Model robot motion and physical interactions for accurate control.
+- **Books**:
+  - ["Introduction to Robotics: Mechanics and Control" by John J. Craig](https://www.amazon.com/Introduction-Robotics-Mechanics-Control-4th/dp/0133489795) - Kinematics/dynamics.
+  - ["Modern Robotics: Mechanics, Planning, and Control" by Kevin M. Lynch and Frank C. Park](https://www.amazon.com/Modern-Robotics-Mechanics-Planning-Control/dp/1107156300) - Modeling focus.
+  - ["Robot Dynamics Algorithms" by Roy Featherstone](https://www.amazon.com/Robot-Dynamics-Algorithms-Roy-Featherstone/dp/0387743146) - Dynamics guide.
+- **Courses/Tutorials/Papers**:
+  - **Course**: [Robotics: Dynamics and Control](https://www.edx.org/course/robotics-dynamics-and-control) (MIT, free) - Dynamics focus.
+  - **Course**: [Modern Robotics Specialization](https://www.coursera.org/specializations/modernrobotics) (Northwestern, free audit) - Kinematics/dynamics.
+  - **Course**: [URDF Modeling](https://www.theconstruct.ai/ros-courses-library/urdf/) (The Construct, paid but free previews) - Robot modeling.
+  - **Tutorial**: [ROS MoveIt](http://docs.ros.org/en/melodic/api/moveit_tutorials/html/) - Kinematics guide.
+  - **Tutorial**: [Robot Modeling in Gazebo](http://gazebosim.org/tutorials?tut=ros_urdf) - URDF/SDF guide.
+  - **Tutorial**: [Dynamics for Robotics](https://www.mecharithm.com/dynamics-in-robotics/) - Practical guide.
+  - **Paper**: ["Rigid Body Dynamics for Robotics" by Featherstone, 2008](https://www.amazon.com/Rigid-Body-Dynamics-Algorithms-Featherstone/dp/1489979948) - Dynamics foundation.
+- **Projects** (see `/Robotics_Autonomous_Systems/Kinematics_Dynamics_Modeling`):
+  - Implement **forward kinematics** for a robotic arm in Python.
+  - Build a **URDF model** for a differential drive robot in Gazebo.
+  - Simulate **robot dynamics** in MuJoCo for collision analysis.
+  - Develop a **Jupyter notebook** visualizing inverse kinematics for a manipulator.
+  - Create a **dynamics-based controller** for a competition vehicle.
+
+#### 11. Hardware Selection and Integration
+**Objective**: Choose and integrate sensors, motors, drivers, and microcontrollers for optimal robot design.
+- **Books**:
+  - ["Robot Builder’s Bonanza" by Gordon McComb](https://www.amazon.com/Robot-Builders-Bonanza-4th-McComb/dp/0071750363) - Hardware selection guide.
+  - ["Practical Electronics for Inventors" by Paul Scherz and Simon Monk](https://www.amazon.com/Practical-Electronics-Inventors-Fourth-Scherz/dp/1259587541) - Electronics integration.
+  - ["Building Autonomous Robots" by Ben Eater](https://www.amazon.com/Building-Autonomous-Robots-Ben-Eater/dp/1633430219) - Practical hardware builds.
+- **Courses/Tutorials/Papers**:
+  - **Course**: [Robotics Hardware Design](https://www.udemy.com/course/robotics-hardware-design/) (Udemy, paid but often discounted) - Hardware selection.
+  - **Course**: [Embedded Systems for Robotics](https://www.coursera.org/learn/embedded-systems-robotics) (University of Colorado, free audit) - Integration focus.
+  - **Course**: [Motor Control for Robotics](https://www.theconstruct.ai/motor-control-for-robotics/) (The Construct, paid but free previews) - Motor selection.
+  - **Tutorial**: [Choosing Sensors for Robotics](https://www.robotshop.com/community/tutorials/show/how-to-choose-a-sensor-for-your-robot) - Practical guide.
+  - **Tutorial**: [Motor Selection Guide](https://www.pololu.com/docs/0J15) - Pololu motor guide.
+  - **Tutorial**: [CAN Bus for Robotics](https://www.seeedstudio.com/blog/2020/03/20/can-bus-in-robotics/) - Communication protocols.
+  - **Paper**: ["Sensor Selection for Autonomous Vehicles" by Yurtsever et al., 2020](https://arxiv.org/abs/2002.03409) - Sensor trade-offs.
+- **Projects** (see `/Robotics_Autonomous_Systems/Hardware_Selection_Integration`):
+  - Build a **custom robot platform** with selected sensors (e.g., RPLIDAR, IMU) and motors (e.g., BLDC).
+  - Create a **hardware trade-off analysis** for a F1TENTH vehicle (e.g., LiDAR vs. camera).
+  - Develop a **ROS driver** for a custom motor driver (e.g., TB6612FNG).
+  - Simulate **sensor integration** in Webots with chosen components.
+  - Design a **power system** for a competition robot, optimizing battery and motor efficiency.
+
+### Expert Level: Real-World and Cutting-Edge Applications
+#### 12. Advanced Autonomous Systems and Deployment
+**Objective**: Deploy competition-ready autonomous systems with multi-robot coordination and real-world integration.
+- **Books**:
+  - ["Autonomous Driving: Technical, Legal and Social Aspects" by Markus Maurer et al.](https://www.amazon.com/Autonomous-Driving-Technical-Social-Aspects/dp/3662488477) - Vehicle deployment.
+  - ["Multi-Robot Systems" by Lynne E. Parker](https://www.amazon.com/Multi-Robot-Systems-From-Swarms-Intelligent/dp/1402076797) - Coordination guide.
+  - ["Safe Robot Navigation" by Gamini Dissanayake](https://www.amazon.com/Safe-Robot-Navigation-Gamini-Dissanayake/dp/1785483056) - Safety focus.
+- **Courses/Tutorials/Papers**:
+  - **Course**: [Self-Driving Cars Specialization](https://www.coursera.org/specializations/self-driving-cars) (University of Toronto, free audit) - Full vehicle stack.
+  - **Course**: [ROS2 for Multi-Robot Systems](https://www.theconstruct.ai/ros2-multi-robot-systems/) (The Construct, paid but free previews) - Distributed ROS2.
+  - **Course**: [Autonomous Vehicle Safety](https://www.udemy.com/course/autonomous-vehicle-safety/) (Udemy, paid but often discounted) - Safety standards.
+  - **Tutorial**: [ROS2 DDS](https://docs.ros.org/en/humble/Concepts/About-DDS.html) - Distributed communication.
+  - **Tutorial**: [Sim-to-Real Transfer](https://www.mathworks.com/help/reinforcement-learning/ug/sim-to-real-transfer.html) - RL for deployment.
+  - **Tutorial**: [F1TENTH Deployment](https://f1tenth.org/learn/deployment.html) - Competition guide.
+  - **Paper**: ["End-to-End Learning for Self-Driving Cars" by Bojarski et al., 2016](https://arxiv.org/abs/1604.07316) - Real-world autonomy.
+- **Projects** (see `/Robotics_Autonomous_Systems/Advanced_Autonomous_Systems`):
+  - Build a **F1TENTH autonomous racer** with full perception-SLAM-planning-control stack.
+  - Simulate a **multi-robot coordination** scenario in CARLA (e.g., V2V communication).
+  - Develop a **sim-to-real pipeline** for transferring a CARLA planner to a real vehicle.
+  - Create a **safety-certified ROS node** for fault-tolerant navigation.
+  - Design a **competition strategy** for Shell Eco-marathon, integrating energy-efficient planning.
+
+## Repository Structure
+The repository is organized as follows:
+```
+Robotics_Autonomous_Systems/
+├── Introduction/
+│   ├── docs/ (summaries, notes)
+│   ├── projects/ (ROS node, Gazebo sim)
+├── Hardware_Fundamentals/
+├── Software_Fundamentals/
+├── Simulators_Introduction/
+├── Perception/
+├── SLAM/
+├── Planning/
+├── Controlling/
+├── Sensor_Fusion/
+├── Kinematics_Dynamics_Modeling/
+├── Hardware_Selection_Integration/
+├── Advanced_Autonomous_Systems/
+├── docs/ (general documentation, progress tracker)
+├── README.md
+```
 
