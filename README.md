@@ -18,8 +18,7 @@
 - [PCB Design and Electronics](#pcb-design-and-electronics)
 - [Tools and Ecosystems](#tools-and-ecosystems)
 - [Communities, Competitions, and Growth](#communities-competitions-and-growth)
-- [My Journey & Achievements](#my-journey--achievements)
-
+- [Resources I Gathered from the Open Source Community](#resources-i-gathered-from-the-open-source-community)
 ## Introduction
 
 This repository is the **complete map of my engineering journey** — everything I’m learning, building, and exploring, shared openly.  
@@ -1715,3 +1714,90 @@ PCB_Design_Electronics/
 ├── docs/ (general documentation, progress tracker)
 ├── README.md
 ```
+
+
+## Resources I Gathered from the Open Source Community
+
+# Robotics and Autonomous Systems Repository
+
+## Table of Contents
+- [Overview](#overview)
+- [Curated Resources](#curated-resources)
+  - [Repositories](#repositories)
+  - [Books](#books)
+  - [Courses and Tutorials](#courses-and-tutorials)
+- [Projects](#projects)
+- [Repository Structure](#repository-structure)
+- [How to Use This Repository](#how-to-use-this-repository)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Overview
+This section is designed to:
+- Curate high-quality **ROS/ROS2 resources** to support learning and development in robotics and autonomous systems.
+- Provide practical **projects** that align with real-world applications, drawing from my experience in F1TENTH and Shell Eco-marathon.
+- Integrate with my broader repo, linking to `/Systems_Hardware` (for ROS drivers) and `/Artificial_Intelligence` (for perception).
+- Highlight my journey, showcasing competition-ready skills in autonomous navigation and control.
+
+The resources below focus on ROS/ROS2, covering frameworks, tools, and tutorials for building robots. Projects emphasize hands-on applications, like navigation stacks for autonomous vehicles. This is the starting point for a growing collection—more categories and resources will be added incrementally.
+
+## Curated Resources
+
+Below is a curated list of ROS/ROS2 resources, organized by type. Each includes a brief description and its relevance to robotics/autonomous systems.
+
+### Repositories
+| Name | Link | Description |
+|------|------|-------------|
+| ROS2 Migration Tools | [github.com/awslabs/ros2-migration-tools](https://github.com/awslabs/ros2-migration-tools) | Tools to migrate from ROS1 to ROS2, ideal for updating legacy robot projects. |
+| Inmoov ROS2 | [github.com/aalonsopuig/Inmoov_ROS2](https://github.com/aalonsopuig/Inmoov_ROS2) | ROS2 integration for Inmoov, a 3D-printed humanoid robot, great for learning ROS2 with humanoids. |
+| GP-MPPI | [github.com/IhabMohamed/GP-MPPI](https://github.com/IhabMohamed/GP-MPPI) | Gaussian Process-based Model Predictive Path Integral control for autonomous navigation, useful for F1TENTH planners. |
+| RealSense ROS | [github.com/IntelRealSense/realsense-ros](https://github.com/IntelRealSense/realsense-ros) | ROS wrapper for Intel RealSense cameras, key for perception in autonomous robots. |
+| RF2O Laser Odometry | [github.com/MAPIRlab/rf2o_laser_odometry](https://github.com/MAPIRlab/rf2o_laser_odometry) | Lightweight laser odometry for ROS, perfect for SLAM in resource-constrained robots. |
+| TurtleBot3 | [github.com/ROBOTIS-GIT/turtlebot3](https://github.com/ROBOTIS-GIT/turtlebot3) | Official TurtleBot3 repo, a versatile platform for learning ROS/ROS2 basics and navigation. |
+| TurtleBot3 Deliver | [github.com/ROBOTIS-GIT/turtlebot3_deliver](https://github.com/ROBOTIS-GIT/turtlebot3_deliver) | TurtleBot3 delivery application, showcasing ROS for service robots. |
+| NASA JPL ROSA | [github.com/nasa-jpl/rosa](https://github.com/nasa-jpl/rosa) | NASA’s ROS-based autonomy software, ideal for studying advanced robotic systems. |
+| Autonomy Stack (Mecanum) | [github.com/jizhang-cmu/autonomy_stack_mecanum_wheel_platform](https://github.com/jizhang-cmu/autonomy_stack_mecanum_wheel_platform) | ROS-based autonomy stack for mecanum wheel robots, useful for omnidirectional navigation. |
+| Autonomous Racing | [github.com/Autonomous-Racing-PG/ar-tu-do](https://github.com/Autonomous-Racing-PG/ar-tu-do) | ROS-based autonomous racing framework, directly applicable to F1TENTH competitions. |
+| ROS Motion Planning | [github.com/ai-winter/ros_motion_planning](https://github.com/ai-winter/ros_motion_planning) | ROS package for motion planning, including path planning algorithms for robots. |
+| MoveIt | [github.com/moveit/moveit](https://github.com/moveit/moveit) | ROS motion planning framework for robotic arms, key for manipulation tasks. |
+| Costmap Depth Camera | [github.com/tsengapola/costmap_depth_camera](https://github.com/tsengapola/costmap_depth_camera) | ROS package to create costmaps from depth cameras, useful for obstacle avoidance. |
+| ROS Navigation | [github.com/ros-planning/navigation](https://github.com/ros-planning/navigation) | Official ROS navigation stack for mobile robots, critical for autonomous vehicle navigation. |
+
+### Books
+| Name | Link | Description |
+|------|------|-------------|
+| A Gentle Introduction to ROS | [jokane.net/agitr/agitr-letter.pdf](jokane.net/agitr/agitr-letter.pdf) | Free PDF introducing ROS concepts, perfect for beginners starting with TurtleBot or simulation. |
+| Programming Robots with ROS | [alvarestech.com/temp/capp/GDT_Forma3D/Programming%20Robots%20with%20ROS.pdf](alvarestech.com/temp/capp/GDT_Forma3D/Programming%20Robots%20with%20ROS.pdf) | Practical guide to ROS programming, with examples for sensors and navigation. |
+| Mastering ROS for Robotics Programming (3rd Ed) | [github.com/PacktPublishing/Mastering-ROS-for-Robotics-Programming-Third-edition](https://github.com/PacktPublishing/Mastering-ROS-for-Robotics-Programming-Third-edition) | Comprehensive ROS guide covering advanced topics like navigation and manipulation. |
+| Learning ROS for Robotics Programming | [vladestivill-castro.net/teaching/robotics.d/READINGS/Learning%20ROS%20for%20Robotics%20Programming%20[eBook].pdf](vladestivill-castro.net/teaching/robotics.d/READINGS/Learning%20ROS%20for%20Robotics%20Programming%20[eBook].pdf) | Beginner-friendly eBook on ROS, with practical examples for robot control. |
+| ROS2 Cookbook | [github.com/mikeferguson/ros2_cookbook](https://github.com/mikeferguson/ros2_cookbook) | Collection of ROS2 recipes and examples, great for transitioning to ROS2 projects. |
+
+### Courses and Tutorials
+| Name | Link | Description |
+|------|------|-------------|
+| ROS Python Course | [theconstruct.ai/robotigniteacademy_learnros/ros-courses-library/ros-python-course/](https://theconstruct.ai/robotigniteacademy_learnros/ros-courses-library/ros-python-course/) | Python-based ROS course, ideal for scripting robot behaviors in simulation. |
+| ROS for Beginners (Udemy) | [udemy.com/course/ros-for-beginners](https://udemy.com/course/ros-for-beginners) | Beginner-friendly course covering ROS basics, nodes, and topics (often discounted). |
+| ROS Humble Installation | [docs.ros.org/en/humble/Installation/Alternatives/Ubuntu-Development-Setup.html](https://docs.ros.org/en/humble/Installation/Alternatives/Ubuntu-Development-Setup.html) | Official guide to install ROS2 Humble, essential for setting up a development environment. |
+| ROS Humble Tutorials | [docs.ros.org/en/humble/Tutorials.html](https://docs.ros.org/en/humble/Tutorials.html) | Official ROS2 Humble tutorials, covering nodes, publishers, and subscribers. |
+| ROS Tutorial Series (YouTube) | [youtube.com/watch?v=9U6GDonGFHw](https://youtube.com/watch?v=9U6GDonGFHw) | Video series on ROS basics, great for visual learners starting with ROS. |
+
+## Projects
+These projects leverage the provided ROS/ROS2 resources to build practical skills, inspired by my competition experience. See `/Robotics_Autonomous_Systems/projects/` for code and documentation.
+
+- **TurtleBot3 Navigation**: Use the [TurtleBot3](https://github.com/ROBOTIS-GIT/turtlebot3) repo and [ROS Navigation](https://github.com/ros-planning/navigation) to implement a navigation stack in Gazebo. (Beginner, simulates F1TENTH navigation.)
+- **RealSense Camera Integration**: Integrate an Intel RealSense camera with [RealSense ROS](https://github.com/IntelRealSense/realsense-ros) to process depth data for obstacle avoidance. (Intermediate, useful for Shell Eco-marathon sensor fusion.)
+- **F1TENTH Autonomous Racing**: Build a ROS-based racing node using [Autonomous Racing](https://github.com/Autonomous-Racing-PG/ar-tu-do) and [GP-MPPI](https://github.com/IhabMohamed/GP-MPPI) for path planning. (Advanced, competition-ready.)
+- **Costmap with Depth Camera**: Create a costmap for navigation using [Costmap Depth Camera](https://github.com/tsengapola/costmap_depth_camera) in a simulated environment. (Intermediate, enhances autonomous navigation.)
+- **MoveIt Robotic Arm**: Implement a pick-and-place task with [MoveIt](https://github.com/moveit/moveit) for a robotic arm in simulation. (Advanced, explores manipulation.)
+- **Jupyter Notebook on ROS2 Setup**: Document ROS2 Humble installation and basic node creation using [ROS Humble Tutorials](https://docs.ros.org/en/humble/Tutorials.html). (Beginner, educational.)
+- **Markdown Guide on ROS Basics**: Summarize key ROS concepts (nodes, topics, services) based on [A Gentle Introduction to ROS](jokane.net/agitr/agitr-letter.pdf) (`/docs/ros_basics.md`). (Beginner, learning aid.)
+
+## Repository Structure
+```
+Robotics_Autonomous_Systems/
+├── docs/            # Notes and summaries (e.g., ros_basics.md)
+├── projects/        # Project code and notebooks (e.g., turtlebot3_navigation)
+├── README.md        # This file
+```
+
+
