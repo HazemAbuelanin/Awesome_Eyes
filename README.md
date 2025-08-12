@@ -7,7 +7,7 @@
 
 ## Table of Contents
 - [Introduction](#introduction)
-- [The Triangular Approach](#the-trinity-approach)
+- [The Triangular Approach](#the-triangular-approach)
 - [Roadmap Overview](#roadmap-overview)
 - [Foundations of Computer Engineering](#foundations-of-computer-engineering)
 - [Programming and Problem Solving](#programming-and-problem-solving)
