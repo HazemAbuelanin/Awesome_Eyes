@@ -730,3 +730,464 @@ This subcategory provides the mathematical foundation for computer engineering, 
   - Create a **control system simulator** for a robotic arm.
 
 
+# Systems and Hardware Repository
+
+Welcome to the **Systems and Hardware** section of my GitHub repository, documenting my journey as a computer engineering student aiming to become a full-rounded engineer with a focus on robotics and autonomous vehicles. This category bridges **Operating Systems** and **Embedded Systems and Hardware Theory**, providing the low-level foundation for robotics applications like real-time control and sensor integration in competitions (e.g., F1TENTH, Shell Eco-marathon). Using the **trinity approach** (Books, Courses/Tutorials/Papers, Projects), this roadmap progresses from beginner to advanced levels, covering **software** (e.g., kernel programming, RTOS), **hardware** (e.g., microcontrollers, FPGA), and their integration for efficient, high-performance systems.
+
+This README serves as the central hub for the Systems and Hardware category, outlining the roadmap, linking to resources, and showcasing projects. Whether you're a beginner, a fellow student, or a recruiter, use this repo to explore low-level systems, embedded hardware, and their applications in robotics and autonomous systems.
+
+## Table of Contents
+- [Overview](#overview)
+- [Roadmap Structure](#roadmap-structure)
+  - [Beginner Level: Core Basics](#beginner-level-core-basics)
+  - [Intermediate Level: Building Blocks](#intermediate-level-building-blocks)
+  - [Advanced Level: Applied Systems](#advanced-level-applied-systems)
+- [Repository Structure](#repository-structure)
+- [How to Use This Repository](#how-to-use-this-repository)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Overview
+This section is designed to:
+- Provide a **structured roadmap** for mastering operating systems and embedded hardware, from basics to advanced applications in robotics.
+- Curate high-quality **resources** (books, courses, tutorials, papers) to support learning across software and hardware.
+- Showcase **projects** that demonstrate practical skills, from simple microcontroller setups to competition-ready real-time systems (e.g., F1TENTH vehicle drivers).
+- Integrate with my broader repo, linking to `/Foundations` (e.g., programming, electronics) and `/Robotics_Autonomous_Systems` (e.g., RTOS for control).
+- Highlight my journey, emphasizing low-level systems for autonomous vehicle competitions and contributions to open-source robotics.
+
+The roadmap is organized into three levels, covering **software** (OS kernels, RTOS), **hardware** (microcontrollers, FPGA), and their integration. Each topic includes resources and projects stored in dedicated folders.
+
+## Roadmap Structure
+
+### Beginner Level: Core Basics
+#### 1. Introduction to Operating Systems and Embedded Systems
+**Objective**: Understand the roles of OS and embedded systems, their interplay, and relevance to robotics.
+- **Books**:
+  - ["Operating System Concepts" by Abraham Silberschatz et al.](https://www.amazon.com/Operating-System-Concepts-Abraham-Silberschatz/dp/1119800366) - Standard OS text.
+  - ["Embedded Systems: Introduction to ARM Cortex-M Microcontrollers" by Jonathan W. Valvano](https://www.amazon.com/Embedded-Systems-Introduction-CortexTM-M-Microcontrollers/dp/1477508996) - Embedded basics.
+  - ["Modern Operating Systems" by Andrew S. Tanenbaum](https://www.amazon.com/Modern-Operating-Systems-Andrew-Tanenbaum/dp/013359162X) - OS overview.
+- **Courses/Tutorials/Papers**:
+  - **Course**: [Operating Systems and You](https://www.coursera.org/learn/os-power-user) (Google, free audit) - OS intro.
+  - **Course**: [Introduction to Embedded Systems Software and Development Environments](https://www.coursera.org/learn/introduction-embedded-systems) (University of Colorado, free audit) - Embedded basics.
+  - **Course**: [Real-Time Embedded Systems Concepts](https://www.coursera.org/learn/real-time-embedded-systems-concepts) (University of Colorado, free audit) - Embedded systems.
+  - **Tutorial**: [OS Basics](https://www.geeksforgeeks.org/operating-systems/) - Comprehensive guide.
+  - **Tutorial**: [Embedded Systems Tutorial](https://www.tutorialspoint.com/embedded_systems/) - Practical intro.
+  - **Tutorial**: [Interrupts Explained](https://www.embedded.com/introduction-to-interrupts/) - Interrupt basics.
+  - **Paper**: ["The Design of the UNIX Operating System" by Maurice J. Bach, 1986](https://www.amazon.com/Design-UNIX-Operating-System/dp/0132017997) - Classic OS design.
+- **Projects** (see `/Systems_Hardware/Introduction`):
+  - Create a **markdown summary** of OS and embedded systems roles in robotics (`/docs/os_embedded_overview.md`).
+  - Build a **simple OS scheduler simulator** in Python to demonstrate multitasking.
+  - Implement a **basic interrupt handler** on Arduino for sensor input.
+  - Simulate a **task manager** in C to mimic OS process handling.
+  - Develop a **Jupyter notebook** explaining hardware-software interplay in autonomous vehicles.
+
+#### 2. Processes, Threads, and Scheduling
+**Objective**: Master process/thread management and scheduling for efficient systems.
+- **Books**:
+  - ["Operating Systems: Three Easy Pieces" by Remzi H. Arpaci-Dusseau and Andrea C. Arpaci-Dusseau](https://www.amazon.com/Operating-Systems-Three-Easy-Pieces/dp/198508659X) - Accessible OS text.
+  - ["Real-Time Systems" by Jane W. S. Liu](https://www.amazon.com/Real-Time-Systems-Jane-W-S-Liu/dp/0130996513) - Scheduling focus.
+  - ["Linux System Programming" by Robert Love](https://www.amazon.com/Linux-System-Programming-Talking-Directly/dp/1449339530) - Process management.
+- **Courses/Tutorials/Papers**:
+  - **Course**: [Operating Systems: Processes and Threads](https://www.udemy.com/course/operating-systems-concepts/) (Udemy, paid but often discounted) - Process basics.
+  - **Course**: [Real-Time Embedded Systems](https://www.coursera.org/learn/real-time-embedded-systems-concepts) (University of Colorado, free audit) - Scheduling focus.
+  - **Course**: [Linux Process Management](https://www.pluralsight.com/courses/linux-process-management) (Pluralsight, free trial) - Linux processes.
+  - **Tutorial**: [Process Scheduling](https://www.geeksforgeeks.org/cpu-scheduling-in-operating-systems/) - Practical guide.
+  - **Tutorial**: [Threads in Linux](https://www.tutorialspoint.com/linux_admin/linux_threads.htm) - Thread basics.
+  - **Tutorial**: [Real-Time Scheduling](https://www.embedded.com/real-time-scheduling-algorithms/) - Embedded focus.
+  - **Paper**: ["Scheduling Algorithms for Real-Time Systems" by Liu and Layland, 1973](https://www.cs.unc.edu/~anderson/teach/comp790/papers/LiuLayland73.pdf) - Classic scheduling paper.
+- **Projects** (see `/Systems_Hardware/Processes_Threads_Scheduling`):
+  - Implement a **round-robin scheduler** in C for simulated processes.
+  - Build a **multi-threaded sensor reader** in Python for robot data logging.
+  - Create a **real-time task scheduler** on FreeRTOS for Arduino.
+  - Develop a **Jupyter notebook** visualizing context switching in a simple OS.
+  - Simulate a **priority-based scheduler** for a robotics task queue.
+
+#### 3. Embedded Hardware Basics
+**Objective**: Understand microcontrollers, peripherals, and interfacing for embedded systems.
+- **Books**:
+  - ["The AVR Microcontroller and Embedded Systems" by Muhammad Ali Mazidi](https://www.amazon.com/AVR-Microcontroller-Embedded-Systems-Using/dp/0138003319) - AVR focus.
+  - ["Embedded Systems with ARM Cortex-M Microcontrollers" by Yifeng Zhu](https://www.amazon.com/Embedded-Systems-ARM-Cortex-M-Microcontrollers/dp/0982692668) - ARM guide.
+  - ["Make: Electronics" by Charles Platt](https://www.amazon.com/Make-Electronics-Learning-Through-Discovery/dp/1680450263) - Hardware basics.
+- **Courses/Tutorials/Papers**:
+  - **Course**: [Embedded Systems](https://www.coursera.org/learn/introduction-embedded-systems) (University of Colorado, free audit) - Microcontroller intro.
+  - **Course**: [Microcontroller Embedded C Programming](https://www.udemy.com/course/microcontroller-embedded-c-programming/) (Udemy, paid but often discounted) - C programming.
+  - **Course**: [ARM Cortex-M Programming](https://www.edx.org/course/arm-cortex-m-microcontrollers) (UT Austin, free) - ARM focus.
+  - **Tutorial**: [Arduino Tutorials](https://www.arduino.cc/en/Tutorial/HomePage) - Official guide.
+  - **Tutorial**: [STM32 Tutorials](https://www.st.com/content/st_com/en/support/learning/stm32-education.html) - STM32 guide.
+  - **Tutorial**: [GPIO Programming](https://www.embedded.com/gpio-programming-for-embedded-systems/) - Practical interfacing.
+  - **Paper**: ["Microcontroller-Based Embedded Systems" by Gajski et al., 2009](https://www.amazon.com/Embedded-System-Design-Modeling-Synthesis/dp/1441905030) - Embedded design.
+- **Projects** (see `/Systems_Hardware/Embedded_Hardware_Basics`):
+  - Build a **sensor interface** for an IMU (e.g., MPU6050) using Arduino.
+  - Create a **PWM controller** for a DC motor with Raspberry Pi.
+  - Implement a **timer-based LED blinker** on STM32.
+  - Develop a **Jupyter notebook** analyzing ADC readings from a sensor.
+  - Simulate a **GPIO-based robot controller** in a simulator like Tinkercad.
+
+### Intermediate Level: Building Blocks
+#### 4. Memory Management and File Systems
+**Objective**: Master memory allocation and file systems for OS and embedded environments.
+- **Books**:
+  - ["Operating Systems: Internals and Design Principles" by William Stallings](https://www.amazon.com/Operating-Systems-Internals-Design-Principles/dp/0134670957) - Memory management.
+  - ["Embedded Systems: Real-Time Interfacing" by Jonathan W. Valvano](https://www.amazon.com/Embedded-Systems-Real-Time-Interfacing-Microcontrollers/dp/1463590156) - Embedded memory.
+  - ["File Systems: Structures and Algorithms" by Thomas R. Giuli](https://www.amazon.com/Understanding-File-Systems-Structures-Algorithms/dp/0134868536) - File system guide.
+- **Courses/Tutorials/Papers**:
+  - **Course**: [Operating Systems: Memory Management](https://www.udemy.com/course/operating-systems-memory-management/) (Udemy, paid but often discounted) - Memory focus.
+  - **Course**: [Embedded Systems Memory Management](https://www.coursera.org/learn/embedded-systems-memory) (University of Colorado, free audit) - Embedded focus.
+  - **Course**: [Linux File Systems](https://www.pluralsight.com/courses/linux-file-systems) (Pluralsight, free trial) - File system basics.
+  - **Tutorial**: [Virtual Memory](https://www.geeksforgeeks.org/virtual-memory-in-operating-system/) - Practical guide.
+  - **Tutorial**: [FAT File System](https://www.tutorialspoint.com/embedded_systems/es_fat_file_system.htm) - Embedded file systems.
+  - **Tutorial**: [Memory Optimization for Embedded](https://www.embedded.com/memory-management-in-embedded-systems/) - Optimization guide.
+  - **Paper**: ["The Design of the Linux File System" by McKusick et al., 1984](https://www.amazon.com/Design-Implementation-FreeBSD-Operating-System/dp/0321968972) - File system design.
+- **Projects** (see `/Systems_Hardware/Memory_Management_File_Systems`):
+  - Implement a **simple memory allocator** in C for an embedded system.
+  - Build a **file system parser** for FAT32 in Python.
+  - Create a **paging simulator** to demonstrate virtual memory.
+  - Develop a **Jupyter notebook** analyzing memory usage in a robotics task.
+  - Simulate a **flash memory manager** for sensor data storage on Arduino.
+
+#### 5. Device Drivers and Interrupts
+**Objective**: Write drivers and handle interrupts for hardware interfacing.
+- **Books**:
+  - ["Linux Device Drivers" by Jonathan Corbet et al.](https://www.amazon.com/Linux-Device-Drivers-Jonathan-Corbet/dp/0596005903) - Linux driver guide.
+  - ["Writing Device Drivers for Embedded Systems" by Alessandro Rubini](https://www.amazon.com/Linux-Device-Drivers-Alessandro-Rubini/dp/0596000081) - Embedded drivers.
+  - ["Embedded Systems: Hardware, Design, and Implementation" by Krzysztof Iniewski](https://www.amazon.com/Embedded-Systems-Hardware-Design-Implementation/dp/1118352157) - Driver focus.
+- **Courses/Tutorials/Papers**:
+  - **Course**: [Linux Kernel and Device Drivers](https://www.udemy.com/course/linux-device-driver-programming/) (Udemy, paid but often discounted) - Driver basics.
+  - **Course**: [Embedded Systems Interfacing](https://www.coursera.org/learn/embedded-systems-interfacing) (University of Colorado, free audit) - Interrupt focus.
+  - **Course**: [Writing Device Drivers](https://www.pluralsight.com/courses/linux-device-drivers) (Pluralsight, free trial) - Practical drivers.
+  - **Tutorial**: [Linux Device Driver Tutorial](https://www.tutorialspoint.com/linux-device-drivers/index.htm) - Practical guide.
+  - **Tutorial**: [Interrupts in Embedded Systems](https://www.embedded.com/interrupts-in-embedded-systems/) - Interrupt handling.
+  - **Tutorial**: [SPI Driver for Embedded](https://www.embarc.org/spi-driver-tutorial/) - SPI interfacing.
+  - **Paper**: ["Device Drivers: Simplifying the Interface" by Corbet and Kroah-Hartman, 2005](https://lwn.net/Articles/125174/) - Driver design.
+- **Projects** (see `/Systems_Hardware/Device_Drivers_Interrupts`):
+  - Write a **Linux character driver** for a simulated sensor.
+  - Implement an **interrupt-driven UART driver** on STM32.
+  - Build a **ROS driver** for a custom sensor (e.g., ultrasonic).
+  - Develop a **Jupyter notebook** analyzing interrupt latency in embedded systems.
+  - Simulate a **SPI interface** for a sensor on Raspberry Pi.
+
+#### 6. Real-Time Operating Systems (RTOS)
+**Objective**: Master RTOS for time-critical robotics applications.
+- **Books**:
+  - ["Real-Time Concepts for Embedded Systems" by Qing Li and Caroline Yao](https://www.amazon.com/Real-Time-Concepts-Embedded-Systems-Qing/dp/1578201241) - RTOS basics.
+  - ["FreeRTOS: A Practical Guide" by Richard Barry](https://www.amazon.com/Using-FreeRTOS-Real-Time-Kernel-Reference/dp/1447939077) - FreeRTOS guide.
+  - ["Real-Time Embedded Systems" by Xiaocong Fan](https://www.amazon.com/Real-Time-Embedded-Systems-Xiaocong-Fan/dp/0128015071) - Comprehensive text.
+- **Courses/Tutorials/Papers**:
+  - **Course**: [Real-Time Embedded Systems](https://www.coursera.org/learn/real-time-embedded-systems-concepts) (University of Colorado, free audit) - RTOS intro.
+  - **Course**: [FreeRTOS for Embedded Systems](https://www.udemy.com/course/freertos-tutorial/) (Udemy, paid but often discounted) - FreeRTOS focus.
+  - **Course**: [RTOS with Zephyr](https://www.edx.org/course/zephyr-rtos) (Linux Foundation, free) - Modern RTOS.
+  - **Tutorial**: [FreeRTOS Tutorials](https://www.freertos.org/FreeRTOS-quick-start-guide.html) - Official guide.
+  - **Tutorial**: [Task Scheduling in RTOS](https://www.digikey.com/en/articles/real-time-operating-system-rtos-basics) - Practical guide.
+  - **Tutorial**: [Mutexes and Semaphores](https://www.embedded.com/mutexes-and-semaphores-in-rtos/) - Synchronization guide.
+  - **Paper**: ["Real-Time Scheduling for Embedded Systems" by Buttazzo, 2005](https://www.amazon.com/Hard-Real-Time-Computing-Systems-Predictable/dp/1461406757) - RTOS scheduling.
+- **Projects** (see `/Systems_Hardware/RTOS`):
+  - Implement a **FreeRTOS task manager** for sensor data processing on Arduino.
+  - Build a **real-time motor controller** using Zephyr RTOS on STM32.
+  - Create a **priority-based scheduler** for a robotics task queue.
+  - Develop a **Jupyter notebook** visualizing RTOS task execution.
+  - Simulate a **mutex-based resource manager** for a robot’s shared sensors.
+
+### Advanced Level: Applied Systems
+#### 7. Kernel Development and Customization
+**Objective**: Build and customize OS kernels for embedded robotics platforms.
+- **Books**:
+  - ["Linux Kernel Development" by Robert Love](https://www.amazon.com/Linux-Kernel-Development-Robert-Love/dp/0672329468) - Kernel guide.
+  - ["Embedded Linux Development with Yocto Project" by Otavio Salvador](https://www.amazon.com/Embedded-Linux-Development-Yocto-Project/dp/1783282339) - Embedded Linux.
+  - ["Professional Linux Kernel Architecture" by Wolfgang Mauerer](https://www.amazon.com/Professional-Linux-Kernel-Architecture-Wrox/dp/0470343435) - Kernel deep dive.
+- **Courses/Tutorials/Papers**:
+  - **Course**: [Linux Kernel Programming](https://www.udemy.com/course/linux-kernel-programming/) (Udemy, paid but often discounted) - Kernel basics.
+  - **Course**: [Embedded Linux with Yocto](https://www.coursera.org/learn/embedded-linux-yocto) (University of Colorado, free audit) - Yocto focus.
+  - **Course**: [Kernel Development](https://www.pluralsight.com/courses/linux-kernel-development) (Pluralsight, free trial) - Practical kernel.
+  - **Tutorial**: [Linux Kernel Module Programming](https://www.tldp.org/LDP/lkmpg/2.6/html/) - Module guide.
+  - **Tutorial**: [Yocto Project Quickstart](https://www.yoctoproject.org/docs/current/brief-yoctoprojectqs/brief-yoctoprojectqs.html) - Embedded distro guide.
+  - **Tutorial**: [Kernel Customization](https://www.kernel.org/doc/html/latest/admin-guide/) - Official guide.
+  - **Paper**: ["The Linux Kernel: A Case Study" by Torvalds, 1999](https://www.kernel.org/doc/html/latest/process/) - Kernel history.
+- **Projects** (see `/Systems_Hardware/Kernel_Development`):
+  - Build a **custom Linux kernel module** for a robotics sensor.
+  - Create a **Yocto-based embedded distro** for Raspberry Pi.
+  - Implement a **custom scheduler** in a Linux kernel fork.
+  - Develop a **Jupyter notebook** analyzing kernel boot processes.
+  - Simulate a **kernel panic handler** for a robotics system.
+
+#### 8. Advanced Embedded Hardware and Integration
+**Objective**: Master advanced hardware (FPGA, SoC) and hardware-software co-design for robotics.
+- **Books**:
+  - ["FPGA Prototyping by VHDL Examples" by Pong P. Chu](https://www.amazon.com/FPGA-Prototyping-VHDL-Examples-Spartan-3/dp/0470185317) - FPGA guide.
+  - ["Embedded System Design: A Unified Hardware/Software Introduction" by Frank Vahid and Tony Givargis](https://www.amazon.com/Embedded-System-Design-Unified-Introduction/dp/0471386782) - Co-design focus.
+  - ["System-on-Chip Design with Arm Cortex-M Processors" by Joseph Yiu](https://www.amazon.com/System-Chip-Design-Cortex-M-Processors/dp/1911531182) - SoC guide.
+- **Courses/Tutorials/Papers**:
+  - **Course**: [FPGA Development](https://www.udemy.com/course/fpga-development/) (Udemy, paid but often discounted) - FPGA basics.
+  - **Course**: [System-on-Chip Design](https://www.coursera.org/learn/soc-design) (University of Colorado, free audit) - SoC focus.
+  - **Course**: [VHDL for Embedded Systems](https://www.edx.org/course/vhdl-for-embedded-systems) (Purdue, free) - VHDL intro.
+  - **Tutorial**: [Verilog Tutorial](https://www.chipverify.com/verilog/verilog-tutorial) - Practical Verilog guide.
+  - **Tutorial**: [FPGA for Robotics](https://www.intel.com/content/www/us/en/developer/topic-technology/edge-5g/solutions/robotics.html) - Robotics applications.
+  - **Tutorial**: [Power Management in Embedded](https://www.embedded.com/power-management-in-embedded-systems/) - Power optimization.
+  - **Paper**: ["FPGA-Based Acceleration for Robotics" by Murray et al., 2016](https://ieeexplore.ieee.org/document/7759449) - FPGA applications.
+- **Projects** (see `/Systems_Hardware/Advanced_Embedded_Hardware`):
+  - Implement a **VHDL-based PID controller** on an FPGA (e.g., Altera DE10-Nano).
+  - Build a **SoC design** for sensor processing using Zynq SoC.
+  - Create a **power management system** for a robotics platform.
+  - Develop a **Jupyter notebook** simulating FPGA signal processing.
+  - Simulate a **hardware-software co-design** for a robot’s sensor interface.
+
+#### 9. System Security and Optimization
+**Objective**: Secure and optimize OS and embedded systems for robotics applications.
+- **Books**:
+  - ["Hacking Exposed Linux" by ISECOM](https://www.amazon.com/Hacking-Exposed-Linux-Security-Techniques/dp/0071477721) - Linux security.
+  - ["Embedded Systems Security" by David Kleidermacher and Mike Kleidermacher](https://www.amazon.com/Embedded-Systems-Security-Practical-Implementation/dp/0123868866) - Embedded security.
+  - ["Real-Time Systems Design and Analysis" by Phillip A. Laplante](https://www.amazon.com/Real-Time-Systems-Design-Analysis-Principles/dp/0470768649) - Optimization focus.
+- **Courses/Tutorials/Papers**:
+  - **Course**: [Cybersecurity for Embedded Systems](https://www.udemy.com/course/cybersecurity-for-embedded-systems/) (Udemy, paid but often discounted) - Security basics.
+  - **Course**: [Linux Security](https://www.coursera.org/learn/linux-security) (University of Colorado, free audit) - OS security.
+  - **Course**: [Real-Time System Optimization](https://www.edx.org/course/real-time-system-optimization) (UT Austin, free) - Performance tuning.
+  - **Tutorial**: [Securing Embedded Systems](https://www.embedded.com/securing-embedded-systems/) - Practical guide.
+  - **Tutorial**: [Linux Performance Tuning](https://www.tutorialspoint.com/linux_admin/linux_performance_tuning.htm) - Optimization guide.
+  - **Tutorial**: [Firmware Security](https://www.arm.com/resources/education/firmware-security) - Embedded security.
+  - **Paper**: ["Security in Embedded Systems" by Ravi et al., 2007](https://ieeexplore.ieee.org/document/4263448) - Security challenges.
+- **Projects** (see `/Systems_Hardware/System_Security_Optimization`):
+  - Implement a **secure boot mechanism** for an embedded Linux system.
+  - Build a **firmware encryption system** for a robotics microcontroller.
+  - Create a **low-latency driver** for a competition vehicle’s sensor.
+  - Develop a **Jupyter notebook** analyzing system performance bottlenecks.
+  - Simulate a **secure communication protocol** for robot-to-robot data transfer.
+
+# Systems and Hardware
+
+Welcome to the **Systems and Hardware** section of my GitHub repository, documenting my journey as a computer engineering student aiming to become a full-rounded engineer with a focus on robotics and autonomous vehicles. This category bridges **Operating Systems** and **Embedded Systems and Hardware Theory**, providing the low-level foundation for robotics applications like real-time control and sensor integration in competitions (e.g., F1TENTH, Shell Eco-marathon). Using the **trinity approach** (Books, Courses/Tutorials/Papers, Projects), this roadmap progresses from beginner to advanced levels, covering **software** (e.g., kernel programming, RTOS), **hardware** (e.g., microcontrollers, FPGA), and their integration for efficient, high-performance systems.
+
+This README serves as the central hub for the Systems and Hardware category, outlining the roadmap, linking to resources, and showcasing projects. Whether you're a beginner, a fellow student, or a recruiter, use this repo to explore low-level systems, embedded hardware, and their applications in robotics and autonomous systems.
+
+## Table of Contents
+- [Overview](#overview)
+- [Roadmap Structure](#roadmap-structure)
+  - [Beginner Level: Core Basics](#beginner-level-core-basics)
+  - [Intermediate Level: Building Blocks](#intermediate-level-building-blocks)
+  - [Advanced Level: Applied Systems](#advanced-level-applied-systems)
+- [Repository Structure](#repository-structure)
+- [How to Use This Repository](#how-to-use-this-repository)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Overview
+This section is designed to:
+- Provide a **structured roadmap** for mastering operating systems and embedded hardware, from basics to advanced applications in robotics.
+- Curate high-quality **resources** (books, courses, tutorials, papers) to support learning across software and hardware.
+- Showcase **projects** that demonstrate practical skills, from simple microcontroller setups to competition-ready real-time systems (e.g., F1TENTH vehicle drivers).
+- Integrate with my broader repo, linking to `/Foundations` (e.g., programming, electronics) and `/Robotics_Autonomous_Systems` (e.g., RTOS for control).
+- Highlight my journey, emphasizing low-level systems for autonomous vehicle competitions and contributions to open-source robotics.
+
+The roadmap is organized into three levels, covering **software** (OS kernels, RTOS), **hardware** (microcontrollers, FPGA), and their integration. Each topic includes resources and projects stored in dedicated folders.
+
+## Roadmap Structure
+
+### Beginner Level: Core Basics
+#### 1. Introduction to Operating Systems and Embedded Systems
+**Objective**: Understand the roles of OS and embedded systems, their interplay, and relevance to robotics.
+- **Books**:
+  - ["Operating System Concepts" by Abraham Silberschatz et al.](https://www.amazon.com/Operating-System-Concepts-Abraham-Silberschatz/dp/1119800366) - Standard OS text.
+  - ["Embedded Systems: Introduction to ARM Cortex-M Microcontrollers" by Jonathan W. Valvano](https://www.amazon.com/Embedded-Systems-Introduction-CortexTM-M-Microcontrollers/dp/1477508996) - Embedded basics.
+  - ["Modern Operating Systems" by Andrew S. Tanenbaum](https://www.amazon.com/Modern-Operating-Systems-Andrew-Tanenbaum/dp/013359162X) - OS overview.
+- **Courses/Tutorials/Papers**:
+  - **Course**: [Operating Systems and You](https://www.coursera.org/learn/os-power-user) (Google, free audit) - OS intro.
+  - **Course**: [Introduction to Embedded Systems Software and Development Environments](https://www.coursera.org/learn/introduction-embedded-systems) (University of Colorado, free audit) - Embedded basics.
+  - **Course**: [Real-Time Embedded Systems Concepts](https://www.coursera.org/learn/real-time-embedded-systems-concepts) (University of Colorado, free audit) - Embedded systems.
+  - **Tutorial**: [OS Basics](https://www.geeksforgeeks.org/operating-systems/) - Comprehensive guide.
+  - **Tutorial**: [Embedded Systems Tutorial](https://www.tutorialspoint.com/embedded_systems/) - Practical intro.
+  - **Tutorial**: [Interrupts Explained](https://www.embedded.com/introduction-to-interrupts/) - Interrupt basics.
+  - **Paper**: ["The Design of the UNIX Operating System" by Maurice J. Bach, 1986](https://www.amazon.com/Design-UNIX-Operating-System/dp/0132017997) - Classic OS design.
+- **Projects** (see `/Systems_Hardware/Introduction`):
+  - Create a **markdown summary** of OS and embedded systems roles in robotics (`/docs/os_embedded_overview.md`).
+  - Build a **simple OS scheduler simulator** in Python to demonstrate multitasking.
+  - Implement a **basic interrupt handler** on Arduino for sensor input.
+  - Simulate a **task manager** in C to mimic OS process handling.
+  - Develop a **Jupyter notebook** explaining hardware-software interplay in autonomous vehicles.
+
+#### 2. Processes, Threads, and Scheduling
+**Objective**: Master process/thread management and scheduling for efficient systems.
+- **Books**:
+  - ["Operating Systems: Three Easy Pieces" by Remzi H. Arpaci-Dusseau and Andrea C. Arpaci-Dusseau](https://www.amazon.com/Operating-Systems-Three-Easy-Pieces/dp/198508659X) - Accessible OS text.
+  - ["Real-Time Systems" by Jane W. S. Liu](https://www.amazon.com/Real-Time-Systems-Jane-W-S-Liu/dp/0130996513) - Scheduling focus.
+  - ["Linux System Programming" by Robert Love](https://www.amazon.com/Linux-System-Programming-Talking-Directly/dp/1449339530) - Process management.
+- **Courses/Tutorials/Papers**:
+  - **Course**: [Operating Systems: Processes and Threads](https://www.udemy.com/course/operating-systems-concepts/) (Udemy, paid but often discounted) - Process basics.
+  - **Course**: [Real-Time Embedded Systems](https://www.coursera.org/learn/real-time-embedded-systems-concepts) (University of Colorado, free audit) - Scheduling focus.
+  - **Course**: [Linux Process Management](https://www.pluralsight.com/courses/linux-process-management) (Pluralsight, free trial) - Linux processes.
+  - **Tutorial**: [Process Scheduling](https://www.geeksforgeeks.org/cpu-scheduling-in-operating-systems/) - Practical guide.
+  - **Tutorial**: [Threads in Linux](https://www.tutorialspoint.com/linux_admin/linux_threads.htm) - Thread basics.
+  - **Tutorial**: [Real-Time Scheduling](https://www.embedded.com/real-time-scheduling-algorithms/) - Embedded focus.
+  - **Paper**: ["Scheduling Algorithms for Real-Time Systems" by Liu and Layland, 1973](https://www.cs.unc.edu/~anderson/teach/comp790/papers/LiuLayland73.pdf) - Classic scheduling paper.
+- **Projects** (see `/Systems_Hardware/Processes_Threads_Scheduling`):
+  - Implement a **round-robin scheduler** in C for simulated processes.
+  - Build a **multi-threaded sensor reader** in Python for robot data logging.
+  - Create a **real-time task scheduler** on FreeRTOS for Arduino.
+  - Develop a **Jupyter notebook** visualizing context switching in a simple OS.
+  - Simulate a **priority-based scheduler** for a robotics task queue.
+
+#### 3. Embedded Hardware Basics
+**Objective**: Understand microcontrollers, peripherals, and interfacing for embedded systems.
+- **Books**:
+  - ["The AVR Microcontroller and Embedded Systems" by Muhammad Ali Mazidi](https://www.amazon.com/AVR-Microcontroller-Embedded-Systems-Using/dp/0138003319) - AVR focus.
+  - ["Embedded Systems with ARM Cortex-M Microcontrollers" by Yifeng Zhu](https://www.amazon.com/Embedded-Systems-ARM-Cortex-M-Microcontrollers/dp/0982692668) - ARM guide.
+  - ["Make: Electronics" by Charles Platt](https://www.amazon.com/Make-Electronics-Learning-Through-Discovery/dp/1680450263) - Hardware basics.
+- **Courses/Tutorials/Papers**:
+  - **Course**: [Embedded Systems](https://www.coursera.org/learn/introduction-embedded-systems) (University of Colorado, free audit) - Microcontroller intro.
+  - **Course**: [Microcontroller Embedded C Programming](https://www.udemy.com/course/microcontroller-embedded-c-programming/) (Udemy, paid but often discounted) - C programming.
+  - **Course**: [ARM Cortex-M Programming](https://www.edx.org/course/arm-cortex-m-microcontrollers) (UT Austin, free) - ARM focus.
+  - **Tutorial**: [Arduino Tutorials](https://www.arduino.cc/en/Tutorial/HomePage) - Official guide.
+  - **Tutorial**: [STM32 Tutorials](https://www.st.com/content/st_com/en/support/learning/stm32-education.html) - STM32 guide.
+  - **Tutorial**: [GPIO Programming](https://www.embedded.com/gpio-programming-for-embedded-systems/) - Practical interfacing.
+  - **Paper**: ["Microcontroller-Based Embedded Systems" by Gajski et al., 2009](https://www.amazon.com/Embedded-System-Design-Modeling-Synthesis/dp/1441905030) - Embedded design.
+- **Projects** (see `/Systems_Hardware/Embedded_Hardware_Basics`):
+  - Build a **sensor interface** for an IMU (e.g., MPU6050) using Arduino.
+  - Create a **PWM controller** for a DC motor with Raspberry Pi.
+  - Implement a **timer-based LED blinker** on STM32.
+  - Develop a **Jupyter notebook** analyzing ADC readings from a sensor.
+  - Simulate a **GPIO-based robot controller** in a simulator like Tinkercad.
+
+### Intermediate Level: Building Blocks
+#### 4. Memory Management and File Systems
+**Objective**: Master memory allocation and file systems for OS and embedded environments.
+- **Books**:
+  - ["Operating Systems: Internals and Design Principles" by William Stallings](https://www.amazon.com/Operating-Systems-Internals-Design-Principles/dp/0134670957) - Memory management.
+  - ["Embedded Systems: Real-Time Interfacing" by Jonathan W. Valvano](https://www.amazon.com/Embedded-Systems-Real-Time-Interfacing-Microcontrollers/dp/1463590156) - Embedded memory.
+  - ["File Systems: Structures and Algorithms" by Thomas R. Giuli](https://www.amazon.com/Understanding-File-Systems-Structures-Algorithms/dp/0134868536) - File system guide.
+- **Courses/Tutorials/Papers**:
+  - **Course**: [Operating Systems: Memory Management](https://www.udemy.com/course/operating-systems-memory-management/) (Udemy, paid but often discounted) - Memory focus.
+  - **Course**: [Embedded Systems Memory Management](https://www.coursera.org/learn/embedded-systems-memory) (University of Colorado, free audit) - Embedded focus.
+  - **Course**: [Linux File Systems](https://www.pluralsight.com/courses/linux-file-systems) (Pluralsight, free trial) - File system basics.
+  - **Tutorial**: [Virtual Memory](https://www.geeksforgeeks.org/virtual-memory-in-operating-system/) - Practical guide.
+  - **Tutorial**: [FAT File System](https://www.tutorialspoint.com/embedded_systems/es_fat_file_system.htm) - Embedded file systems.
+  - **Tutorial**: [Memory Optimization for Embedded](https://www.embedded.com/memory-management-in-embedded-systems/) - Optimization guide.
+  - **Paper**: ["The Design of the Linux File System" by McKusick et al., 1984](https://www.amazon.com/Design-Implementation-FreeBSD-Operating-System/dp/0321968972) - File system design.
+- **Projects** (see `/Systems_Hardware/Memory_Management_File_Systems`):
+  - Implement a **simple memory allocator** in C for an embedded system.
+  - Build a **file system parser** for FAT32 in Python.
+  - Create a **paging simulator** to demonstrate virtual memory.
+  - Develop a **Jupyter notebook** analyzing memory usage in a robotics task.
+  - Simulate a **flash memory manager** for sensor data storage on Arduino.
+
+#### 5. Device Drivers and Interrupts
+**Objective**: Write drivers and handle interrupts for hardware interfacing.
+- **Books**:
+  - ["Linux Device Drivers" by Jonathan Corbet et al.](https://www.amazon.com/Linux-Device-Drivers-Jonathan-Corbet/dp/0596005903) - Linux driver guide.
+  - ["Writing Device Drivers for Embedded Systems" by Alessandro Rubini](https://www.amazon.com/Linux-Device-Drivers-Alessandro-Rubini/dp/0596000081) - Embedded drivers.
+  - ["Embedded Systems: Hardware, Design, and Implementation" by Krzysztof Iniewski](https://www.amazon.com/Embedded-Systems-Hardware-Design-Implementation/dp/1118352157) - Driver focus.
+- **Courses/Tutorials/Papers**:
+  - **Course**: [Linux Kernel and Device Drivers](https://www.udemy.com/course/linux-device-driver-programming/) (Udemy, paid but often discounted) - Driver basics.
+  - **Course**: [Embedded Systems Interfacing](https://www.coursera.org/learn/embedded-systems-interfacing) (University of Colorado, free audit) - Interrupt focus.
+  - **Course**: [Writing Device Drivers](https://www.pluralsight.com/courses/linux-device-drivers) (Pluralsight, free trial) - Practical drivers.
+  - **Tutorial**: [Linux Device Driver Tutorial](https://www.tutorialspoint.com/linux-device-drivers/index.htm) - Practical guide.
+  - **Tutorial**: [Interrupts in Embedded Systems](https://www.embedded.com/interrupts-in-embedded-systems/) - Interrupt handling.
+  - **Tutorial**: [SPI Driver for Embedded](https://www.embarc.org/spi-driver-tutorial/) - SPI interfacing.
+  - **Paper**: ["Device Drivers: Simplifying the Interface" by Corbet and Kroah-Hartman, 2005](https://lwn.net/Articles/125174/) - Driver design.
+- **Projects** (see `/Systems_Hardware/Device_Drivers_Interrupts`):
+  - Write a **Linux character driver** for a simulated sensor.
+  - Implement an **interrupt-driven UART driver** on STM32.
+  - Build a **ROS driver** for a custom sensor (e.g., ultrasonic).
+  - Develop a **Jupyter notebook** analyzing interrupt latency in embedded systems.
+  - Simulate a **SPI interface** for a sensor on Raspberry Pi.
+
+#### 6. Real-Time Operating Systems (RTOS)
+**Objective**: Master RTOS for time-critical robotics applications.
+- **Books**:
+  - ["Real-Time Concepts for Embedded Systems" by Qing Li and Caroline Yao](https://www.amazon.com/Real-Time-Concepts-Embedded-Systems-Qing/dp/1578201241) - RTOS basics.
+  - ["FreeRTOS: A Practical Guide" by Richard Barry](https://www.amazon.com/Using-FreeRTOS-Real-Time-Kernel-Reference/dp/1447939077) - FreeRTOS guide.
+  - ["Real-Time Embedded Systems" by Xiaocong Fan](https://www.amazon.com/Real-Time-Embedded-Systems-Xiaocong-Fan/dp/0128015071) - Comprehensive text.
+- **Courses/Tutorials/Papers**:
+  - **Course**: [Real-Time Embedded Systems](https://www.coursera.org/learn/real-time-embedded-systems-concepts) (University of Colorado, free audit) - RTOS intro.
+  - **Course**: [FreeRTOS for Embedded Systems](https://www.udemy.com/course/freertos-tutorial/) (Udemy, paid but often discounted) - FreeRTOS focus.
+  - **Course**: [RTOS with Zephyr](https://www.edx.org/course/zephyr-rtos) (Linux Foundation, free) - Modern RTOS.
+  - **Tutorial**: [FreeRTOS Tutorials](https://www.freertos.org/FreeRTOS-quick-start-guide.html) - Official guide.
+  - **Tutorial**: [Task Scheduling in RTOS](https://www.digikey.com/en/articles/real-time-operating-system-rtos-basics) - Practical guide.
+  - **Tutorial**: [Mutexes and Semaphores](https://www.embedded.com/mutexes-and-semaphores-in-rtos/) - Synchronization guide.
+  - **Paper**: ["Real-Time Scheduling for Embedded Systems" by Buttazzo, 2005](https://www.amazon.com/Hard-Real-Time-Computing-Systems-Predictable/dp/1461406757) - RTOS scheduling.
+- **Projects** (see `/Systems_Hardware/RTOS`):
+  - Implement a **FreeRTOS task manager** for sensor data processing on Arduino.
+  - Build a **real-time motor controller** using Zephyr RTOS on STM32.
+  - Create a **priority-based scheduler** for a robotics task queue.
+  - Develop a **Jupyter notebook** visualizing RTOS task execution.
+  - Simulate a **mutex-based resource manager** for a robot’s shared sensors.
+
+### Advanced Level: Applied Systems
+#### 7. Kernel Development and Customization
+**Objective**: Build and customize OS kernels for embedded robotics platforms.
+- **Books**:
+  - ["Linux Kernel Development" by Robert Love](https://www.amazon.com/Linux-Kernel-Development-Robert-Love/dp/0672329468) - Kernel guide.
+  - ["Embedded Linux Development with Yocto Project" by Otavio Salvador](https://www.amazon.com/Embedded-Linux-Development-Yocto-Project/dp/1783282339) - Embedded Linux.
+  - ["Professional Linux Kernel Architecture" by Wolfgang Mauerer](https://www.amazon.com/Professional-Linux-Kernel-Architecture-Wrox/dp/0470343435) - Kernel deep dive.
+- **Courses/Tutorials/Papers**:
+  - **Course**: [Linux Kernel Programming](https://www.udemy.com/course/linux-kernel-programming/) (Udemy, paid but often discounted) - Kernel basics.
+  - **Course**: [Embedded Linux with Yocto](https://www.coursera.org/learn/embedded-linux-yocto) (University of Colorado, free audit) - Yocto focus.
+  - **Course**: [Kernel Development](https://www.pluralsight.com/courses/linux-kernel-development) (Pluralsight, free trial) - Practical kernel.
+  - **Tutorial**: [Linux Kernel Module Programming](https://www.tldp.org/LDP/lkmpg/2.6/html/) - Module guide.
+  - **Tutorial**: [Yocto Project Quickstart](https://www.yoctoproject.org/docs/current/brief-yoctoprojectqs/brief-yoctoprojectqs.html) - Embedded distro guide.
+  - **Tutorial**: [Kernel Customization](https://www.kernel.org/doc/html/latest/admin-guide/) - Official guide.
+  - **Paper**: ["The Linux Kernel: A Case Study" by Torvalds, 1999](https://www.kernel.org/doc/html/latest/process/) - Kernel history.
+- **Projects** (see `/Systems_Hardware/Kernel_Development`):
+  - Build a **custom Linux kernel module** for a robotics sensor.
+  - Create a **Yocto-based embedded distro** for Raspberry Pi.
+  - Implement a **custom scheduler** in a Linux kernel fork.
+  - Develop a **Jupyter notebook** analyzing kernel boot processes.
+  - Simulate a **kernel panic handler** for a robotics system.
+
+#### 8. Advanced Embedded Hardware and Integration
+**Objective**: Master advanced hardware (FPGA, SoC) and hardware-software co-design for robotics.
+- **Books**:
+  - ["FPGA Prototyping by VHDL Examples" by Pong P. Chu](https://www.amazon.com/FPGA-Prototyping-VHDL-Examples-Spartan-3/dp/0470185317) - FPGA guide.
+  - ["Embedded System Design: A Unified Hardware/Software Introduction" by Frank Vahid and Tony Givargis](https://www.amazon.com/Embedded-System-Design-Unified-Introduction/dp/0471386782) - Co-design focus.
+  - ["System-on-Chip Design with Arm Cortex-M Processors" by Joseph Yiu](https://www.amazon.com/System-Chip-Design-Cortex-M-Processors/dp/1911531182) - SoC guide.
+- **Courses/Tutorials/Papers**:
+  - **Course**: [FPGA Development](https://www.udemy.com/course/fpga-development/) (Udemy, paid but often discounted) - FPGA basics.
+  - **Course**: [System-on-Chip Design](https://www.coursera.org/learn/soc-design) (University of Colorado, free audit) - SoC focus.
+  - **Course**: [VHDL for Embedded Systems](https://www.edx.org/course/vhdl-for-embedded-systems) (Purdue, free) - VHDL intro.
+  - **Tutorial**: [Verilog Tutorial](https://www.chipverify.com/verilog/verilog-tutorial) - Practical Verilog guide.
+  - **Tutorial**: [FPGA for Robotics](https://www.intel.com/content/www/us/en/developer/topic-technology/edge-5g/solutions/robotics.html) - Robotics applications.
+  - **Tutorial**: [Power Management in Embedded](https://www.embedded.com/power-management-in-embedded-systems/) - Power optimization.
+  - **Paper**: ["FPGA-Based Acceleration for Robotics" by Murray et al., 2016](https://ieeexplore.ieee.org/document/7759449) - FPGA applications.
+- **Projects** (see `/Systems_Hardware/Advanced_Embedded_Hardware`):
+  - Implement a **VHDL-based PID controller** on an FPGA (e.g., Altera DE10-Nano).
+  - Build a **SoC design** for sensor processing using Zynq SoC.
+  - Create a **power management system** for a robotics platform.
+  - Develop a **Jupyter notebook** simulating FPGA signal processing.
+  - Simulate a **hardware-software co-design** for a robot’s sensor interface.
+
+#### 9. System Security and Optimization
+**Objective**: Secure and optimize OS and embedded systems for robotics applications.
+- **Books**:
+  - ["Hacking Exposed Linux" by ISECOM](https://www.amazon.com/Hacking-Exposed-Linux-Security-Techniques/dp/0071477721) - Linux security.
+  - ["Embedded Systems Security" by David Kleidermacher and Mike Kleidermacher](https://www.amazon.com/Embedded-Systems-Security-Practical-Implementation/dp/0123868866) - Embedded security.
+  - ["Real-Time Systems Design and Analysis" by Phillip A. Laplante](https://www.amazon.com/Real-Time-Systems-Design-Analysis-Principles/dp/0470768649) - Optimization focus.
+- **Courses/Tutorials/Papers**:
+  - **Course**: [Cybersecurity for Embedded Systems](https://www.udemy.com/course/cybersecurity-for-embedded-systems/) (Udemy, paid but often discounted) - Security basics.
+  - **Course**: [Linux Security](https://www.coursera.org/learn/linux-security) (University of Colorado, free audit) - OS security.
+  - **Course**: [Real-Time System Optimization](https://www.edx.org/course/real-time-system-optimization) (UT Austin, free) - Performance tuning.
+  - **Tutorial**: [Securing Embedded Systems](https://www.embedded.com/securing-embedded-systems/) - Practical guide.
+  - **Tutorial**: [Linux Performance Tuning](https://www.tutorialspoint.com/linux_admin/linux_performance_tuning.htm) - Optimization guide.
+  - **Tutorial**: [Firmware Security](https://www.arm.com/resources/education/firmware-security) - Embedded security.
+  - **Paper**: ["Security in Embedded Systems" by Ravi et al., 2007](https://ieeexplore.ieee.org/document/4263448) - Security challenges.
+- **Projects** (see `/Systems_Hardware/System_Security_Optimization`):
+  - Implement a **secure boot mechanism** for an embedded Linux system.
+  - Build a **firmware encryption system** for a robotics microcontroller.
+  - Create a **low-latency driver** for a competition vehicle’s sensor.
+  - Develop a **Jupyter notebook** analyzing system performance bottlenecks.
+  - Simulate a **secure communication protocol** for robot-to-robot data transfer.
+
+## Section Structure
+The section is organized as follows:
+
+Systems_Hardware/
+├── Introduction/
+│   ├── docs/ (summaries, notes)
+│   ├── projects/ (scheduler simulator, interrupt handler)
+├── Processes_Threads_Scheduling/
+├── Embedded_Hardware_Basics/
+├── Memory_Management_File_Systems/
+├── Device_Drivers_Interrupts/
+├── RTOS/
+├── Kernel_Development/
+├── Advanced_Embedded_Hardware/
+├── System_Security_Optimization/
+├── docs/ (general documentation, progress tracker)
+├── README.md
+
+
