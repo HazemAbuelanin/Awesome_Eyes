@@ -14,11 +14,13 @@
 - [Mathematics](#mathematics)
 - [Systems and Hardware](#systems-and-hardware)
 - [Robotics and Autonomous Systems](#robotics-and-autonomous-systems)
+- [Self-Driving Vehicles](#self-driving-vehicles)
 - [Artificial Intelligence](#artificial-intelligence)
 - [PCB Design and Electronics](#pcb-design-and-electronics)
 - [Tools and Ecosystems](#tools-and-ecosystems)
 - [Communities, Competitions, and Growth](#communities-competitions-and-growth)
 - [Resources I Gathered from the Open Source Community](#resources-i-gathered-from-the-open-source-community)
+
 ## Introduction
 
 This repository is the **complete map of my engineering journey** — everything I’m learning, building, and exploring, shared openly.  
@@ -2150,3 +2152,83 @@ These projects leverage the provided resources to build practical skills, inspir
 - **MoveIt Robotic Arm**: Implement a pick-and-place task with [MoveIt](https://github.com/moveit/moveit) for a robotic arm in simulation. (Advanced, explores manipulation.)
 - **Jupyter Notebook on ROS2 Setup**: Document ROS2 Humble installation and basic node creation using [ROS Humble Tutorials](https://docs.ros.org/en/humble/Tutorials.html). (Beginner, educational.)
 - **Markdown Guide on ROS Basics**: Summarize key ROS concepts (nodes, topics, services) based on [A Gentle Introduction to ROS](jokane.net/agitr/agitr-letter.pdf) (`/docs/ros_basics.md`). (Beginner, learning aid.)
+- 
+
+# Self Driving Vehicles 
+
+## Table of Contents
+- [Overview](#overview)
+- [Curated Resources](#curated-resources)
+  - [Repositories](#repositories)
+  - [Books](#books)
+  - [Courses and Tutorials](#courses-and-tutorials)
+  - [Projects and Datasets](#projects-and-datasets)
+- [Projects](#projects)
+- [Repository Structure](#repository-structure)
+- [How to Use This Repository](#how-to-use-this-repository)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Overview
+This section is designed to:
+- Curate high-quality **resources** for learning and developing self-driving car technologies, with a focus on perception, planning, and control.
+- Provide practical **projects** inspired by my competition experience (e.g., F1TENTH racing, Shell Eco-marathon).
+- Integrate with my broader repo, linking to `/Robotics_Autonomous_Systems` (for ROS) and `/Artificial_Intelligence` (for perception models).
+- Highlight my journey, showcasing skills in autonomous vehicle navigation and control.
+
+The resources below cover repositories, books, courses, and datasets for self-driving vehicles, organized for easy access and practical application.
+
+## Curated Resources
+
+### Repositories
+| Name | Link | Description |
+|------|------|-------------|
+| Awesome Self-Driving Car | [github.com/daohu527/awesome-self-driving-car](https://github.com/daohu527/awesome-self-driving-car) | Curated list of self-driving car resources, covering tools, datasets, and frameworks. |
+| Awesome Autonomous Vehicles | [github.com/manfreddiaz/awesome-autonomous-vehicles](https://github.com/manfreddiaz/awesome-autonomous-vehicles) | Comprehensive list of autonomous vehicle resources, including perception and planning tools. |
+| Self-Driving-Ish CV System | [github.com/iwatake2222/self-driving-ish_computer_vision_system](https://github.com/iwatake2222/self-driving-ish_computer_vision_system) | Computer vision system for self-driving, focusing on lane detection and object recognition. |
+| Self-Driving Cars | [github.com/qiaoxu123/Self-Driving-Cars](https://github.com/qiaoxu123/Self-Driving-Cars) | Collection of self-driving car projects and resources, with code examples. |
+| Awesome Vehicle Security | [github.com/jaredthecoder/awesome-vehicle-security](https://github.com/jaredthecoder/awesome-vehicle-security) | Resources for securing autonomous vehicles, critical for safe deployment. |
+| AutoCarROS2 | [github.com/winstxnhdw/AutoCarROS2](https://github.com/winstxnhdw/AutoCarROS2) | ROS2-based autonomous car framework, ideal for F1TENTH-style navigation. |
+| F1TENTH RL | [github.com/MichaelBosello/f1tenth-RL](https://github.com/MichaelBosello/f1tenth-RL) | Reinforcement learning for F1TENTH racing, focusing on path optimization. |
+
+### Books
+| Name | Link | Description |
+|------|------|-------------|
+| Self-Driving Car Resources | [github.com/ndrplz/self-driving-car](https://github.com/ndrplz/self-driving-car) | Curated list of books and resources for self-driving cars, covering theory and practice. |
+
+### Courses and Tutorials
+| Name | Link | Description |
+|------|------|-------------|
+| Coursera Self-Driving Cars Specialization | [coursera.org/specializations/self-driving-cars](https://www.coursera.org/specializations/self-driving-cars) | Comprehensive course on self-driving cars, covering perception, planning, and control (free audit available). |
+| SAE J3016 Standard | [sae.org/standards/content/j3016_201806/](https://www.sae.org/standards/content/j3016_201806/) | Standard defining autonomy levels, essential for understanding self-driving systems. |
+| Autonomous Driving Survey | [arxiv.org/abs/2003.04882](https://arxiv.org/abs/2003.04882) | Survey paper on autonomous driving technologies and challenges. |
+| Self-Driving Car Playlist | [youtube.com/watch?v=wcibIqiRb04&list=PL8EeqqtDev54yyF5-o2jUEOhAm2GSZm6e&index=4](https://www.youtube.com/watch?v=wcibIqiRb04&list=PL8EeqqtDev54yyF5-o2jUEOhAm2GSZm6e&index=4) | YouTube playlist covering self-driving car concepts, great for visual learners. |
+| Pure Pursuit in ROS Noetic | [medium.com/@jefffer705/pure-pursuit-in-ros-noetic-7b2c0a3c36ef](https://medium.com/@jefffer705/pure-pursuit-in-ros-noetic-7b2c0a3c36ef) | Tutorial on implementing Pure Pursuit algorithm in ROS for vehicle path tracking. |
+| Low-Cost Path to Self-Driving Engineer | [linkedin.com/pulse/low-cost-path-become-self-driving-cars-engineer-ricardo-tellez/](https://www.linkedin.com/pulse/low-cost-path-become-self-driving-cars-engineer-ricardo-tellez/) | Guide to becoming a self-driving car engineer with affordable resources. |
+| Autonomous Driving Intro | [youtube.com/watch?v=eOevF5jFSoc](https://www.youtube.com/watch?v=eOevF5jFSoc) | Video introduction to autonomous driving concepts and applications. |
+
+### Projects and Datasets
+| Name | Link | Description |
+|------|------|-------------|
+| KITTI Dataset | [cvlibs.net/datasets/kitti/](https://www.cvlibs.net/datasets/kitti/) | Industry-standard dataset for autonomous driving, with LiDAR, camera, and GPS data. |
+| Apollo Auto | [github.com/ApolloAuto/apollo](https://github.com/ApolloAuto/apollo) | Open-source autonomous driving platform, supporting end-to-end vehicle control. |
+| Gym-Ignition | [github.com/robotology-legacy/gym-ignition](https://github.com/robotology-legacy/gym-ignition) | Gym environment for Ignition Gazebo, ideal for RL in autonomous driving. |
+| Autoware Universe | [autowarefoundation.github.io/autoware_universe/main/](https://autowarefoundation.github.io/autoware_universe/main/) | Open-source autonomous driving stack, with ROS2 integration for navigation. |
+
+## Projects
+These projects leverage the provided resources to build practical skills, inspired by my competition experience. See `/Self_Driving_Vehicles/projects/` for code and documentation.
+
+- **KITTI Dataset Analysis**: Use the [KITTI Dataset](https://www.cvlibs.net/datasets/kitti/) to process LiDAR and camera data for object detection in a Jupyter notebook. (Intermediate, builds perception skills.)
+- **Pure Pursuit Path Tracking**: Implement the Pure Pursuit algorithm using [Pure Pursuit in ROS Noetic](https://medium.com/@jefffer705/pure-pursuit-in-ros-noetic-7b2c0a3c36ef) in a ROS2 node for F1TENTH racing. (Intermediate, competition-ready.)
+- **F1TENTH RL Navigation**: Build an RL-based navigation system using [F1TENTH RL](https://github.com/MichaelBosello/f1tenth-RL) in a simulated environment. (Advanced, competition-focused.)
+- **Apollo Auto Simulation**: Deploy a basic autonomous driving pipeline with [Apollo Auto](https://github.com/ApolloAuto/apollo) in a simulator like CARLA. (Advanced, end-to-end autonomy.)
+- **Autoware ROS2 Node**: Create a ROS2 node for path planning using [Autoware Universe](https://autowarefoundation.github.io/autoware_universe/main/) for urban driving scenarios. (Intermediate, practical.)
+- **Markdown Guide on Autonomy Levels**: Summarize SAE J3016 autonomy levels based on [SAE J3016 Standard](https://www.sae.org/standards/content/j3016_201806/) in `/docs/autonomy_levels.md`. (Beginner, educational.)
+
+## Repository Structure
+```
+Self_Driving_Vehicles/
+├── docs/            # Notes and summaries (e.g., autonomy_levels.md)
+├── projects/        # Project code and notebooks (e.g., kitti_analysis)
+├── README.md        # This file
+```
