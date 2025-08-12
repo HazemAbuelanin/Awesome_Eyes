@@ -1274,6 +1274,204 @@ This roadmap outlines a structured path to master Artificial Intelligence (AI) f
   - Implement a federated learning model for a distributed dataset.
   - Create a GitHub repo with a literature review of recent AI papers (e.g., from arXiv).
 
+# Artificial Intelligence and Machine Learning Resources Repository
+
+[![Stars](https://img.shields.io/github/stars/yourusername/awesome-ai-ml-resources?style=social)](https://github.com/yourusername/awesome-ai-ml-resources/stargazers) [![Forks](https://img.shields.io/github/forks/yourusername/awesome-ai-ml-resources?style=social)](https://github.com/yourusername/awesome-ai-ml-resources/network) [![License](https://img.shields.io/github/license/yourusername/awesome-ai-ml-resources)](LICENSE)
+
+## Table of Contents
+- [Overview](#overview)
+- [Curated Resources](#curated-resources)
+  - [Repositories](#repositories)
+  - [Books](#books)
+  - [Courses and Tutorials](#courses-and-tutorials)
+  - [Papers](#papers)
+  - [YouTube Channels and Videos](#youtube-channels-and-videos)
+  - [Platforms and Datasets](#platforms-and-datasets)
+- [Projects](#projects)
+- [Repository Structure](#repository-structure)
+- [How to Use This Repository](#how-to-use-this-repository)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Overview
+This repository is a curated collection of AI and ML resources, aimed at:
+- Providing **structured roadmaps** for learning AI/ML from zero to advanced levels, with a focus on robotics applications (e.g., computer vision for autonomous vehicles).
+- Curating high-quality **resources** including repositories, books, courses, papers, and tools, selected for their relevance and accessibility.
+- Offering practical **projects** inspired by my competition experience, such as vision models for F1TENTH or optimization for Shell Eco-marathon.
+- Integrating with my broader robotics engineering journey, linking to categories like robotics and embedded systems.
+
+The resources below are organized by type, with brief descriptions and links to their potential use in robotics or autonomous systems.
+
+## Curated Resources
+
+### Repositories
+| Name | Link | Description |
+|------|------|-------------|
+| AI Expert Roadmap | [github.com/AMAI-GmbH/AI-Expert-Roadmap](https://github.com/AMAI-GmbH/AI-Expert-Roadmap) | Structured roadmap to becoming an AI expert, covering fundamentals to advanced topics. |
+| Best of ML Python | [github.com/lukasmasuch/best-of-ml-python](https://github.com/lukasmasuch/best-of-ml-python) | Curated list of the best Python libraries for machine learning. |
+| Jetson Inference | [github.com/dusty-nv/jetson-inference](https://github.com/dusty-nv/jetson-inference) | Deep learning inference for NVIDIA Jetson, ideal for embedded robotics vision. |
+| Machine Learning Tutorials | [github.com/ujjwalkarn/Machine-Learning-Tutorials](https://github.com/ujjwalkarn/Machine-Learning-Tutorials) | Tutorials and code for ML concepts, great for beginners in robotics data processing. |
+| Awesome Deep Learning | [github.com/ChristosChristofidis/awesome-deep-learning](https://github.com/ChristosChristofidis/awesome-deep-learning) | Comprehensive list of deep learning resources and frameworks. |
+| Updated AI Roadmap | [github.com/h9-tec/Updated_AI_roadmap](https://github.com/h9-tec/Updated_AI_roadmap) | Updated roadmap for AI learning, including ML and DL paths. |
+| Awesome Machine Learning | [github.com/josephmisiti/awesome-machine-learning](https://github.com/josephmisiti/awesome-machine-learning) | Curated ML frameworks, libraries, and software. |
+| LibFaceDetection | [github.com/ShiqiYu/libfacedetection](https://github.com/ShiqiYu/libfacedetection) | Face detection library, useful for robotics human-robot interaction. |
+| SHAP | [github.com/shap/shap](https://github.com/shap/shap) | Explainable AI tool for model interpretability in ML. |
+| ColossalAI | [github.com/hpcaitech/ColossalAI](https://github.com/hpcaitech/ColossalAI) | Scalable deep learning framework for large models. |
+| CrewAI | [github.com/crewAIInc/crewAI](https://github.com/crewAIInc/crewAI) | Framework for building AI agents, applicable to autonomous systems. |
+| ToolJet | [github.com/ToolJet/ToolJet](https://github.com/ToolJet/ToolJet) | Low-code platform for building AI/ML apps. |
+| Machine Learning Specialization (Coursera) | [github.com/greyhatguy007/Machine-Learning-Specialization-Coursera](https://github.com/greyhatguy007/Machine-Learning-Specialization-Coursera) | Code and notes for Coursera's ML specialization. |
+| Mathematics for ML & Data Science (Coursera) | [github.com/greyhatguy007/Mathematics-for-Machine-Learning-and-Data-Science-Specialization-Coursera](https://github.com/greyhatguy007/Mathematics-for-Machine-Learning-and-Data-Science-Specialization-Coursera) | Math resources for ML, essential for robotics optimization. |
+| DeepLearning.AI Stanford ML Specialization | [github.com/shantanu1109/Coursera-DeepLearning.AI-Stanford-University-Machine-Learning-Specialization](https://github.com/shantanu1109/Coursera-DeepLearning.AI-Stanford-University-Machine-Learning-Specialization) | Code for Stanford's ML specialization on Coursera. |
+| Learning Deep Learning | [github.com/patrick-llgc/Learning-Deep-Learning](https://github.com/patrick-llgc/Learning-Deep-Learning) | Hands-on deep learning projects and notes. |
+| Deep Live Cam | [github.com/hacksider/Deep-Live-Cam](https://github.com/hacksider/Deep-Live-Cam) | Real-time face swapping using DL, fun for robotics HRI. |
+| Movement (Neuroinformatics) | [github.com/neuroinformatics-unit/movement](https://github.com/neuroinformatics-unit/movement) | Movement analysis tool using ML for robotics behavior. |
+| 500+ AI/ML/CV/NLP Projects | [github.com/ashishpatel26/500-AI-Machine-learning-Deep-learning-Computer-vision-NLP-Projects-with-code](https://github.com/ashishpatel26/500-AI-Machine-learning-Deep-learning-Computer-vision-NLP-Projects-with-code) | Massive collection of AI/ML projects with code. |
+| ML System Design | [github.com/ML-SystemDesign/MLSystemDesign](https://github.com/ML-SystemDesign/MLSystemDesign) | Guide to ML system design for scalable applications. |
+| Vision-Language Models Overview | [github.com/zli12321/Vision-Language-Models-Overview](https://github.com/zli12321/Vision-Language-Models-Overview) | Overview of VLMs for computer vision in robotics. |
+| PyTorch Tutorials | [github.com/niconielsen32/pytorch-tutorialsg](https://github.com/niconielsen32/pytorch-tutorialsg) | Tutorials for PyTorch, key for DL in robotics. |
+| Annotated DL Paper Implementations | [github.com/labmlai/annotated_deep_learning_paper_implementations](https://github.com/labmlai/annotated_deep_learning_paper_implementations) | Code implementations of DL papers with annotations. |
+| AWS AI Stack | [github.com/serverless/aws-ai-stack](https://github.com/serverless/aws-ai-stack) | AWS stack for AI applications. |
+| Deep Dynamics | [github.com/linklab-uva/deep-dynamics](https://github.com/linklab-uva/deep-dynamics) | Deep learning for robot dynamics modeling. |
+| Hands-On LLMs | [github.com/HandsOnLLM/Hands-On-Large-Language-Models](https://github.com/HandsOnLLM/Hands-On-Large-Language-Models) | Hands-on projects with large language models. |
+| GPU Puzzles | [github.com/srush/GPU-Puzzles](https://github.com/srush/GPU-Puzzles) | Puzzles for learning GPU programming. |
+| Home Assistant Core | [github.com/home-assistant/core](https://github.com/home-assistant/core) | Open-source home automation platform with AI integration. |
+| OpenVINO | [github.com/openvinotoolkit/openvino](https://github.com/openvinotoolkit/openvino) | Toolkit for optimizing DL models on hardware. |
+| Computer Vision Projects | [github.com/avs-abhishek123/Computer-Vision-Projects](https://github.com/avs-abhishek123/Computer-Vision-Projects) | Projects in computer vision for robotics. |
+| Prompt Engineering Guide | [github.com/dair-ai/Prompt-Engineering-Guide](https://github.com/dair-ai/Prompt-Engineering-Guide) | Guide to prompt engineering for LLMs. |
+| LLM Course | [github.com/mlabonne/llm-course](https://github.com/mlabonne/llm-course) | Course on large language models. |
+| GenAI Agents | [github.com/NirDiamant/GenAI_Agents](https://github.com/NirDiamant/GenAI_Agents) | Generative AI agents for tasks. |
+| RAG Techniques | [github.com/NirDiamant/RAG_Techniques](https://github.com/NirDiamant/RAG_Techniques) | Retrieval-Augmented Generation techniques. |
+| Made With ML | [github.com/GokuMohandas/Made-With-ML](https://github.com/GokuMohandas/Made-With-ML) | ML engineering guide with code. |
+| PyTorch Deep Learning | [github.com/mrdbourke/pytorch-deep-learning](https://github.com/mrdbourke/pytorch-deep-learning) | PyTorch projects for DL. |
+| DMLS Book | [github.com/chiphuyen/dmls-book](https://github.com/chiphuyen/dmls-book) | Book on designing ML systems. |
+| Open3D-ML | [github.com/isl-org/Open3D-ML](https://github.com/isl-org/Open3D-ML) | ML for 3D data processing in robotics. |
+| SALT | [github.com/anuragxel/salt](https://github.com/anuragxel/salt) | SALT framework for ML. |
+| Segment Anything | [github.com/facebookresearch/segment-anything](https://github.com/facebookresearch/segment-anything) | Model for image segmentation in vision tasks. |
+| 365 Days CV Learning | [github.com/ashishpatel26/365-Days-Computer-Vision-Learning-Linkedin-Post](https://github.com/ashishpatel26/365-Days-Computer-Vision-Learning-Linkedin-Post) | Daily CV learning posts. |
+| 500+ AI/ML/CV/NLP Projects | [github.com/ashishpatel26/500-AI-Machine-learning-Deep-learning-Computer-vision-NLP-Projects-with-code](https://github.com/ashishpatel26/500-AI-Machine-learning-Deep-learning-Computer-vision-NLP-Projects-with-code) | Extensive project list (duplicate for emphasis). |
+| CUDA Python | [github.com/NVIDIA/cuda-python](https://github.com/NVIDIA/cuda-python) | Python bindings for CUDA in GPU-accelerated ML. |
+| CuPy | [github.com/cupy/cupy](https://github.com/cupy/cupy) | NumPy-like library for GPU-accelerated computing. |
+| Jetson Inference | [github.com/dusty-nv/jetson-inference](https://github.com/dusty-nv/jetson-inference) | DL inference for Jetson hardware (duplicate for emphasis). |
+| EmLearn | [github.com/emlearn/emlearn](https://github.com/emlearn/emlearn) | ML for embedded systems. |
+| Arabic NLP Preprocessing | [github.com/h9-tec/Arabic_nlp_preprocessing](https://github.com/h9-tec/Arabic_nlp_preprocessing) | NLP preprocessing for Arabic text. |
+| LLMs Collection | [github.com/IbrahimSobh/llms](https://github.com/IbrahimSobh/llms) | Collection of large language models. |
+| Deep Learning Tips & Tricks | [github.com/h9-tec/Deep_learning_models_tips_tricks](https://github.com/h9-tec/Deep_learning_models_tips_tricks) | Tips for DL models. |
+| ML YouTube Courses | [github.com/dair-ai/ML-YouTube-Courses](https://github.com/dair-ai/ML-YouTube-Courses) | Curated ML YouTube courses. |
+| Awesome Computer Vision | [github.com/jbhuang0604/awesome-computer-vision](https://github.com/jbhuang0604/awesome-computer-vision) | Curated CV resources (duplicate for emphasis). |
+| Real-Time Object Distance Measurement | [github.com/lucifertrj/Real-Time-Object-Distance-Measurement](https://github.com/lucifertrj/Real-Time-Object-Distance-Measurement) | Real-time distance measurement using CV. |
+| YOLOs C++ | [github.com/Geekgineer/YOLOs-CPP](https://github.com/Geekgineer/YOLOs-CPP) | YOLO implementations in C++. |
+| Awesome Computer Vision | [github.com/jbhuang0604/awesome-computer-vision](https://github.com/jbhuang0604/awesome-computer-vision) | Awesome CV list (duplicate for emphasis). |
+| ML For Beginners (Microsoft) | [github.com/microsoft/ML-For-Beginners](https://github.com/microsoft/ML-For-Beginners) | ML for beginners, with robotics applications. |
+| Start Machine Learning | [github.com/louisfb01/start-machine-learning](https://github.com/louisfb01/start-machine-learning) | Starter guide for ML (duplicate for emphasis). |
+| 365 Data Science | [365datascience.com/](https://365datascience.com/) | Data science learning platform. |
+| Awesome Computer Vision | [github.com/jbhuang0604/awesome-computer-vision](https://github.com/jbhuang0604/awesome-computer-vision) | Awesome CV (duplicate for emphasis). |
+| Deep Learning Drizzle | [deep-learning-drizzle.github.io/](https://deep-learning-drizzle.github.io/) | DL resources and papers. |
+| DeepLearning.AI | [deeplearning.ai/](https://www.deeplearning.ai/) | DL courses and resources. |
+
+### Books
+| Name | Link | Description |
+|------|------|-------------|
+| Deep Learning on Embedded Systems | [dokumen.pub/deep-learning-on-embedded-systems-a-hands-on-approach-using-jetson-nano-and-raspberry-pi-first-edition-9781394269273-9781394269266-9781394269280-9781394269297.html](https://dokumen.pub/deep-learning-on-embedded-systems-a-hands-on-approach-using-jetson-nano-and-raspberry-pi-first-edition-9781394269273-9781394269266-9781394269280-9781394269297.html) | Hands-on DL for embedded systems like Jetson Nano. |
+| Deep Learning Book | [deeplearningbook.org](https://www.deeplearningbook.org/) | Free book on deep learning fundamentals. |
+
+### Courses and Tutorials
+| Name | Link | Description |
+|------|------|-------------|
+| Machine Learning Specialization (Coursera) | [coursera.org/specializations/machine-learning-introduction](https://www.coursera.org/specializations/machine-learning-introduction) | Intro to ML with practical projects. |
+| NVIDIA CUDA C Programming Guide | [docs.nvidia.com/cuda/cuda-c-programming-guide/index.html](https://docs.nvidia.com/cuda/cuda-c-programming-guide/index.html) | Guide to CUDA programming for GPU acceleration. |
+| NVIDIA CUDA Contents | [docs.nvidia.com/cuda/cuda-c-programming-guide/contents.html](https://docs.nvidia.com/cuda/cuda-c-programming-guide/contents.html) | Detailed CUDA contents. |
+| Object Tracking Guide | [encord.com/blog/object-tracking-guide/](https://encord.com/blog/object-tracking-guide/) | Guide to object tracking in CV. |
+| Edge AI Foundation | [edgeaifoundation.org/](https://edgeaifoundation.org/) | Foundation for edge AI in embedded systems. |
+| AI-900 Microsoft Course | [learn.microsoft.com/en-us/training/courses/ai-900t00](https://learn.microsoft.com/en-us/training/courses/ai-900t00) | AI fundamentals course. |
+| Hesham Asem Playlists | [youtube.com/@HeshamAsem/playlists](https://www.youtube.com/@HeshamAsem/playlists) | Playlists on AI and ML topics. |
+| DL YouTube Courses | [github.com/dair-ai/ML-YouTube-Courses](https://github.com/dair-ai/ML-YouTube-Courses) | Curated ML YouTube courses. |
+| GPU Architecture Series | [youtube.com/watch?v=3iHag4k4yEg&list=PLFhc0MFC8MiCDOh3cGFji3qQfXziB9yOw](https://www.youtube.com/watch?v=3iHag4k4yEg&list=PLFhc0MFC8MiCDOh3cGFji3qQfXziB9yOw) | Series on GPU architecture. |
+| Awesome Computer Vision | [github.com/jbhuang0604/awesome-computer-vision](https://github.com/jbhuang0604/awesome-computer-vision) | Awesome CV resources (duplicate for emphasis). |
+| Real-Time Object Distance Measurement | [github.com/lucifertrj/Real-Time-Object-Distance-Measurement](https://github.com/lucifertrj/Real-Time-Object-Distance-Measurement) | Real-time distance measurement using CV. |
+| YOLOs C++ | [github.com/Geekgineer/YOLOs-CPP](https://github.com/Geekgineer/YOLOs-CPP) | YOLO in C++ for object detection. |
+| AI for Beginners (Microsoft) | [microsoft.github.io/AI-For-Beginners/](https://microsoft.github.io/AI-For-Beginners/) | AI intro for beginners. |
+| Start Machine Learning | [github.com/louisfb01/start-machine-learning](https://github.com/louisfb01/start-machine-learning) | Starter guide for ML. |
+| 365 Data Science | [365datascience.com/](https://365datascience.com/) | Data science platform. |
+| Awesome Computer Vision | [github.com/jbhuang0604/awesome-computer-vision](https://github.com/jbhuang0604/awesome-computer-vision) | Awesome CV (duplicate for emphasis). |
+| Deep Learning Drizzle | [deep-learning-drizzle.github.io/](https://deep-learning-drizzle.github.io/) | DL resources. |
+| DataCamp | [datacamp.com/](https://www.datacamp.com/) | Data science and ML courses. |
+| ML Roadmap and Projects | [github.com/h9-tec/Machine-learning-roadmap-and-projects](https://github.com/h9-tec/Machine-learning-roadmap-and-projects) | Roadmap and projects for ML. |
+| Stanford Machine Learning Course | [youtube.com/playlist?list=PLoROMvodv4rMiGQp3WXShtMGgzqpfVfbU](https://www.youtube.com/playlist?list=PLoROMvodv4rMiGQp3WXShtMGgzqpfVfbU) | Stanford's ML course videos. |
+| Awesome Computer Vision | [github.com/jbhuang0604/awesome-computer-vision](https://github.com/jbhuang0604/awesome-computer-vision) | Awesome CV (duplicate for emphasis). |
+| Deep Learning Drizzle | [deep-learning-drizzle.github.io/](https://deep-learning-drizzle.github.io/) | DL resources (duplicate for emphasis). |
+| DeepLearning.AI | [deeplearning.ai/](https://www.deeplearning.ai/) | DL courses (duplicate for emphasis). |
+
+### Papers
+| Name | Link | Description |
+|------|------|-------------|
+| New Neural Network with 500 Billion Parameters | [mltechniques.com/2022/04/05/new-neural-network-with-500-billion-parameters/](https://mltechniques.com/2022/04/05/new-neural-network-with-500-billion-parameters/) | Paper on large-scale neural networks. |
+
+### YouTube Channels and Videos
+| Name | Link | Description |
+|------|------|-------------|
+| Neural Network Lecture | [youtube.com/watch?v=i_LwzRVP7bg&list=PLWKjhJtqVAblStefaz_YOVpDWqcRScc2s](https://www.youtube.com/watch?v=i_LwzRVP7bg&list=PLWKjhJtqVAblStefaz_YOVpDWqcRScc2s) | Lecture on neural networks. |
+| DL YouTube Courses | [github.com/dair-ai/ML-YouTube-Courses](https://github.com/dair-ai/ML-YouTube-Courses) | Curated DL YouTube courses. |
+| GPU Architecture Series | [youtube.com/watch?v=3iHag4k4yEg&list=PLFhc0MFC8MiCDOh3cGFji3qQfXziB9yOw](https://www.youtube.com/watch?v=3iHag4k4yEg&list=PLFhc0MFC8MiCDOh3cGFji3qQfXziB9yOw) | Series on GPU architecture. |
+| DL YouTube Courses | [github.com/dair-ai/ML-YouTube-Courses](https://github.com/dair-ai/ML-YouTube-Courses) | Curated DL YouTube courses (duplicate for emphasis). |
+
+### Platforms and Datasets
+| Name | Link | Description |
+|------|------|-------------|
+| Kaggle | [kaggle.com/](https://www.kaggle.com/) | Platform for datasets and ML competitions. |
+| OpenCV AI Engineer Roadmap | [opencv.org/blog/ai-engineer-roadmap/](https://opencv.org/blog/ai-engineer-roadmap/) | Roadmap for AI engineers using OpenCV. |
+| Deep Learning Drizzle | [deep-learning-drizzle.github.io/](https://deep-learning-drizzle.github.io/) | DL resources and papers (duplicate for emphasis). |
+| DataCamp | [datacamp.com/](https://www.datacamp.com/) | Data science courses (duplicate for emphasis). |
+| ML Roadmap and Projects | [github.com/h9-tec/Machine-learning-roadmap-and-projects](https://github.com/h9-tec/Machine-learning-roadmap-and-projects) | ML roadmap and projects (duplicate for emphasis). |
+| Stanford Machine Learning Course | [youtube.com/playlist?list=PLoROMvodv4rMiGQp3WXShtMGgzqpfVfbU](https://www.youtube.com/playlist?list=PLoROMvodv4rMiGQp3WXShtMGgzqpfVfbU) | Stanford's ML course (duplicate for emphasis). |
+| Awesome Computer Vision | [github.com/jbhuang0604/awesome-computer-vision](https://github.com/jbhuang0604/awesome-computer-vision) | Awesome CV resources (duplicate for emphasis). |
+| Deep Learning Drizzle | [deep-learning-drizzle.github.io/](https://deep-learning-drizzle.github.io/) | DL resources (duplicate for emphasis). |
+| 365 Data Science | [365datascience.com/](https://365datascience.com/) | Data science platform (duplicate for emphasis). |
+| Awesome Computer Vision | [github.com/jbhuang0604/awesome-computer-vision](https://github.com/jbhuang0604/awesome-computer-vision) | Awesome CV (duplicate for emphasis). |
+| Deep Learning Drizzle | [deep-learning-drizzle.github.io/](https://deep-learning-drizzle.github.io/) | DL resources (duplicate for emphasis). |
+| DeepLearning.AI | [deeplearning.ai/](https://www.deeplearning.ai/) | DL courses (duplicate for emphasis). |
+
+## Projects
+These projects leverage the provided resources to build practical AI/ML skills, inspired by my competition experience. See `/projects/` for code and documentation.
+
+- **Jetson Vision Model**: Implement a real-time vision model using [Jetson Inference](https://github.com/dusty-nv/jetson-inference) for F1TENTH vehicle detection. (Intermediate, robotics-focused.)
+- **SHAP Model Interpretation**: Use [SHAP](https://github.com/shap/shap) to explain a ML model for sensor data in Shell Eco-marathon optimization. (Advanced, explainable AI.)
+- **CrewAI Agent for Robotics**: Build an AI agent using [CrewAI](https://github.com/crewAIInc/crewAI) for task automation in autonomous systems. (Intermediate, agent-based.)
+- **ColossalAI Large Model Training**: Train a large model using [ColossalAI](https://github.com/hpcaitech/ColossalAI) for robotics data. (Advanced, scalable DL.)
+- **Segment Anything for Robotics**: Apply [Segment Anything](https://github.com/facebookresearch/segment-anything) to segment objects in robot camera feeds. (Intermediate, CV project.)
+- **Prompt Engineering for LLMs**: Create prompts for robotics tasks using [Prompt Engineering Guide](https://github.com/dair-ai/Prompt-Engineering-Guide). (Beginner, LLM-focused.)
+- **RAG Technique Implementation**: Implement Retrieval-Augmented Generation using [RAG Techniques](https://github.com/NirDiamant/RAG_Techniques) for a robotics Q&A system. (Advanced, GenAI.)
+- **Made-With-ML Pipeline**: Build an ML pipeline using [Made With ML](https://github.com/GokuMohandas/Made-With-ML) for autonomous vehicle data. (Intermediate, ML engineering.)
+- **PyTorch DL Model**: Train a model using [PyTorch Deep Learning](https://github.com/mrdbourke/pytorch-deep-learning) for image classification in robotics. (Beginner, DL hands-on.)
+- **DMLS Book Project**: Implement a chapter project from [DMLS Book](https://github.com/chiphuyen/dmls-book) for designing an ML system in robotics. (Advanced, system design.)
+- **Open3D-ML Point Cloud Processing**: Process 3D data using [Open3D-ML](https://github.com/isl-org/Open3D-ML) for robot perception. (Intermediate, 3D ML.)
+- **SALT Framework Application**: Use [SALT](https://github.com/anuragxel/salt) for a simple ML task in robotics. (Beginner, framework intro.)
+- **365 Days CV Challenge**: Complete a CV project from [365 Days CV Learning](https://github.com/ashishpatel26/365-Days-Computer-Vision-Learning-Linkedin-Post) for object detection. (Intermediate, daily challenge.)
+- **CUDA Python Acceleration**: Accelerate a ML model using [CUDA Python](https://github.com/NVIDIA/cuda-python) for GPU performance in robotics. (Advanced, GPU programming.)
+- **CuPy Array Processing**: Use [CuPy](https://github.com/cupy/cupy) for array operations in a robotics simulation. (Intermediate, GPU NumPy.)
+- **Jetson Inference Robotics Vision**: Apply [Jetson Inference](https://github.com/dusty-nv/jetson-inference) for real-time vision on embedded hardware. (Intermediate, embedded DL.)
+- **EmLearn Embedded ML**: Deploy a ML model on microcontroller using [EmLearn](https://github.com/emlearn/emlearn) for robot edge computing. (Advanced, embedded ML.)
+- **Arabic NLP Preprocessing**: Preprocess Arabic text for NLP tasks using [Arabic NLP Preprocessing](https://github.com/h9-tec/Arabic_nlp_preprocessing) in a multilingual robot system. (Intermediate, NLP.)
+- **LLMs Collection**: Experiment with LLMs using [LLMs Collection](https://github.com/IbrahimSobh/llms) for robot natural language processing. (Advanced, LLMs.)
+- **DL Tips & Tricks**: Apply tips from [Deep Learning Tips & Tricks](https://github.com/h9-tec/Deep_learning_models_tips_tricks) to optimize a model for robotics. (Intermediate, DL optimization.)
+- **ML YouTube Courses**: Follow a course from [ML YouTube Courses](https://github.com/dair-ai/ML-YouTube-Courses) to build a simple ML project. (Beginner, video-based learning.)
+- **Awesome Computer Vision**: Build a CV project using resources from [Awesome Computer Vision](https://github.com/jbhuang0604/awesome-computer-vision) for robot vision. (Intermediate, CV-focused.)
+- **Real-Time Object Distance Measurement**: Implement [Real-Time Object Distance Measurement](https://github.com/lucifertrj/Real-Time-Object-Distance-Measurement) for robot navigation. (Intermediate, CV project.)
+- **YOLOs C++**: Use [YOLOs C++](https://github.com/Geekgineer/YOLOs-CPP) for object detection in a robotics application. (Advanced, C++ DL.)
+- **ML For Beginners**: Complete a beginner project from [ML For Beginners (Microsoft)](https://github.com/microsoft/ML-For-Beginners) for robotics data classification. (Beginner, intro ML.)
+- **Start Machine Learning**: Build a simple ML model using [Start Machine Learning](https://github.com/louisfb01/start-machine-learning) for sensor data. (Beginner, starter guide.)
+- **365 Data Science**: Analyze robotics data using resources from [365 Data Science](https://365datascience.com/). (Intermediate, data science.)
+- **Deep Learning Drizzle**: Review papers from [Deep Learning Drizzle](https://deep-learning-drizzle.github.io/) and implement a DL technique. (Advanced, paper-based.)
+- **DataCamp**: Complete a DataCamp course on ML and apply it to a robotics dataset. (Beginner, interactive learning.)
+- **ML Roadmap and Projects**: Follow the [ML Roadmap and Projects](https://github.com/h9-tec/Machine-learning-roadmap-and-projects) to build a full ML pipeline for autonomous navigation. (Intermediate, roadmap-driven.)
+- **Stanford Machine Learning Course**: Implement a project from [Stanford Machine Learning Course](https://www.youtube.com/playlist?list=PLoROMvodv4rMiGQp3WXShtMGgzqpfVfbU) for robot learning. (Advanced, course-based.)
+- **Awesome Computer Vision**: Develop a vision system using [Awesome Computer Vision](https://github.com/jbhuang0604/awesome-computer-vision). (Intermediate, CV project.)
+- **Deep Learning Drizzle**: Explore DL papers from [Deep Learning Drizzle](https://deep-learning-drizzle.github.io/) for a robotics DL project. (Advanced, research-focused.)
+- **365 Data Science**: Use [365 Data Science](https://365datascience.com/) for data analysis in robotics. (Intermediate, data-focused.)
+- **Awesome Computer Vision**: Build another CV project from [Awesome Computer Vision](https://github.com/jbhuang0604/awesome-computer-vision). (Intermediate, CV duplicate for emphasis.)
+- **Deep Learning Drizzle**: Implement a DL technique from [Deep Learning Drizzle](https://deep-learning-drizzle.github.io/) for robot perception. (Advanced, DL duplicate for emphasis.)
+- **DeepLearning.AI**: Complete a course project from [DeepLearning.AI](https://www.deeplearning.ai/) for DL in robotics. (Intermediate, course duplicate for emphasis.)
+
+
 
 # Systems and Hardware
 
