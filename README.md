@@ -269,3 +269,275 @@ Research, innovation, and teaching others.
 - [Project Euler](https://projecteuler.net/)  
 - [Google Code Jam](https://codingcompetitions.withgoogle.com/codejam)  
 
+
+## Foundations of Computer Engineering 
+
+# Foundations of Computer Engineering Repository
+
+Welcome to the **Foundations of Computer Engineering** section of my GitHub repository, documenting my journey as a computer engineering student aiming to become a full-rounded engineer with a passion for robotics and autonomous vehicles. This section covers **CS/CE Fundamentals** and **Mathematics**, forming the bedrock for advanced topics like robotics, AI, and self-driving systems. Using a **trinity approach** (Books, Courses/Tutorials/Papers, Projects), this roadmap progresses from beginner to advanced levels, with hands-on projects tailored to robotics applications and my experience in autonomous vehicle competitions.
+
+## Table of Contents
+- [Overview](#overview)
+- [Roadmap Structure](#roadmap-structure)
+  - [CS/CE Fundamentals](#csce-fundamentals)
+    - [Introduction to CS/CE](#introduction-to-csce)
+    - [Beginner Level: Core Basics](#beginner-level-core-basics)
+    - [Intermediate Level: Building Blocks](#intermediate-level-building-blocks)
+    - [Advanced Level: Applied Systems](#advanced-level-applied-systems)
+  - [Mathematics](#mathematics)
+    - [Beginner Level: Core Basics](#beginner-level-core-basics-1)
+    - [Intermediate Level: Building Blocks](#intermediate-level-building-blocks-1)
+    - [Advanced Level: Applied Mathematics](#advanced-level-applied-mathematics)
+- [Repository Structure](#repository-structure)
+- [How to Use This Repository](#how-to-use-this-repository)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Overview
+This section is designed to:
+- Provide a **structured roadmap** for mastering the foundational skills of computer engineering, split into CS/CE Fundamentals and Mathematics.
+- Curate high-quality **resources** (books, courses, tutorials, papers) for each topic to support learning.
+- Showcase **projects** that demonstrate practical skills, from basic programming to robotics-relevant applications like pathfinding or sensor interfacing.
+- Integrate with my broader repo, connecting to areas like Robotics and AI, and highlighting my autonomous vehicle competition experience.
+
+The roadmap is divided into **CS/CE Fundamentals** (software, hardware, and systems) and **Mathematics** (supporting robotics, AI, and control systems), with topics organized into Beginner, Intermediate, and Advanced levels. Each topic includes resources and projects stored in dedicated folders.
+
+## Roadmap Structure
+
+### CS/CE Fundamentals
+This subcategory covers the core skills of computer science and engineering, from programming to hardware, with an emphasis on applications in robotics and autonomous systems. An introductory topic sets the context, connecting software and hardware to your engineering journey.
+
+#### Introduction to CS/CE
+**Objective**: Understand the scope of computer engineering, the interplay of hardware and software, and its relevance to robotics and autonomous systems.
+- **Books**:
+  - ["Computer Science Illuminated" by Nell Dale and John Lewis](https://www.amazon.com/Computer-Science-Illuminated-Nell-Dale/dp/1284155617) - Broad overview of CS and CE concepts.
+  - ["The Art of Computer Programming, Vol. 1" by Donald Knuth](https://www.amazon.com/Art-Computer-Programming-Fundamental-Algorithms/dp/0201896834) - Foundational CS text.
+  - ["Computer Organization and Design" by David A. Patterson and John L. Hennessy](https://www.amazon.com/Computer-Organization-Design-RISC-V-Architecture/dp/0128203315) - Hardware-software interplay.
+- **Courses/Tutorials/Papers**:
+  - **Course**: [CS50’s Introduction to Computer Science](https://www.edx.org/course/cs50s-introduction-to-computer-science) (Harvard, free) - Comprehensive CS intro.
+  - **Course**: [Introduction to Computer Engineering](https://www.coursera.org/learn/introduction-to-computer-engineering) (LearnQuest, free audit) - CE overview.
+  - **Tutorial**: [Computer Science Basics](https://www.khanacademy.org/computing/computer-science) (Khan Academy, free) - Beginner-friendly guide.
+  - **Tutorial**: [What is Computer Engineering?](https://www.youtube.com/watch?v=4Y0t3x2QwvI) (CrashCourse, YouTube) - Short video intro.
+  - **Paper**: ["The Computer for the 21st Century" by Mark Weiser, 1991](https://www.ics.uci.edu/~corps/phaseii/Weiser-Computer21stCentury-SciAm.pdf) - Vision of ubiquitous computing.
+- **Projects** (see `/CS_CE_Fundamentals/Introduction`):
+  - Create a **markdown summary** of CS/CE fields and their role in robotics (`/docs/csce_overview.md`).
+  - Build a **binary-to-decimal converter** in Python to understand number systems.
+  - Simulate a **basic logic gate circuit** using a tool like Logisim ([Logisim](http://www.cburch.com/logisim/)).
+  - Develop a **Jupyter notebook** explaining hardware-software interplay in autonomous vehicles.
+
+#### Beginner Level: Core Basics
+##### 1. Programming Paradigms and Design
+**Objective**: Master basic programming, structured programming, OOP, and design patterns for modular, reusable code.
+- **Books**:
+  - ["Python Crash Course" by Eric Matthes](https://www.amazon.com/Python-Crash-Course-Eric-Matthes/dp/1593279280) - Comprehensive Python guide.
+  - ["C++ Primer" by Stanley B. Lippman](https://www.amazon.com/C-Primer-Stanley-B-Lippman/dp/0321714113) - C++ for robotics programming.
+  - ["Head First Design Patterns" by Eric Freeman and Elisabeth Robson](https://www.amazon.com/Head-First-Design-Patterns-Brain-Friendly/dp/0596007124) - Accessible design patterns.
+  - ["Clean Code" by Robert C. Martin](https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882) - Writing maintainable code.
+- **Courses/Tutorials/Papers**:
+  - **Course**: [Python for Everybody](https://www.coursera.org/specializations/python) (University of Michigan, free audit) - Python fundamentals.
+  - **Course**: [C++ For C Programmers](https://www.coursera.org/learn/c-plus-plus-a) (UC Santa Cruz, free audit) - C++ for structured programming.
+  - **Course**: [Object-Oriented Programming in Python](https://www.datacamp.com/courses/object-oriented-programming-in-python) (DataCamp, free trial) - OOP concepts.
+  - **Course**: [Design Patterns](https://www.coursera.org/learn/design-patterns) (University of Alberta, free audit) - Software design principles.
+  - **Tutorial**: [Learn Python - Full Course](https://www.youtube.com/watch?v=rfscVS0vtbw) (freeCodeCamp, YouTube) - Hands-on Python.
+  - **Tutorial**: [C++ Tutorial](https://www.learncpp.com/) - Comprehensive C++ guide.
+  - **Tutorial**: [Design Patterns in Python](https://refactoring.guru/design-patterns/python) - Practical patterns.
+  - **Paper**: ["Design Patterns: Elements of Reusable Object-Oriented Software" by Gamma et al., 1994](https://www.amazon.com/Design-Patterns-Elements-Reusable-Object-Oriented/dp/0201633612) - Foundational patterns.
+- **Projects** (see `/CS_CE_Fundamentals/Programming_Paradigms`):
+  - Build a **task manager** in Python using functions and lists for structured programming.
+  - Create a **robot simulator class** in C++ using OOP (e.g., Robot class with move/turn methods).
+  - Implement the **Singleton pattern** for a sensor data logger in Python.
+  - Develop a **simple ROS node** using OOP principles for robot control ([ROS Tutorials](http://wiki.ros.org/ROS/Tutorials)).
+  - Create a **Jupyter notebook** comparing procedural vs. OOP approaches for a robotics task.
+
+##### 2. Data Structures and Algorithms (Basics)
+**Objective**: Learn fundamental data structures and algorithms for efficient coding.
+- **Books**:
+  - ["Introduction to Algorithms" by Thomas H. Cormen et al.](https://www.amazon.com/Introduction-Algorithms-3rd-MIT-Press/dp/0262033844) - Standard algorithms text.
+  - ["Data Structures and Algorithms in Python" by Michael T. Goodrich et al.](https://www.amazon.com/Data-Structures-Algorithms-Python-Goodrich/dp/1118290275) - Python-based guide.
+  - ["Algorithms Unlocked" by Thomas H. Cormen](https://www.amazon.com/Algorithms-Unlocked-Press-Thomas-Cormen/dp/0262518805) - Beginner-friendly.
+- **Courses/Tutorials/Papers**:
+  - **Course**: [Algorithms, Part I](https://www.coursera.org/learn/algorithms-part1) (Princeton, free audit) - Covers basic algorithms.
+  - **Course**: [Data Structures](https://www.coursera.org/learn/data-structures) (UC San Diego, free audit) - Foundational data structures.
+  - **Course**: [Python Data Structures](https://www.coursera.org/learn/python-data-structures) (University of Michigan, free audit).
+  - **Tutorial**: [Data Structures Easy to Advanced](https://www.youtube.com/watch?v=RBSGKlAvoiM) (freeCodeCamp, YouTube).
+  - **Tutorial**: [Big-O Notation](https://www.geeksforgeeks.org/analysis-algorithms-big-o-analysis/) - Complexity basics.
+  - **Tutorial**: [Sorting Algorithms](https://www.tutorialspoint.com/data_structures_algorithms/sorting_algorithms.htm) - Practical guide.
+  - **Paper**: ["An Empirical Study of Sorting Algorithms" by Sedgewick, 1998](https://www.cs.princeton.edu/~rs/AlgsDS07/18Sorting.pdf) - Sorting analysis.
+- **Projects** (see `/CS_CE_Fundamentals/Data_Structures_Algorithms_Basics`):
+  - Implement a **stack-based calculator** in Python for arithmetic expressions.
+  - Build a **binary search algorithm** for a sorted dataset ([UCI Iris Dataset](https://archive.ics.uci.edu/ml/datasets/iris)).
+  - Create a **linked list** for managing robot sensor data in C++.
+  - Develop a **sorting visualizer** using Python and Tkinter.
+  - Simulate a **queue** for task scheduling in a robotic system.
+
+##### 3. Electronics Fundamentals
+**Objective**: Understand basic circuits, components, and sensors for hardware applications.
+- **Books**:
+  - ["Practical Electronics for Inventors" by Paul Scherz and Simon Monk](https://www.amazon.com/Practical-Electronics-Inventors-Fourth-Scherz/dp/1259587541) - Hands-on electronics guide.
+  - ["The Art of Electronics" by Paul Horowitz and Winfield Hill](https://www.amazon.com/Art-Electronics-Paul-Horowitz/dp/0521809266) - Comprehensive electronics text.
+  - ["Make: Electronics" by Charles Platt](https://www.amazon.com/Make-Electronics-Learning-Through-Discovery/dp/1680450263) - Beginner-friendly.
+- **Courses/Tutorials/Papers**:
+  - **Course**: [Electronics Fundamentals](https://www.coursera.org/learn/electronics) (University of Colorado, free audit).
+  - **Course**: [Introduction to Electronics](https://www.coursera.org/learn/introduction-electronics) (Georgia Tech, free audit).
+  - **Course**: [Circuits and Electronics](https://www.edx.org/course/circuits-and-electronics-1-basic-circuit-analysis) (MIT, free).
+  - **Tutorial**: [Electronics Tutorials](https://www.electronics-tutorials.ws/) - Practical circuit guides.
+  - **Tutorial**: [All About Circuits](https://www.allaboutcircuits.com/) - Free electronics tutorials.
+  - **Tutorial**: [SparkFun Electronics Basics](https://learn.sparkfun.com/tutorials/electronics-basics) - Sensor/actuator intro.
+  - **Paper**: ["A Tutorial on Basic Circuit Theory" by IEEE, 2000](https://ieeexplore.ieee.org/document/8684723) - Circuit basics.
+- **Projects** (see `/CS_CE_Fundamentals/Electronics`):
+  - Build a **LED blinking circuit** with Arduino and analyze voltage drops.
+  - Create a **sensor interface** for a temperature sensor (e.g., LM35) with Arduino.
+  - Simulate a **logic gate circuit** using Logisim ([Logisim](http://www.cburch.com/logisim/)).
+  - Develop a **Jupyter notebook** modeling Ohm’s law for robot motor circuits.
+  - Construct a **simple robot motor driver** using transistors and breadboard.
+
+#### Intermediate Level: Building Blocks
+##### 4. Computer Architecture and Organization
+**Objective**: Understand CPU architecture, memory systems, and low-level programming.
+- **Books**:
+  - ["Computer Organization and Design" by David A. Patterson and John L. Hennessy](https://www.amazon.com/Computer-Organization-Design-RISC-V-Architecture/dp/0128203315) - Standard text.
+  - ["Structured Computer Organization" by Andrew S. Tanenbaum](https://www.amazon.com/Structured-Computer-Organization-Andrew-Tanenbaum/dp/0132916525) - Architecture basics.
+  - ["Digital Design and Computer Architecture" by Sarah Harris and David Harris](https://www.amazon.com/Digital-Design-Computer-Architecture-RISC-V/dp/0128200642) - RISC-V focus.
+- **Courses/Tutorials/Papers**:
+  - **Course**: [Computer Architecture](https://www.coursera.org/learn/comparch) (Princeton, free audit).
+  - **Course**: [Computer Organization](https://www.udemy.com/course/computer-organization-and-architecture/) (Udemy, paid but often discounted).
+  - **Course**: [RISC-V Architecture](https://www.edx.org/course/risc-v-computer-architecture) (UC Berkeley, free).
+  - **Tutorial**: [Computer Architecture Tutorials](https://www.geeksforgeeks.org/computer-organization-and-architecture-tutorials/) - Practical guide.
+  - **Tutorial**: [Assembly Language Programming](https://www.tutorialspoint.com/assembly_programming/index.htm) - Assembly basics.
+  - **Tutorial**: [Cache Memory Explained](https://www.youtube.com/watch?v=6xWLT3j9T5o) (YouTube, Neso Academy).
+  - **Paper**: ["The Case for RISC-V" by Patterson and Waterman, 2017](https://riscv.org/wp-content/uploads/2017/05/riscv-spec-v2.2.pdf) - RISC-V intro.
+- **Projects** (see `/CS_CE_Fundamentals/Computer_Architecture`):
+  - Write an **assembly program** for basic arithmetic on a RISC-V simulator ([RARS](https://github.com/TheThirdOne/rars)).
+  - Simulate a **CPU pipeline** using a tool like Verilog or VHDL.
+  - Create a **memory hierarchy analyzer** to study cache performance in C++.
+  - Build a **Jupyter notebook** visualizing instruction execution in a CPU.
+  - Design a **simple ALU** in Logisim for robotics control signals.
+
+##### 5. Operating Systems
+**Objective**: Master processes, scheduling, memory management, and RTOS for real-time systems.
+- **Books**:
+  - ["Operating System Concepts" by Abraham Silberschatz et al.](https://www.amazon.com/Operating-System-Concepts-Abraham-Silberschatz/dp/1119800366) - Standard OS text.
+  - ["Modern Operating Systems" by Andrew S. Tanenbaum](https://www.amazon.com/Modern-Operating-Systems-Andrew-Tanenbaum/dp/013359162X) - Comprehensive guide.
+  - ["Real-Time Systems" by Jane W. S. Liu](https://www.amazon.com/Real-Time-Systems-Jane-W-S-Liu/dp/0130996513) - RTOS focus.
+- **Courses/Tutorials/Papers**:
+  - **Course**: [Operating Systems and You](https://www.coursera.org/learn/os-power-user) (Google, free audit).
+  - **Course**: [Introduction to Operating Systems](https://www.udacity.com/course/introduction-to-operating-systems--ud923) (Udacity, free).
+  - **Course**: [Real-Time Embedded Systems](https://www.coursera.org/learn/real-time-embedded-systems-concepts) (University of Colorado, free audit).
+  - **Tutorial**: [OS Tutorial](https://www.geeksforgeeks.org/operating-systems/) - Comprehensive guide.
+  - **Tutorial**: [RTOS Basics](https://www.freertos.org/FreeRTOS-quick-start-guide.html) - FreeRTOS intro.
+  - **Tutorial**: [Linux Kernel Basics](https://www.tutorialspoint.com/linux_admin/index.htm) - Linux OS guide.
+  - **Paper**: ["The Design of the UNIX Operating System" by Maurice J. Bach, 1986](https://www.amazon.com/Design-UNIX-Operating-System/dp/0132017997) - Classic OS design.
+- **Projects** (see `/CS_CE_Fundamentals/Operating_Systems`):
+  - Implement a **process scheduler** in C simulating round-robin scheduling.
+  - Build a **memory allocator** in C++ for a simple OS kernel.
+  - Create a **real-time task manager** using FreeRTOS on Arduino.
+  - Develop a **file system explorer** in Python to simulate OS file operations.
+  - Simulate a **thread synchronization** problem (e.g., producer-consumer) for robotics tasks.
+
+##### 6. Databases
+**Objective**: Learn relational/NoSQL databases, design, and querying for data management.
+- **Books**:
+  - ["Database Systems: The Complete Book" by Hector Garcia-Molina et al.](https://www.amazon.com/Database-Systems-Complete-Book-2nd/dp/0131873253) - Comprehensive guide.
+  - ["SQL in 10 Minutes, Sams Teach Yourself" by Ben Forta](https://www.amazon.com/SQL-Minutes-Sams-Teach-Yourself/dp/0135182794) - Quick SQL intro.
+  - ["NoSQL Distilled" by Pramod J. Sadalage and Martin Fowler](https://www.amazon.com/NoSQL-Distilled-Emerging-Polyglot-Persistence/dp/0321826620) - NoSQL basics.
+- **Courses/Tutorials/Papers**:
+  - **Course**: [Introduction to Databases](https://www.coursera.org/learn/intro-databases) (Stanford, free audit).
+  - **Course**: [SQL for Data Science](https://www.coursera.org/learn/sql-for-data-science) (UC Davis, free audit).
+  - **Course**: [NoSQL Databases](https://www.udemy.com/course/nosql-databases/) (Udemy, paid but often discounted).
+  - **Tutorial**: [SQL Tutorial](https://www.w3schools.com/sql/) - Interactive SQL guide.
+  - **Tutorial**: [MongoDB Tutorial](https://www.mongodb.com/docs/manual/tutorial/) - Official NoSQL guide.
+  - **Tutorial**: [Database Normalization](https://www.datacamp.com/community/tutorials/database-normalization) - Practical guide.
+  - **Paper**: ["A Relational Model of Data for Large Shared Data Banks" by E.F. Codd, 1970](https://dl.acm.org/doi/10.1145/362384.362685) - Relational DB foundation.
+- **Projects** (see `/CS_CE_Fundamentals/Databases`):
+  - Build a **SQL database** for storing robot sensor logs ([SQLite](https://www.sqlite.org/)).
+  - Create a **NoSQL database** with MongoDB for autonomous vehicle telemetry.
+  - Develop a **query optimizer** to retrieve competition data efficiently.
+  - Implement a **database schema** for a robotics competition leaderboard.
+  - Create a **data visualization dashboard** for sensor data using Python and SQL.
+
+#### Advanced Level: Applied Systems
+##### 7. Data Structures and Algorithms (Advanced)
+**Objective**: Master advanced data structures and algorithms for optimization and robotics applications.
+- **Books**:
+  - ["Algorithms" by Robert Sedgewick and Kevin Wayne](https://www.amazon.com/Algorithms-4th-Robert-Sedgewick/dp/032157351X) - Advanced algorithms guide.
+  - ["Advanced Data Structures" by Peter Brass](https://www.amazon.com/Advanced-Data-Structures-Peter-Brass/dp/0521880378) - In-depth data structures.
+  - ["Competitive Programming" by Steven Halim and Felix Halim](https://www.amazon.com/Competitive-Programming-4-Steven-Halim/dp/B08FKG5X33) - Competition-focused.
+- **Courses/Tutorials/Papers**:
+  - **Course**: [Algorithms, Part II](https://www.coursera.org/learn/algorithms-part2) (Princeton, free audit).
+  - **Course**: [Advanced Algorithms and Complexity](https://www.coursera.org/learn/advanced-algorithms-and-complexity) (UC San Diego, free audit).
+  - **Course**: [Competitive Programming](https://www.udemy.com/course/competitive-programming-algorithms-coding-minutes/) (Udemy, paid but often discounted).
+  - **Tutorial**: [Graph Algorithms](https://www.geeksforgeeks.org/graph-data-structure-and-algorithms/) - Practical guide.
+  - **Tutorial**: [Dynamic Programming](https://www.hackerearth.com/practice/algorithms/dynamic-programming/introduction-to-dynamic-programming-1/tutorial/) - DP basics.
+  - **Tutorial**: [A* Pathfinding](https://www.redblobgames.com/pathfinding/a-star/introduction.html) - Robotics-relevant guide.
+  - **Paper**: ["A* Search Algorithm" by Hart et al., 1968](https://ieeexplore.ieee.org/document/4082128) - Pathfinding foundation.
+- **Projects** (see `/CS_CE_Fundamentals/Data_Structures_Algorithms_Advanced`):
+  - Implement **A* pathfinding** for robot navigation ([OpenStreetMap Data](https://www.openstreetmap.org/)).
+  - Build a **minimum spanning tree** for network optimization in C++.
+  - Create a **dynamic programming solution** for a knapsack problem in robotics resource allocation.
+  - Develop a **graph-based route planner** for an autonomous vehicle.
+  - Simulate a **heap-based task scheduler** for real-time robotics tasks.
+
+##### 8. Networks
+**Objective**: Understand network models, protocols, and communication for distributed systems.
+- **Books**:
+  - ["Computer Networking: A Top-Down Approach" by James F. Kurose and Keith W. Ross](https://www.amazon.com/Computer-Networking-Top-Down-Approach-7th/dp/0133594149) - Standard networking text.
+  - ["Data Communications and Networking" by Behrouz A. Forouzan](https://www.amazon.com/Data-Communications-Networking-Behrouz-Forouzan/dp/0073376221) - Comprehensive guide.
+  - ["TCP/IP Illustrated, Vol. 1" by W. Richard Stevens](https://www.amazon.com/TCP-IP-Illustrated-Vol-Protocols/dp/0201633469) - Protocol deep dive.
+- **Courses/Tutorials/Papers**:
+  - **Course**: [Introduction to Computer Networking](https://www.coursera.org/learn/computer-networking) (Stanford, free audit).
+  - **Course**: [Networking Fundamentals](https://www.coursera.org/learn/networking-fundamentals) (Cisco, free audit).
+  - **Course**: [IoT Networking](https://www.coursera.org/learn/iot-networking) (University of Illinois, free audit).
+  - **Tutorial**: [Networking Tutorial](https://www.geeksforgeeks.org/computer-network-tutorials/) - Practical guide.
+  - **Tutorial**: [Socket Programming in Python](https://realpython.com/python-sockets/) - Hands-on networking.
+  - **Tutorial**: [Zigbee for IoT](https://www.digi.com/resources/iot-academy/zigbee) - Robotics-relevant protocol.
+  - **Paper**: ["A Protocol for Packet Network Intercommunication" by Cerf and Kahn, 1974](https://ieeexplore.ieee.org/document/1096887) - TCP/IP foundation.
+- **Projects** (see `/CS_CE_Fundamentals/Networks`):
+  - Build a **client-server chat application** using Python sockets.
+  - Create a **ROS network** for robot-to-robot communication ([ROS Tutorials](http://wiki.ros.org/ROS/Tutorials)).
+  - Simulate **V2V communication** for autonomous vehicles using UDP.
+  - Develop a **network sniffer** to analyze robotics telemetry packets.
+  - Implement a **secure communication protocol** using basic encryption for IoT devices.
+
+##### 9. Microcontrollers and Embedded Systems
+**Objective**: Master microcontroller programming and hardware interfacing for robotics.
+- **Books**:
+  - ["The AVR Microcontroller and Embedded Systems" by Muhammad Ali Mazidi](https://www.amazon.com/AVR-Microcontroller-Embedded-Systems-Using/dp/0138003319) - AVR focus.
+  - ["Embedded Systems with ARM Cortex-M Microcontrollers" by Yifeng Zhu](https://www.amazon.com/Embedded-Systems-ARM-Cortex-M-Microcontrollers/dp/0982692668) - ARM guide.
+  - ["Programming Embedded Systems" by Michael Barr and Anthony Massa](https://www.amazon.com/Programming-Embedded-Systems-Development-Applications/dp/0596009836) - Practical embedded.
+- **Courses/Tutorials/Papers**:
+  - **Course**: [Embedded Systems](https://www.coursera.org/learn/introduction-embedded-systems) (University of Colorado, free audit).
+  - **Course**: [Microcontroller Embedded C Programming](https://www.udemy.com/course/microcontroller-embedded-c-programming/) (Udemy, paid but often discounted).
+  - **Course**: [ARM Cortex-M Programming](https://www.edx.org/course/arm-cortex-m-microcontrollers) (UT Austin, free).
+  - **Tutorial**: [Arduino Tutorials](https://www.arduino.cc/en/Tutorial/HomePage) - Official Arduino guide.
+  - **Tutorial**: [Raspberry Pi Embedded](https://www.raspberrypi.org/documentation/) - Practical guide.
+  - **Tutorial**: [Embedded Systems with STM32](https://www.st.com/content/st_com/en/support/learning/stm32-education.html) - STM32 guide.
+  - **Paper**: ["TinyOS: An Operating System for Sensor Networks" by Levis et al., 2005](https://link.springer.com/chapter/10.1007/11502593_7) - Embedded OS.
+- **Projects** (see `/CS_CE_Fundamentals/Microcontrollers`):
+  - Build a **line-following robot** with Arduino and IR sensors.
+  - Create a **real-time sensor logger** using Raspberry Pi and C.
+  - Implement an **interrupt-driven motor controller** for a robot arm.
+  - Develop a **custom embedded protocol** for sensor-actuator communication.
+  - Simulate a **microcontroller-based PID controller** for robotics stability.
+
+##### 10. Software Engineering
+**Objective**: Learn software development lifecycle, version control, and CI/CD for scalable projects.
+- **Books**:
+  - ["The Pragmatic Programmer" by Andrew Hunt and David Thomas](https://www.amazon.com/Pragmatic-Programmer-journey-mastery-Anniversary/dp/0135957052) - Software best practices.
+  - ["Code Complete" by Steve McConnell](https://www.amazon.com/Code-Complete-Practical-Handbook-Construction/dp/0735619670) - Comprehensive guide.
+  - ["Refactoring" by Martin Fowler](https://www.amazon.com/Refactoring-Improving-Design-Existing-Code/dp/0134757599) - Code improvement.
+- **Courses/Tutorials/Papers**:
+  - **Course**: [Software Engineering Essentials](https://www.coursera.org/learn/software-engineering-essentials) (TUM, free audit).
+  - **Course**: [Agile Development](https://www.coursera.org/specializations/agile-development) (University of Virginia, free audit).
+  - **Course**: [DevOps on AWS](https://www.coursera.org/learn/devops-on-aws) (AWS, free audit).
+  - **Tutorial**: [Git and GitHub Tutorial](https://www.youtube.com/watch?v=RGOj5yH7evk) (freeCodeCamp, YouTube).
+  - **Tutorial**: [CI/CD with GitHub Actions](https://docs.github.com/en/actions) - Official guide.
+  - **Tutorial**: [Unit Testing in Python](https://realpython.com/python-testing/) - Practical testing.
+  - **Paper**: ["A Spiral Model of Software Development" by Barry Boehm, 1988](https://ieeexplore.ieee.org/document/59) - SDLC classic.
+- **Projects** (see `/CS_CE_Fundamentals/Software_Engineering`):
+  - Create a **GitHub CI/CD pipeline** for a robotics project using GitHub Actions.
+  - Develop a **unit-tested ROS node** in Python/C++.
+  - Build a **software requirements doc** for an autonomous vehicle system.
+  - Refactor a **messy codebase** for a robot controller to improve readability.
+  - Implement an **Agile project tracker** for a competition team using Trello API.
+
+
