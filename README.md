@@ -284,14 +284,6 @@ Welcome to the **Foundations of Computer Engineering** section of my GitHub repo
     - [Beginner Level: Core Basics](#beginner-level-core-basics)
     - [Intermediate Level: Building Blocks](#intermediate-level-building-blocks)
     - [Advanced Level: Applied Systems](#advanced-level-applied-systems)
-  - [Mathematics](#mathematics)
-    - [Beginner Level: Core Basics](#beginner-level-core-basics-1)
-    - [Intermediate Level: Building Blocks](#intermediate-level-building-blocks-1)
-    - [Advanced Level: Applied Mathematics](#advanced-level-applied-mathematics)
-- [Repository Structure](#repository-structure)
-- [How to Use This Repository](#how-to-use-this-repository)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Overview
 This section is designed to:
@@ -539,5 +531,217 @@ This subcategory covers the core skills of computer science and engineering, fro
   - Build a **software requirements doc** for an autonomous vehicle system.
   - Refactor a **messy codebase** for a robot controller to improve readability.
   - Implement an **Agile project tracker** for a competition team using Trello API.
+
+
+## Mathematics 
+
+This subcategory provides the mathematical foundation for computer engineering, robotics, AI, and autonomous systems, progressing from basics to robotics-specific applications.
+
+#### Beginner Level: Core Basics
+##### 1. Discrete Mathematics
+**Objective**: Learn sets, logic, combinatorics, and graph theory for algorithms and digital systems.
+- **Books**:
+  - ["Discrete Mathematics and Its Applications" by Kenneth H. Rosen](https://www.amazon.com/Discrete-Mathematics-Applications-Kenneth-Rosen/dp/125967651X) - Standard text.
+  - ["Concrete Mathematics" by Ronald L. Graham et al.](https://www.amazon.com/Concrete-Mathematics-Foundation-Computer-Science/dp/0201558025) - CS-focused math.
+  - ["Introduction to Graph Theory" by Richard J. Trudeau](https://www.amazon.com/Introduction-Graph-Theory-Dover-Mathematics/dp/0486678709) - Graph basics.
+- **Courses/Tutorials/Papers**:
+  - **Course**: [Discrete Mathematics](https://www.coursera.org/learn/discrete-mathematics) (Shanghai Jiao Tong University, free audit).
+  - **Course**: [Introduction to Discrete Mathematics for CS](https://www.coursera.org/learn/discrete-math) (UC San Diego, free audit).
+  - **Course**: [Graph Theory](https://www.udemy.com/course/graph-theory-algorithms/) (Udemy, paid but often discounted).
+  - **Tutorial**: [Discrete Math Tutorials](https://www.khanacademy.org/computing/computer-science/cryptography#modular-arithmetic) - Logic and sets.
+  - **Tutorial**: [Graph Theory Basics](https://www.geeksforgeeks.org/graph-theory-gf02/) - Practical guide.
+  - **Tutorial**: [Combinatorics for CS](https://brilliant.org/wiki/combinatorics/) - Interactive problems.
+  - **Paper**: ["Graph Theory in Computer Science" by Bondy and Murty, 2008](https://www.amazon.com/Graph-Theory-Graduate-Texts-Mathematics/dp/1846289696) - Graph applications.
+- **Projects** (see `/Mathematics/Discrete_Mathematics`):
+  - Implement a **graph traversal** (BFS/DFS) for a maze-solving robot.
+  - Create a **logic circuit validator** using propositional logic in Python.
+  - Build a **combinatorial optimizer** for scheduling robot tasks.
+  - Develop a **Jupyter notebook** visualizing graph properties (e.g., connectivity).
+  - Simulate a **finite state machine** for a robot controller.
+
+##### 2. Algebra and Precalculus
+**Objective**: Master linear equations, matrices, and trigonometry for engineering foundations.
+- **Books**:
+  - ["Linear Algebra and Its Applications" by Gilbert Strang](https://www.amazon.com/Linear-Algebra-Its-Applications-5th/dp/032198238X) - Matrix basics.
+  - ["Precalculus: Mathematics for Calculus" by James Stewart et al.](https://www.amazon.com/Precalculus-Mathematics-Calculus-James-Stewart/dp/1305071751) - Algebra and trig.
+  - ["Algebra and Trigonometry" by Ron Larson](https://www.amazon.com/Algebra-Trigonometry-Ron-Larson/dp/1337271179) - Comprehensive guide.
+- **Courses/Tutorials/Papers**:
+  - **Course**: [Precalculus](https://www.khanacademy.org/math/precalculus) (Khan Academy, free) - Algebra and trig basics.
+  - **Course**: [Linear Algebra](https://www.edx.org/course/linear-algebra-foundations-to-frontiers) (UT Austin, free).
+  - **Course**: [Algebra for Engineers](https://www.coursera.org/learn/matrix-algebra-engineers) (HKUST, free audit).
+  - **Tutorial**: [Matrix Algebra](https://www.mathsisfun.com/algebra/matrix-introduction.html) - Beginner guide.
+  - **Tutorial**: [Trigonometry for Robotics](https://www.roboticsbusinessreview.com/math_trigonometry_robotics/) - Robotics context.
+  - **Tutorial**: [Complex Numbers](https://www.khanacademy.org/math/precalculus/imaginary-complex-precalc) - Practical guide.
+  - **Paper**: ["Linear Algebra in Computer Science" by David Lay, 2015](https://www.amazon.com/Linear-Algebra-Its-Applications-5th/dp/032198238X) - CS applications.
+- **Projects** (see `/Mathematics/Algebra_Precalculus`):
+  - Solve **linear equations** for robot arm positioning in Python.
+  - Create a **matrix transformation tool** for 2D robot coordinates.
+  - Build a **trigonometry-based path planner** for a robot’s circular motion.
+  - Develop a **Jupyter notebook** visualizing vector operations for robotics.
+  - Simulate a **complex number calculator** for signal processing.
+
+#### Intermediate Level: Building Blocks
+##### 3. Linear Algebra
+**Objective**: Understand matrices, eigenvalues, and transformations for robotics and AI.
+- **Books**:
+  - ["Introduction to Linear Algebra" by Gilbert Strang](https://www.amazon.com/Introduction-Linear-Algebra-Gilbert-Strang/dp/0980232775) - Comprehensive guide.
+  - ["Linear Algebra Done Right" by Sheldon Axler](https://www.amazon.com/Linear-Algebra-Right-Undergraduate-Mathematics/dp/3319110799) - Theoretical depth.
+  - ["Matrix Computations" by Gene H. Golub and Charles F. Van Loan](https://www.amazon.com/Matrix-Computations-Johns-Hopkins-Computational/dp/1421407949) - Computational focus.
+- **Courses/Tutorials/Papers**:
+  - **Course**: [Mathematics for Machine Learning: Linear Algebra](https://www.coursera.org/learn/linear-algebra-machine-learning) (Imperial College London, free audit).
+  - **Course**: [Linear Algebra for Engineers](https://www.coursera.org/learn/matrix-algebra-engineers) (HKUST, free audit).
+  - **Course**: [Advanced Linear Algebra](https://www.udemy.com/course/advanced-linear-algebra/) (Udemy, paid but often discounted).
+  - **Tutorial**: [Essence of Linear Algebra](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab) (3Blue1Brown, YouTube) - Visual explanations.
+  - **Tutorial**: [Linear Algebra for Robotics](https://www.roboticsbusinessreview.com/math_linear_algebra_robotics/) - Robotics context.
+  - **Tutorial**: [Eigenvalues and Eigenvectors](https://www.khanacademy.org/math/linear-algebra/matrix-transformations#lin-alg-eigenvalues-vectors) - Practical guide.
+  - **Paper**: ["A Tutorial on Principal Component Analysis" by Jonathon Shlens, 2014](https://arxiv.org/abs/1404.1100) - PCA for robotics.
+- **Projects** (see `/Mathematics/Linear_Algebra`):
+  - Implement **PCA** for dimensionality reduction in sensor data ([UCI Sensor Dataset](https://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)).
+  - Create a **transformation matrix** for 3D robot arm positioning.
+  - Build a **Jupyter notebook** visualizing eigenvalues in robotics dynamics.
+  - Develop a **linear system solver** for robot kinematics.
+  - Simulate a **robot’s coordinate transformation** using NumPy.
+
+##### 4. Calculus
+**Objective**: Master derivatives, integrals, and optimization for dynamic systems.
+- **Books**:
+  - ["Calculus" by James Stewart](https://www.amazon.com/Calculus-James-Stewart/dp/1285740629) - Standard calculus text.
+  - ["Calculus Made Easy" by Silvanus P. Thompson](https://www.amazon.com/Calculus-Made-Easy-Silvanus-Thompson/dp/0312185480) - Beginner-friendly.
+  - ["Multivariable Calculus" by Ron Larson and Bruce H. Edwards](https://www.amazon.com/Multivariable-Calculus-Ron-Larson/dp/1337275379) - Advanced calculus.
+- **Courses/Tutorials/Papers**:
+  - **Course**: [Calculus 1](https://www.coursera.org/learn/calculus1) (University of Pennsylvania, free audit).
+  - **Course**: [Multivariable Calculus](https://www.edx.org/course/multivariable-calculus) (MIT, free).
+  - **Course**: [Calculus for Machine Learning](https://www.coursera.org/learn/calculus-for-machine-learning) (Imperial College London, free audit).
+  - **Tutorial**: [Calculus Basics](https://www.khanacademy.org/math/calculus-1) - Interactive lessons.
+  - **Tutorial**: [Gradient Descent](https://machinelearningmastery.com/gradient-descent-for-machine-learning/) - Optimization guide.
+  - **Tutorial**: [Calculus in Robotics](https://www.roboticsbusinessreview.com/math_calculus_robotics/) - Robotics context.
+  - **Paper**: ["Optimization by Gradient Descent" by Boyd and Vandenberghe, 2004](https://www.amazon.com/Convex-Optimization-Stephen-Boyd/dp/0521833787) - Optimization basics.
+- **Projects** (see `/Mathematics/Calculus`):
+  - Implement **gradient descent** for a robot path optimization problem.
+  - Create a **velocity controller** using derivatives for a simulated robot.
+  - Build a **Jupyter notebook** visualizing multivariable calculus for 3D motion.
+  - Develop an **integral-based trajectory planner** for autonomous vehicles.
+  - Simulate a **cost function optimizer** for robotics control.
+
+##### 5. Probability and Statistics
+**Objective**: Learn probability and statistics for handling uncertainty in robotics and AI.
+- **Books**:
+  - ["Introduction to Probability" by Joseph K. Blitzstein and Jessica Hwang](https://www.amazon.com/Introduction-Probability-Chapman-Statistical-Science/dp/1466575573) - Comprehensive guide.
+  - ["Probability and Statistics" by Morris H. DeGroot and Mark J. Schervish](https://www.amazon.com/Probability-Statistics-4th-Morris-DeGroot/dp/0321500466) - Detailed text.
+  - ["Practical Statistics for Data Scientists" by Peter Bruce et al.](https://www.amazon.com/Practical-Statistics-Data-Scientists-Essential/dp/149207294X) - Applied stats.
+- **Courses/Tutorials/Papers**:
+  - **Course**: [Introduction to Probability](https://www.edx.org/course/introduction-to-probability) (MIT, free).
+  - **Course**: [Statistics and Probability](https://www.khanacademy.org/math/statistics-probability) (Khan Academy, free).
+  - **Course**: [Probability for Data Science](https://www.coursera.org/learn/probability-theory-statistics) (UC San Diego, free audit).
+  - **Tutorial**: [Probability Basics](https://www.probabilitycourse.com/) - Free online course.
+  - **Tutorial**: [Bayesian Inference](https://machinelearningmastery.com/bayesian-statistics-for-machine-learning/) - Practical guide.
+  - **Tutorial**: [Statistics for Robotics](https://www.roboticsbusinessreview.com/math_statistics_robotics/) - Robotics context.
+  - **Paper**: ["Probabilistic Graphical Models" by Koller and Friedman, 2009](https://www.amazon.com/Probabilistic-Graphical-Models-Principles-Computation/dp/0262013193) - Robotics applications.
+- **Projects** (see `/Mathematics/Probability_Statistics`):
+  - Build a **Bayesian localization model** for a robot using sensor data.
+  - Create a **statistical analyzer** for competition telemetry ([Kaggle F1 Dataset](https://www.kaggle.com/datasets/rohanrao/formula-1-world-championship-1950-2020)).
+  - Implement a **Monte Carlo simulation** for robot path uncertainty.
+  - Develop a **hypothesis testing tool** for sensor accuracy in Python.
+  - Visualize **probability distributions** in a Jupyter notebook for robotics scenarios.
+
+#### Advanced Level: Applied Mathematics
+##### 6. Differential Equations
+**Objective**: Model dynamic systems for robotics and autonomous vehicles.
+- **Books**:
+  - ["Differential Equations with Applications" by Paul Blanchard et al.](https://www.amazon.com/Differential-Equations-Paul-Blanchard/dp/1133109039) - Practical guide.
+  - ["Ordinary Differential Equations" by Morris Tenenbaum and Harry Pollard](https://www.amazon.com/Ordinary-Differential-Equations-Dover-Mathematics/dp/0486649407) - Comprehensive text.
+  - ["Partial Differential Equations for Scientists and Engineers" by Stanley J. Farlow](https://www.amazon.com/Partial-Differential-Equations-Scientists-Engineers/dp/048667620X) - PDE focus.
+- **Courses/Tutorials/Papers**:
+  - **Course**: [Differential Equations for Engineers](https://www.coursera.org/learn/differential-equations-engineers) (HKUST, free audit).
+  - **Course**: [Introduction to Differential Equations](https://www.edx.org/course/introduction-to-differential-equations) (MIT, free).
+  - **Course**: [PDEs for Engineers](https://www.udemy.com/course/partial-differential-equations/) (Udemy, paid but often discounted).
+  - **Tutorial**: [ODEs in Python](https://scipy-lectures.org/intro/scipy.html#ordinary-differential-equations) - SciPy guide.
+  - **Tutorial**: [PDEs in Robotics](https://www.roboticsbusinessreview.com/math_pdes_robotics/) - Robotics context.
+  - **Tutorial**: [Numerical Solutions for ODEs](https://www.mathworks.com/help/matlab/math/ordinary-differential-equations.html) - Practical guide.
+  - **Paper**: ["Differential Equations in Robotics" by Spong and Vidyasagar, 2005](https://www.amazon.com/Robot-Modeling-Control-Mark-Spong/dp/0471649902) - Robotics applications.
+- **Projects** (see `/Mathematics/Differential_Equations`):
+  - Solve an **ODE** for a robot’s motion dynamics using SciPy.
+  - Simulate a **PDE-based fluid model** for autonomous vehicle aerodynamics.
+  - Build a **Jupyter notebook** visualizing robot arm dynamics.
+  - Develop a **numerical ODE solver** for a control system.
+  - Create a **pendulum simulator** for robotics stability analysis.
+
+##### 7. Numerical Methods
+**Objective**: Learn computational methods for solving mathematical problems in engineering.
+- **Books**:
+  - ["Numerical Methods for Engineers" by Steven C. Chapra and Raymond P. Canale](https://www.amazon.com/Numerical-Methods-Engineers-Steven-Chapra/dp/007339792X) - Engineering focus.
+  - ["Numerical Recipes" by William H. Press et al.](https://www.amazon.com/Numerical-Recipes-3rd-Scientific-Computing/dp/0521880688) - Computational guide.
+  - ["Applied Numerical Methods with MATLAB" by Steven C. Chapra](https://www.amazon.com/Applied-Numerical-Methods-MATLAB-Engineers/dp/0073401102) - MATLAB-based.
+- **Courses/Tutorials/Papers**:
+  - **Course**: [Numerical Methods for Engineers](https://www.coursera.org/learn/numerical-methods-engineers) (HKUST, free audit).
+  - **Course**: [Introduction to Numerical Analysis](https://www.edx.org/course/introduction-to-numerical-analysis) (MIT, free).
+  - **Course**: [Numerical Methods in Python](https://www.udemy.com/course/numerical-methods-python/) (Udemy, paid but often discounted).
+  - **Tutorial**: [Numerical Methods with NumPy](https://numpy.org/doc/stable/reference/routines.linalg.html) - Practical guide.
+  - **Tutorial**: [Root-Finding Algorithms](https://www.geeksforgeeks.org/root-finding-algorithms/) - Practical guide.
+  - **Tutorial**: [Numerical Integration](https://scipy-lectures.org/intro/scipy.html#numerical-integration) - SciPy guide.
+  - **Paper**: ["Numerical Linear Algebra" by Trefethen and Bau, 1997](https://www.amazon.com/Numerical-Linear-Algebra-Lloyd-Trefethen/dp/0898713617) - Computational methods.
+- **Projects** (see `/Mathematics/Numerical_Methods`):
+  - Implement **Newton-Raphson** for solving robot kinematics equations.
+  - Create a **numerical integrator** for trajectory planning in Python.
+  - Build a **Jupyter notebook** comparing numerical methods for ODEs.
+  - Develop a **linear system solver** for robotics transformations.
+  - Simulate a **numerical optimizer** for robot control parameters.
+
+##### 8. Geometry and Transformations
+**Objective**: Master spatial reasoning and transformations for robotics navigation.
+- **Books**:
+  - ["Computational Geometry" by Mark de Berg et al.](https://www.amazon.com/Computational-Geometry-Applications-Mark-Berg/dp/3540779736) - Geometry for CS.
+  - ["Geometry for Programmers" by Oleksandr Kaleniuk](https://www.amazon.com/Geometry-Programmers-Oleksandr-Kaleniuk/dp/1633439607) - Practical guide.
+  - ["Quaternions and Rotation Sequences" by Jack B. Kuipers](https://www.amazon.com/Quaternions-Rotation-Sequences-Geometrical-Applications/dp/0691102988) - Quaternion focus.
+- **Courses/Tutorials/Papers**:
+  - **Course**: [Computational Geometry](https://www.coursera.org/learn/computational-geometry) (Tsinghua University, free audit).
+  - **Course**: [Robotics: Computational Motion Planning](https://www.coursera.org/learn/robotics-motion-planning) (University of Pennsylvania, free audit).
+  - **Course**: [Geometry for Robotics](https://www.udemy.com/course/geometry-for-robotics/) (Udemy, paid but often discounted).
+  - **Tutorial**: [3D Transformations](https://www.khanacademy.org/computing/pixar/3d-transformations) - Pixar’s guide.
+  - **Tutorial**: [Quaternions for Robotics](https://www.mecharithm.com/quaternions-in-robotics/) - Robotics context.
+  - **Tutorial**: [Homogeneous Transformations](https://www.roboticsbusinessreview.com/math_transformations_robotics/) - Practical guide.
+  - **Paper**: ["Geometric Methods in Robotics" by Murray et al., 1994](https://www.amazon.com/Robot-Manipulator-Control-Geometric-Approach/dp/0824790723) - Robotics geometry.
+- **Projects** (see `/Mathematics/Geometry_Transformations`):
+  - Build a **3D transformation tool** for robot arm positioning in Python.
+  - Create a **quaternion-based orientation tracker** for a drone.
+  - Develop a **Jupyter notebook** visualizing homogeneous transformations.
+  - Simulate a **SLAM algorithm** using geometric transformations ([KITTI Dataset](http://www.cvlibs.net/datasets/kitti/)).
+  - Implement a **collision detection system** for robot navigation.
+
+##### 9. Control Theory Basics
+**Objective**: Learn feedback systems and controllers for robotics stability.
+- **Books**:
+  - ["Modern Control Engineering" by Katsuhiko Ogata](https://www.amazon.com/Modern-Control-Engineering-Katsuhiko-Ogata/dp/0136156738) - Standard text.
+  - ["Feedback Control of Dynamic Systems" by Gene F. Franklin et al.](https://www.amazon.com/Feedback-Control-Dynamic-Systems-7th/dp/0133496597) - Comprehensive guide.
+  - ["Control Systems Engineering" by Norman S. Nise](https://www.amazon.com/Control-Systems-Engineering-Norman-Nise/dp/1118170512) - Practical focus.
+- **Courses/Tutorials/Papers**:
+  - **Course**: [Control of Mobile Robots](https://www.coursera.org/learn/mobile-robot) (Georgia Tech, free audit).
+  - **Course**: [Introduction to Control Systems](https://www.edx.org/course/control-systems-design) (ETH Zurich, free).
+  - **Course**: [PID Control](https://www.udemy.com/course/pid-control-with-arduino/) (Udemy, paid but often discounted).
+  - **Tutorial**: [PID Controller Basics](https://www.mathworks.com/help/control/getstarted/pid-control.html) - Practical guide.
+  - **Tutorial**: [Control Systems for Robotics](https://www.roboticsbusinessreview.com/control_systems_robotics/) - Robotics context.
+  - **Tutorial**: [State-Space Models](https://www.controleng.com/articles/state-space-control-systems/) - Practical guide.
+  - **Paper**: ["PID Control: A Tutorial" by Astrom and Hagglund, 2001](https://www.amazon.com/Control-System-Design-Using-MATLAB/dp/0139586539) - PID foundation.
+- **Projects** (see `/Mathematics/Control_Theory`):
+  - Implement a **PID controller** for a robot’s speed control using Arduino.
+  - Simulate a **state-space model** for a quadcopter in Python.
+  - Build a **Jupyter notebook** analyzing stability of a robotic system.
+  - Develop a **feedback controller** for an autonomous vehicle’s steering.
+  - Create a **control system simulator** for a robotic arm.
+
+## Repository Structure
+The section is organized as follows:
+├── Mathematics/
+│   ├── Discrete_Mathematics/
+│   │   ├── docs/ (notes, resource links)
+│   │   ├── projects/ (graph traversal, FSM)
+│   ├── Algebra_Precalculus/
+│   ├── Linear_Algebra/
+│   ├── Calculus/
+│   ├── Probability_Statistics/
+│   ├── Differential_Equations/
+│   ├── Numerical_Methods/
+│   ├── Geometry_Transformations/
+│   ├── Control_Theory/
 
 
