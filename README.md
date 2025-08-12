@@ -2297,3 +2297,64 @@ Simulators/
 ├── projects/        # Project code and notebooks (e.g., carla_lane_following)
 ├── README.md        # This file
 ```
+
+## Communities, Competitions and Growth
+
+## Table of Contents
+- [Overview](#overview)
+- [Curated Resources](#curated-resources)
+  - [Competition Platforms and Hubs](#competition-platforms-and-hubs)
+  - [Tutorials and Guides](#tutorials-and-guides)
+- [Projects](#projects)
+- [Repository Structure](#repository-structure)
+- [How to Use This Repository](#how-to-use-this-repository)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Overview
+This section is designed to:
+- Curate high-quality **resources** for robotics and autonomous vehicle competitions, covering platforms, challenges, and preparation guides.
+- Provide practical **projects** inspired by my competition experience (e.g., F1TENTH, Shell Eco-marathon).
+- Integrate with my broader repo, linking to `/Robotics_Autonomous_Systems` (for ROS) and `/Simulators` (for testing).
+- Highlight my journey, showcasing competition-ready skills in autonomous navigation and control.
+
+The resources below cover major competitions like CARLA Leaderboard, RoboCup, and Teknofest, along with preparation tools and tutorials.
+
+## Curated Resources
+
+### Competition Platforms and Hubs
+| Name | Link | Description |
+|------|------|-------------|
+| MATLAB-Simulink Challenge Project Hub | [github.com/mathworks/MATLAB-Simulink-Challenge-Project-Hub](https://github.com/mathworks/MATLAB-Simulink-Challenge-Project-Hub) | MATLAB/Simulink projects for robotics and autonomous vehicle challenges. |
+| SEM-APC Student Docker Environment | [github.com/swri-robotics/sem-apc-student-docker-environment](https://github.com/swri-robotics/sem-apc-student-docker-environment) | Docker environment for Shell Eco-marathon Autonomous Programming Competition. |
+| IMechE | [imeche.org/](https://www.imeche.org/) | Institution hosting competitions like Formula Student, relevant for autonomous vehicles. |
+| CARLA Leaderboard | [leaderboard.carla.org/](https://leaderboard.carla.org/) | Leaderboard for CARLA autonomous driving challenges, ideal for testing algorithms. |
+| Teknofest Robotaxi | [teknofest.org/en/competitions/robotaxi-full-scale-autonomous-vehicle-competition/](https://www.teknofest.org/en/competitions/robotaxi-full-scale-autonomous-vehicle-competition/) | Full-scale autonomous vehicle competition, focusing on real-world driving. |
+| RoboCup | [robocup.org/](https://www.robocup.org/) | Global robotics competition, including autonomous navigation and manipulation. |
+| Robocon | [robocon.io/](https://www.robocon.io/) | Robotics competition for innovative robot designs and tasks. |
+| Roboracer AI | [roboracer.ai/](https://www.roboracer.ai/) | AI-driven racing competition, similar to F1TENTH. |
+| Indy Autonomous Challenge | [indyautonomouschallenge.com/](https://www.indyautonomouschallenge.com/) | High-speed autonomous racing challenge for advanced teams. |
+| NASA Space Apps Cairo | [spaceappschallenge.org/nasa-space-apps-2024/2024-local-events/cairo/](https://www.spaceappschallenge.org/nasa-space-apps-2024/2024-local-events/cairo/) | Space-related robotics and autonomy challenges, hosted in Cairo. |
+
+### Tutorials and Guides
+| Name | Link | Description |
+|------|------|-------------|
+| CARLA Leaderboard Intro | [youtube.com/watch?v=9KuySHCagYc](https://www.youtube.com/watch?v=9KuySHCagYc) | Video guide to participating in the CARLA Leaderboard challenge. |
+
+## Projects
+These projects leverage the provided competition resources to build practical skills, inspired by my experience. See `/Competitions/projects/` for code and documentation.
+
+- **CARLA Leaderboard Submission**: Develop a driving algorithm for the [CARLA Leaderboard](https://leaderboard.carla.org/) using ROS2 and CARLA simulator. (Advanced, competition-ready.)
+- **Shell Eco-marathon Autonomy**: Create an energy-efficient planner for [SEM-APC Student Docker Environment](https://github.com/swri-robotics/sem-apc-student-docker-environment) in a simulated urban environment. (Intermediate, Shell Eco-marathon-focused.)
+- **F1TENTH Race Prep**: Build a ROS2-based navigation stack for [Roboracer AI](https://roboracer.ai/) using Pure Pursuit or MPC. (Intermediate, F1TENTH-style.)
+- **RoboCup Simulation**: Implement a navigation task for RoboCup Junior in Webots using [RoboCup](https://www.robocup.org/) resources. (Intermediate, practical.)
+- **MATLAB Challenge Project**: Develop a control system for an autonomous vehicle using [MATLAB-Simulink Challenge Project Hub](https://github.com/mathworks/MATLAB-Simulink-Challenge-Project-Hub). (Intermediate, MATLAB-focused.)
+- **Markdown Guide on Competition Prep**: Summarize strategies for CARLA Leaderboard based on [CARLA Leaderboard Intro](https://youtube.com/watch?v=9KuySHCagYc) in `/docs/competition_prep.md`. (Beginner, educational.)
+
+## Repository Structure
+```
+Competitions/
+├── docs/            # Notes and summaries (e.g., competition_prep.md)
+├── projects/        # Project code and notebooks (e.g., carla_leaderboard)
+├── README.md        # This file
+```
