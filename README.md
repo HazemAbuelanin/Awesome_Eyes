@@ -1,4 +1,4 @@
-# amazing_eyes
+# Awesome_Eyes
 
 > A journey to mastering engineering through **The Trinity Approach** — Books, Courses, and Projects — to become a **full-rounded engineer**.  
 > This is my open notebook, my playbook, and my gift to the community.
@@ -37,7 +37,7 @@ My interests span:
 
 From the fundamentals to advanced systems, this is where learning transforms into building, and building transforms into breakthroughs.
 
-My mission with **amazing_eyes** is simple:
+My mission with **Awesome_Eyes** is simple:
 1. Share the best resources I’ve found  
 2. Show how I apply them  
 3. Inspire others to create their own path  
