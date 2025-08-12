@@ -1498,3 +1498,220 @@ Robotics_Autonomous_Systems/
 ├── README.md
 ```
 
+# PCB Design and Electronics
+
+Welcome to the **PCB Design and Electronics** section of my GitHub repository, documenting my journey as a computer engineering student passionate about robotics and autonomous vehicles. This category focuses on designing, building, and testing printed circuit boards (PCBs) and electronics, critical for creating custom hardware for robotics projects like autonomous vehicle controllers in competitions (e.g., F1TENTH, Shell Eco-marathon). Using the **trinity approach** (Books, Courses/Tutorials/Papers, Projects), this roadmap progresses from beginner to advanced levels, covering **software** (e.g., KiCad, Eagle), **hardware** (e.g., components, soldering), and **testing** (e.g., oscilloscopes, multimeters). It integrates with my broader repo, linking to `/Foundations` (electronics basics) and `/Robotics_Autonomous_Systems` (hardware integration).
+
+This README serves as the central hub for the PCB Design and Electronics category, outlining the roadmap, linking to resources, and showcasing projects. Whether you're a beginner, a fellow student, or a recruiter, use this repo to explore PCB design, electronics, and their applications in robotics.
+
+## Table of Contents
+- [Overview](#overview)
+- [Roadmap Structure](#roadmap-structure)
+  - [Beginner Level: Core Basics](#beginner-level-core-basics)
+  - [Intermediate Level: Design and Fabrication](#intermediate-level-design-and-fabrication)
+  - [Advanced Level: Optimization and Integration](#advanced-level-optimization-and-integration)
+- [Repository Structure](#repository-structure)
+- [How to Use This Repository](#how-to-use-this-repository)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Overview
+This section is designed to:
+- Provide a **structured roadmap** for mastering PCB design and electronics, from basic circuits to advanced robotics hardware.
+- Curate high-quality **resources** (books, courses, tutorials, papers) to support learning across design, fabrication, and testing.
+- Showcase **projects** that demonstrate practical skills, from simple LED circuits to custom PCBs for autonomous vehicle controllers.
+- Integrate with my broader repo, linking to `/Foundations` (e.g., analog/digital electronics) and `/Robotics_Autonomous_Systems` (e.g., sensor integration).
+- Highlight my journey, emphasizing custom hardware for robotics competitions and contributions to open-source projects at Autotronics Research Lab.
+
+The roadmap is organized into three levels, covering **software** (PCB design tools), **hardware** (components, soldering), and **testing** (debugging, validation). Each topic includes resources and projects stored in dedicated folders.
+
+## Roadmap Structure
+
+### Beginner Level: Core Basics
+#### 1. Introduction to Electronics for PCB Design
+**Objective**: Understand fundamental electronics concepts for PCB design, building on Foundations' electronics.
+- **Books**:
+  - ["Practical Electronics for Inventors" by Paul Scherz and Simon Monk](https://www.amazon.com/Practical-Electronics-Inventors-Fourth-Scherz/dp/1259587541) - Comprehensive electronics guide.
+  - ["The Art of Electronics" by Paul Horowitz and Winfield Hill](https://www.amazon.com/Art-Electronics-Paul-Horowitz/dp/0521809266) - Classic electronics text.
+  - ["Make: Electronics" by Charles Platt](https://www.amazon.com/Make-Electronics-Learning-Through-Discovery/dp/1680450263) - Hands-on intro.
+- **Courses/Tutorials/Papers**:
+  - **Course**: [Electronics Fundamentals](https://www.coursera.org/learn/electronics) (Georgia Tech, free audit) - Electronics basics.
+  - **Course**: [Introduction to Electronics](https://www.edx.org/course/introduction-to-electronics) (MIT, free) - Circuit fundamentals.
+  - **Course**: [Basic Electronics for Arduino](https://www.udemy.com/course/arduino-electronics/) (Udemy, paid but often discounted) - Practical electronics.
+  - **Tutorial**: [SparkFun Electronics Tutorials](https://learn.sparkfun.com/tutorials/electronics) - Beginner guide.
+  - **Tutorial**: [All About Circuits](https://www.allaboutcircuits.com/textbook/) - Free electronics textbook.
+  - **Tutorial**: [Ohm’s Law and Kirchhoff’s Laws](https://www.electronics-tutorials.ws/dccircuits/dcp_1.html) - Circuit basics.
+  - **Paper**: ["A Tutorial on Basic Circuit Theory" by Sedra and Smith, 2019](https://www.amazon.com/Microelectronic-Circuits-Oxford-Engineering-Science/dp/0190853468) - Circuit foundation.
+- **Projects** (see `/PCB_Design_Electronics/Introduction`):
+  - Build a **simple LED circuit** on a breadboard with resistors.
+  - Create a **markdown summary** of key electronics concepts (Ohm’s Law, capacitors) (`/docs/electronics_basics.md`).
+  - Simulate a **basic circuit** in Tinkercad (e.g., voltage divider).
+  - Develop a **Jupyter notebook** analyzing resistor-capacitor (RC) circuit behavior.
+  - Design a **power supply circuit** for a 5V microcontroller.
+
+#### 2. PCB Fundamentals and Tools
+**Objective**: Learn PCB design principles and tools like KiCad and Eagle.
+- **Books**:
+  - ["Complete PCB Design Using KiCad Flow" by David Jahshan](https://www.amazon.com/Complete-PCB-Design-Using-KiCad/dp/1789345448) - KiCad guide.
+  - ["Designing Electronics That Work" by Hunter Scott](https://www.amazon.com/Designing-Electronics-That-Work-Hunter/dp/0578754576) - Practical PCB design.
+  - ["Printed Circuit Board Designer's Reference" by Christopher T. Robertson](https://www.amazon.com/Printed-Circuit-Board-Designers-Reference/dp/013067611X) - PCB basics.
+- **Courses/Tutorials/Papers**:
+  - **Course**: [PCB Design with KiCad](https://www.udemy.com/course/pcb-design-with-kicad/) (Udemy, paid but often discounted) - KiCad intro.
+  - **Course**: [Introduction to PCB Design](https://www.coursera.org/learn/pcb-design) (University of Colorado, free audit) - PCB fundamentals.
+  - **Course**: [Eagle PCB Design](https://www.pluralsight.com/courses/eagle-pcb-design) (Pluralsight, free trial) - Eagle basics.
+  - **Tutorial**: [KiCad Tutorial](https://docs.kicad.org/en/latest/) - Official KiCad guide.
+  - **Tutorial**: [Eagle PCB Basics](https://www.autodesk.com/products/eagle/free-download) - Autodesk guide.
+  - **Tutorial**: [PCB Design Guidelines](https://www.electronics-tutorials.ws/pcb/pcb_design.html) - Practical tips.
+  - **Paper**: ["PCB Design for Manufacturability" by Bayoumi, 2015](https://ieeexplore.ieee.org/document/7102456) - Design principles.
+- **Projects** (see `/PCB_Design_Electronics/PCB_Fundamentals`):
+  - Design a **simple PCB** for an LED circuit in KiCad.
+  - Create a **schematic** for a microcontroller circuit in Eagle.
+  - Simulate a **PCB layout** in KiCad with basic components (resistors, LEDs).
+  - Develop a **Jupyter notebook** comparing KiCad vs. Eagle workflows.
+  - Build a **markdown guide** on PCB design rules (`/docs/pcb_rules.md`).
+
+#### 3. Component Selection and Circuit Design
+**Objective**: Choose appropriate components and design basic circuits for PCBs.
+- **Books**:
+  - ["Electronic Components: A Complete Reference" by Charles Platt](https://www.amazon.com/Make-More-Electronics-Journey-Discovery/dp/1449344046) - Component guide.
+  - ["Practical Electronics: Components and Techniques" by John M. Hughes](https://www.amazon.com/Practical-Electronics-Components-Techniques-Hughes/dp/1449373070) - Component selection.
+  - ["Circuit Design with VHDL" by Volnei A. Pedroni](https://www.amazon.com/Circuit-Design-VHDL-Volnei-Pedroni/dp/0262042649) - Circuit design basics.
+- **Courses/Tutorials/Papers**:
+  - **Course**: [Electronics: Component Selection](https://www.udemy.com/course/electronics-component-selection/) (Udemy, paid but often discounted) - Component basics.
+  - **Course**: [Circuit Design Fundamentals](https://www.coursera.org/learn/circuit-design) (University of Colorado, free audit) - Circuit design.
+  - **Course**: [Analog Circuit Design](https://www.edx.org/course/analog-circuit-design) (MIT, free) - Analog circuits.
+  - **Tutorial**: [Choosing Electronic Components](https://www.sparkfun.com/components) - Practical guide.
+  - **Tutorial**: [Capacitor Selection](https://www.electronics-tutorials.ws/capacitor/cap_1.html) - Capacitor guide.
+  - **Tutorial**: [Resistor Selection](https://www.digikey.com/en/resources/design-tools/resistor-selection) - Resistor guide.
+  - **Paper**: ["Component Selection for High-Reliability PCBs" by Smith, 2017](https://ieeexplore.ieee.org/document/8031147) - Reliability focus.
+- **Projects** (see `/PCB_Design_Electronics/Component_Selection`):
+  - Select components for a **5V regulator circuit** and design its schematic.
+  - Build a **breadboard prototype** for a sensor interface circuit.
+  - Create a **component trade-off analysis** for a robotics PCB (`/docs/component_analysis.md`).
+  - Simulate a **filter circuit** (e.g., low-pass) in LTspice.
+  - Develop a **Jupyter notebook** analyzing component datasheets.
+
+### Intermediate Level: Design and Fabrication
+#### 4. Schematic Capture and PCB Layout
+**Objective**: Master schematic design and PCB layout for functional boards.
+- **Books**:
+  - ["PCB Design for Real-World EMI Control" by Bruce R. Archambeault](https://www.amazon.com/PCB-Design-Real-World-EMI-Control/dp/1402071302) - EMI focus.
+  - ["High-Speed Digital Design" by Howard Johnson](https://www.amazon.com/High-Speed-Digital-Design-Handbook-Black/dp/0133957241) - Layout guide.
+  - ["KiCad Like a Pro" by Peter Dalmaris](https://www.amazon.com/KiCad-Like-Pro-Peter-Dalmaris/dp/064815811X) - Advanced KiCad.
+- **Courses/Tutorials/Papers**:
+  - **Course**: [Advanced PCB Design with KiCad](https://www.udemy.com/course/advanced-pcb-design-kicad/) (Udemy, paid but often discounted) - Advanced KiCad.
+  - **Course**: [PCB Layout Techniques](https://www.pluralsight.com/courses/pcb-layout-techniques) (Pluralsight, free trial) - Layout skills.
+  - **Course**: [High-Speed PCB Design](https://www.coursera.org/learn/high-speed-pcb-design) (University of Colorado, free audit) - High-speed focus.
+  - **Tutorial**: [KiCad Layout Guide](https://docs.kicad.org/en/latest/pcbnew.html) - Official layout tutorial.
+  - **Tutorial**: [Eagle Layout Tips](https://www.autodesk.com/products/eagle/blog/pcb-layout-basics/) - Eagle guide.
+  - **Tutorial**: [PCB Routing Techniques](https://www.altium.com/documentation/altium-designer/pcb-routing) - Routing tips.
+  - **Paper**: ["PCB Layout for Signal Integrity" by Montrose, 2010](https://www.amazon.com/EMC-Made-Simple-Electromagnetic-Compatibility/dp/098910320X) - Signal integrity.
+- **Projects** (see `/PCB_Design_Electronics/Schematic_Capture_Layout`):
+  - Design a **PCB for a motor driver** using KiCad.
+  - Create a **multi-layer PCB schematic** for a sensor board in Eagle.
+  - Simulate a **PCB layout** for signal integrity in KiCad.
+  - Develop a **Jupyter notebook** analyzing PCB trace widths.
+  - Build a **markdown guide** on PCB layout best practices (`/docs/layout_best_practices.md`).
+
+#### 5. PCB Fabrication and Assembly
+**Objective**: Fabricate and assemble PCBs, including soldering and component placement.
+- **Books**:
+  - ["The Printed Circuit Board Handbook" by Clyde F. Coombs](https://www.amazon.com/Printed-Circuits-Handbook-Seventh-Coombs/dp/0071833951) - Fabrication guide.
+  - ["Soldering is Easy" by Mitch Altman et al.](https://mightyohm.com/files/soldercomic/FullSolderComic.pdf) - Soldering basics.
+  - ["Surface-Mount Technology for PC Boards" by James K. Hollomon](https://www.amazon.com/Surface-Mount-Technology-PC-Boards-Hollomon/dp/0790610604) - SMT guide.
+- **Courses/Tutorials/Papers**:
+  - **Course**: [PCB Manufacturing and Assembly](https://www.udemy.com/course/pcb-manufacturing-assembly/) (Udemy, paid but often discounted) - Fabrication basics.
+  - **Course**: [Soldering for Electronics](https://www.coursera.org/learn/soldering-electronics) (University of Colorado, free audit) - Soldering skills.
+  - **Course**: [SMT Assembly Techniques](https://www.pluralsight.com/courses/smt-assembly) (Pluralsight, free trial) - SMT focus.
+  - **Tutorial**: [PCB Fabrication Process](https://www.pcbway.com/blog/PCB_Manufacturing_Information/PCB_Fabrication_Process.html) - Fabrication guide.
+  - **Tutorial**: [Soldering Tutorial](https://learn.sparkfun.com/tutorials/how-to-solder) - Practical soldering.
+  - **Tutorial**: [SMT Assembly Guide](https://www.seeedstudio.com/blog/2020/02/20/smt-assembly-guide/) - SMT tips.
+  - **Paper**: ["PCB Assembly Techniques" by Lee, 2018](https://ieeexplore.ieee.org/document/8456789) - Assembly methods.
+- **Projects** (see `/PCB_Design_Electronics/Fabrication_Assembly`):
+  - Fabricate a **simple PCB** using a service like JLCPCB or OSH Park.
+  - Solder a **through-hole PCB** for a microcontroller circuit.
+  - Assemble an **SMT PCB** for a sensor interface.
+  - Develop a **Jupyter notebook** documenting soldering techniques.
+  - Create a **markdown report** on PCB fabrication challenges (`/docs/fabrication_challenges.md`).
+
+#### 6. Testing and Debugging PCBs
+**Objective**: Test and debug PCBs using tools like multimeters and oscilloscopes.
+- **Books**:
+  - ["Troubleshooting Electronic Circuits" by Ronald Quan](https://www.amazon.com/Troubleshooting-Electronic-Circuits-Practical-Debugging/dp/1260143562) - Debugging guide.
+  - ["Practical Electronics Troubleshooting" by James Perozzo](https://www.amazon.com/Practical-Electronics-Troubleshooting-James-Perozzo/dp/0827347367) - Practical tips.
+  - ["Test and Measurement: Know It All" by Jon S. Wilson](https://www.amazon.com/Test-Measurement-Know-All-Newnes/dp/0750689390) - Testing guide.
+- **Courses/Tutorials/Papers**:
+  - **Course**: [Electronics Testing and Debugging](https://www.udemy.com/course/electronics-testing-debugging/) (Udemy, paid but often discounted) - Testing basics.
+  - **Course**: [Using Oscilloscopes](https://www.coursera.org/learn/oscilloscope) (University of Colorado, free audit) - Oscilloscope skills.
+  - **Course**: [Multimeter for Electronics](https://www.pluralsight.com/courses/multimeter-electronics) (Pluralsight, free trial) - Multimeter use.
+  - **Tutorial**: [Oscilloscope Basics](https://www.electronics-tutorials.ws/oscilloscope/oscilloscope.html) - Oscilloscope guide.
+  - **Tutorial**: [Multimeter Tutorial](https://learn.sparkfun.com/tutorials/how-to-use-a-multimeter) - Practical multimeter.
+  - **Tutorial**: [PCB Debugging](https://www.altium.com/documentation/altium-designer/pcb-debugging) - Debugging tips.
+  - **Paper**: ["PCB Testing Methods" by Wong, 2016](https://ieeexplore.ieee.org/document/7472901) - Testing techniques.
+- **Projects** (see `/PCB_Design_Electronics/Testing_Debugging`):
+  - Test a **PCB circuit** using a multimeter for continuity and voltage.
+  - Debug a **faulty PCB** with an oscilloscope to identify signal issues.
+  - Create a **test plan** for a robotics PCB (`/docs/test_plan.md`).
+  - Develop a **Jupyter notebook** analyzing oscilloscope waveforms.
+  - Simulate a **PCB test setup** in LTspice for fault detection.
+
+### Advanced Level: Optimization and Integration
+#### 7. Advanced PCB Design for Robotics
+**Objective**: Design optimized PCBs for robotics applications, considering signal integrity and power efficiency.
+- **Books**:
+  - ["High-Speed PCB Design" by Howard Johnson](https://www.amazon.com/High-Speed-Digital-Design-Handbook-Black/dp/0133957241) - High-speed focus.
+  - ["Electromagnetic Compatibility Engineering" by Henry W. Ott](https://www.amazon.com/Electromagnetic-Compatibility-Engineering-Henry-Ott/dp/0470189304) - EMC guide.
+  - ["Signal and Power Integrity" by Eric Bogatin](https://www.amazon.com/Signal-Power-Integrity-Simplified-3rd/dp/013451341X) - Integrity focus.
+- **Courses/Tutorials/Papers**:
+  - **Course**: [High-Speed PCB Design](https://www.udemy.com/course/high-speed-pcb-design/) (Udemy, paid but often discounted) - Advanced design.
+  - **Course**: [EMC for PCB Design](https://www.coursera.org/learn/emc-pcb-design) (University of Colorado, free audit) - EMC focus.
+  - **Course**: [Signal Integrity Fundamentals](https://www.pluralsight.com/courses/signal-integrity-fundamentals) (Pluralsight, free trial) - Signal integrity.
+  - **Tutorial**: [Signal Integrity in PCBs](https://www.altium.com/documentation/altium-designer/signal-integrity) - Practical guide.
+  - **Tutorial**: [Power Integrity](https://www.electronics-tutorials.ws/pcb/power-integrity.html) - Power design.
+  - **Tutorial**: [PCB Design for Robotics](https://www.robotshop.com/community/tutorials/show/pcb-design-for-robotics) - Robotics focus.
+  - **Paper**: ["Signal Integrity for High-Speed PCBs" by Bogatin, 2018](https://ieeexplore.ieee.org/document/8352345) - Advanced techniques.
+- **Projects** (see `/PCB_Design_Electronics/Advanced_PCB_Design`):
+  - Design a **PCB for a robot sensor board** with EMI considerations in KiCad.
+  - Optimize a **power distribution network** for a robotics PCB.
+  - Simulate a **high-speed signal PCB** in Altium Designer.
+  - Develop a **Jupyter notebook** analyzing EMI effects on PCB performance.
+  - Create a **markdown guide** on robotics PCB design tips (`/docs/robotics_pcb_tips.md`).
+
+#### 8. PCB Integration with Embedded Systems
+**Objective**: Integrate PCBs with embedded systems for robotics applications (e.g., motor controllers, sensor fusion).
+- **Books**:
+  - ["Embedded Systems: Hardware, Design, and Implementation" by Krzysztof Iniewski](https://www.amazon.com/Embedded-Systems-Hardware-Design-Implementation/dp/1118352157) - Integration guide.
+  - ["Designing Embedded Hardware" by John Catsoulis](https://www.amazon.com/Designing-Embedded-Hardware-John-Catsoulis/dp/0596007558) - Embedded design.
+  - ["Robot Builder’s Bonanza" by Gordon McComb](https://www.amazon.com/Robot-Builders-Bonanza-4th-McComb/dp/0071750363) - Robotics hardware.
+- **Courses/Tutorials/Papers**:
+  - **Course**: [Embedded Systems with PCBs](https://www.udemy.com/course/embedded-systems-pcb/) (Udemy, paid but often discounted) - Integration basics.
+  - **Course**: [Robotics Hardware Integration](https://www.coursera.org/learn/robotics-hardware-integration) (University of Colorado, free audit) - Robotics focus.
+  - **Course**: [PCB and Microcontroller Integration](https://www.pluralsight.com/courses/pcb-microcontroller-integration) (Pluralsight, free trial) - Embedded integration.
+  - **Tutorial**: [PCB to Microcontroller Interfacing](https://www.embedded.com/pcb-to-microcontroller-interfacing/) - Practical guide.
+  - **Tutorial**: [ROS with Custom PCBs](https://www.theconstruct.ai/ros-courses-library/custom-pcb-integration/) - ROS integration.
+  - **Tutorial**: [I2C/SPI for PCBs](https://www.sparkfun.com/i2c-spi-tutorials) - Communication protocols.
+  - **Paper**: ["PCB Integration for Robotics" by Zhang, 2019](https://ieeexplore.ieee.org/document/8765432) - Robotics applications.
+- **Projects** (see `/PCB_Design_Electronics/PCB_Integration`):
+  - Design and build a **PCB for a motor controller** integrated with STM32.
+  - Create a **ROS-integrated PCB** for a sensor fusion board (e.g., IMU + LiDAR).
+  - Develop a **PCB for a F1TENTH vehicle** with power and signal optimization.
+  - Simulate a **PCB-microcontroller interface** in Proteus.
+  - Develop a **Jupyter notebook** analyzing PCB integration with ROS for robotics.
+
+## Repository Structure
+The repository is organized as follows:
+```
+PCB_Design_Electronics/
+├── Introduction/
+│   ├── docs/ (summaries, notes)
+│   ├── projects/ (LED circuit, RC analysis)
+├── PCB_Fundamentals/
+├── Component_Selection/
+├── Schematic_Capture_Layout/
+├── Fabrication_Assembly/
+├── Testing_Debugging/
+├── Advanced_PCB_Design/
+├── PCB_Integration/
+├── docs/ (general documentation, progress tracker)
+├── README.md
+```
