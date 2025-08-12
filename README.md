@@ -1,13 +1,13 @@
 # Awesome_Eyes
 
-> A journey to mastering engineering through **The Trinity Approach** — Books, Courses, and Projects — to become a **full-rounded engineer**.  
+> A journey to mastering engineering through **The Triangular Approach** — Books, Courses, and Projects — to become a **full-rounded engineer**.  
 > This is my open notebook, my playbook, and my gift to the community.
 
 ---
 
 ## Table of Contents
 - [Introduction](#introduction)
-- [The Trinity Approach](#the-trinity-approach)
+- [The Triangular Approach](#the-trinity-approach)
 - [Roadmap Overview](#roadmap-overview)
 - [Foundations of Computer Engineering](#foundations-of-computer-engineering)
 - [Programming and Problem Solving](#programming-and-problem-solving)
@@ -44,9 +44,9 @@ My mission with **Awesome_Eyes** is simple:
 
 ---
 
-## The Trinity Approach
+## The Triangular Approach
 
-Inspired by the *Deathly Hallows* from Harry Potter — three powerful artifacts that together grant mastery — **The Trinity Approach** is my framework for deep learning:
+Inspired by the *Deathly Hallows* from Harry Potter — three powerful artifacts that together grant mastery — **The Triangular Approach** is my framework for deep learning:
 
 ![deathly hallows](https://github.com/user-attachments/assets/f6ac353e-c04b-4743-a123-3b63bf3a4cf6)
 
