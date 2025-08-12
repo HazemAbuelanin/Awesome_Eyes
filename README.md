@@ -729,19 +729,4 @@ This subcategory provides the mathematical foundation for computer engineering, 
   - Develop a **feedback controller** for an autonomous vehicle’s steering.
   - Create a **control system simulator** for a robotic arm.
 
-## Repository Structure
-The section is organized as follows:
-├── Mathematics/
-│   ├── Discrete_Mathematics/
-│   │   ├── docs/ (notes, resource links)
-│   │   ├── projects/ (graph traversal, FSM)
-│   ├── Algebra_Precalculus/
-│   ├── Linear_Algebra/
-│   ├── Calculus/
-│   ├── Probability_Statistics/
-│   ├── Differential_Equations/
-│   ├── Numerical_Methods/
-│   ├── Geometry_Transformations/
-│   ├── Control_Theory/
-
 
