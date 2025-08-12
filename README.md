@@ -2430,3 +2430,94 @@ Competitions/
 ├── projects/        # Project code and notebooks (e.g., carla_leaderboard)
 ├── README.md        # This file
 ```
+
+
+
+# General Resources Repository
+
+## Table of Contents
+- [Overview](#overview)
+- [Curated Resources](#curated-resources)
+  - [Repositories](#repositories)
+  - [Learning Platforms and Courses](#learning-platforms-and-courses)
+  - [Tools and Guides](#tools-and-guides)
+- [Projects](#projects)
+- [Repository Structure](#repository-structure)
+- [How to Use This Repository](#how-to-use-this-repository)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Overview
+This section is designed to:
+- Curate high-quality **general resources** for engineering, programming, and career development, with ties to robotics.
+- Provide practical **projects** inspired by my competition experience (e.g., system design for autonomous systems).
+- Integrate with my broader repo, linking to `/Programming_Problem_Solving` (for coding) and `/Communities_Competitions_Growth` (for career growth).
+- Highlight my journey, showcasing resources that helped in competitions and lab work.
+
+The resources below cover awesome lists, platforms, and tools for general learning and development.
+
+## Curated Resources
+
+### Repositories
+| Name | Link | Description |
+|------|------|-------------|
+| Awesome Remote Job | [github.com/lukasz-madon/awesome-remote-job](https://github.com/lukasz-madon/awesome-remote-job) | Curated list of remote job opportunities, useful for robotics freelancers. |
+| Project-Based Learning | [github.com/practical-tutorials/project-based-learning](https://github.com/practical-tutorials/project-based-learning) | Project-based learning resources for programming and engineering. |
+| Developer Roadmap | [github.com/kamranahmedse/developer-roadmap](https://github.com/kamranahmedse/developer-roadmap) | Interactive roadmaps for developers, including backend and robotics paths. |
+| System Design Primer | [github.com/donnemartin/system-design-primer](https://github.com/donnemartin/system-design-primer) | Guide to system design for interviews, relevant for autonomous systems. |
+| Tech Interview Handbook | [github.com/yangshun/tech-interview-handbook](https://github.com/yangshun/tech-interview-handbook) | Handbook for tech interviews, with algorithms and system design tips. |
+| Free Programming Books | [github.com/EbookFoundation/free-programming-books](https://github.com/EbookFoundation/free-programming-books/blob/main/books/free-programming-books-langs.md) | List of free programming books by language. |
+| OSSU Computer Science | [github.com/ossu/computer-science](https://github.com/ossu/computer-science) | Open-source computer science curriculum. |
+| OSSU Data Science | [github.com/ossu/data-science](https://github.com/ossu/data-science) | Open-source data science curriculum, useful for robotics data analysis. |
+
+### Learning Platforms and Courses
+| Name | Link | Description |
+|------|------|-------------|
+| freeCodeCamp | [freecodecamp.org/](https://www.freecodecamp.org/) | Free coding bootcamp with projects and certifications. |
+| Khan Academy | [khanacademy.org/](https://www.khanacademy.org/) | Free courses on math, science, and programming. |
+| MIT OpenCourseWare | [ocw.mit.edu/](https://ocw.mit.edu/) | MIT's free online courses, including robotics and CS. |
+| Codecademy | [codecademy.com/](https://www.codecademy.com/) | Interactive coding courses for beginners. |
+| W3Schools | [w3schools.com/](https://www.w3schools.com/) | Free tutorials for web development and programming. |
+| Udacity | [udacity.com/](https://www.udacity.com/) | Nanodegrees in AI, robotics, and self-driving cars. |
+| Coursera | [coursera.org/](https://www.coursera.org/) | Online courses from universities, including Python and data science. |
+| Pluralsight | [pluralsight.com/](https://www.pluralsight.com/) | Skills platform with engineering courses (free trial). |
+| 365 Data Science | [365datascience.com/](https://365datascience.com/) | Data science learning platform. |
+| Engineer4Free | [engineer4free.com/](https://www.engineer4free.com/) | Free engineering tutorials. |
+| CS Video Courses | [github.com/Developer-Y/cs-video-courses](https://github.com/Developer-Y/cs-video-courses) | Curated CS video courses from MIT and others. |
+| MOOC.org | [mooc.org/](https://www.mooc.org/) | Massive open online courses directory. |
+| Coursera Meta Backend | [coursera.org/professional-certificates/meta-back-end-developer](https://www.coursera.org/professional-certificates/meta-back-end-developer) | Meta's backend developer certificate. |
+| Coursera Python Flask | [coursera.org/projects/python-flask](https://www.coursera.org/projects/python-flask) | Project on Python Flask for web development. |
+| Meta Digital Skills | [facebook.com/business/learn/digital-skills-programs/meta-career-programs](https://www.facebook.com/business/learn/digital-skills-programs/meta-career-programs) | Meta's career programs for digital skills. |
+| Cuemath | [cuemath.com/](https://www.cuemath.com/) | Math learning platform for engineering foundations. |
+| Awesome List | [github.com/sindresorhus/awesome](https://github.com/sindresorhus/awesome) | Curated awesome lists for various topics. |
+
+### Tools and Guides
+| Name | Link | Description |
+|------|------|-------------|
+| Unpaywall | [unpaywall.org/](https://unpaywall.org/) | Tool for accessing open-access research papers. |
+| NotebookLM | [notebooklm.google.com/](https://notebooklm.google.com/) | Google AI tool for note-taking and research. |
+| Intern Form Glossary | [internformglossary.net/](https://internformglossary.net/) | Glossary for intern forms, useful for career prep. (Note: Link appears incomplete; based on provided "sites.google.com/site/internformglossary/".)
+| MyGreatLearning | [mygreatlearning.com/](https://www.mygreatlearning.com/) | Industry courses for AI and engineering. |
+| CodeWithMosh | [codewithmosh.com/](https://codewithmosh.com/) | Coding courses for developers. |
+| Udemy | [udemy.com/](https://www.udemy.com/) | Online learning platform with engineering courses. |
+| AlgoExpert | [algoexpert.io/product](https://www.algoexpert.io/product) | Algorithm interview prep tool. |
+| Tech Dev Guide | [techdevguide.withgoogle.com/paths/interview/](https://techdevguide.withgoogle.com/paths/interview/) | Google’s tech dev guide for interviews. |
+| YouTube Videos | [youtube.com/watch?v=Q6G-J54vgKc](https://www.youtube.com/watch?v=Q6G-J54vgKc) | Video on engineering topics. |
+| YouTube Videos | [youtube.com/watch?v=twZ2ggIc0PQ](https://www.youtube.com/watch?v=twZ2ggIc0PQ) | Video on robotics or engineering. |
+| YouTube Videos | [youtube.com/watch?v=_bYFu9mBnr4](https://www.youtube.com/watch?v=_bYFu9mBnr4) | Video on programming or engineering. |
+
+## Projects
+These projects leverage the provided general resources to build practical skills, inspired by my competition experience. See `/General_Resources/projects/` for code and documentation.
+
+- **System Design for Autonomous Vehicle**: Design a scalable system using [System Design Primer](https://github.com/donnemartin/system-design-primer) for F1TENTH navigation. (Intermediate, competition-focused.)
+- **Developer Roadmap Project**: Implement a web app based on [Developer Roadmap](https://github.com/kamranahmedse/developer-roadmap) to track engineering progress. (Beginner, educational.)
+- **Tech Interview Prep**: Solve system design problems from [Tech Interview Handbook](https://github.com/yangshun/tech-interview-handbook) for robotics interviews. (Advanced, career-ready.)
+- **Markdown Guide on Learning Platforms**: Summarize platforms like [freeCodeCamp](https://www.freecodecamp.org/) in `/docs/learning_platforms.md`. (Beginner, educational.)
+
+## Repository Structure
+```
+General_Resources/
+├── docs/            # Notes and summaries (e.g., learning_platforms.md)
+├── projects/        # Project code and notebooks (e.g., system_design)
+├── README.md        # This file
+```
