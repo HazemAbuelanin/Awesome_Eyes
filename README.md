@@ -67,9 +67,7 @@ Below is the **master roadmap** — each section contains:
 - **Courses / Tutorials / Papers** (practice with guidance)
 - **Projects** (independent application)
 
-# Programming and Problem Solving Roadmap
-
-# Programming and Problem Solving Roadmap
+# Programming and Problem Solving 
 
 A comprehensive learning path from zero to hero in programming and problem-solving, following the Trinity Approach: **Books + Courses/Tutorials/Papers + Projects**.
 
