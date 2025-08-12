@@ -2232,3 +2232,68 @@ Self_Driving_Vehicles/
 ├── projects/        # Project code and notebooks (e.g., kitti_analysis)
 ├── README.md        # This file
 ```
+
+## Tools and Ecosystems
+
+## Table of Contents
+- [Overview](#overview)
+- [Curated Resources](#curated-resources)
+  - [Simulators](#simulators)
+  - [Tutorials](#tutorials)
+- [Projects](#projects)
+- [Repository Structure](#repository-structure)
+- [How to Use This Repository](#how-to-use-this-repository)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Overview
+This section is designed to:
+- Curate high-quality **simulator resources** for testing robotics and autonomous vehicle algorithms in virtual environments.
+- Provide practical **projects** inspired by my competition experience (e.g., F1TENTH, Shell Eco-marathon).
+- Integrate with my broader repo, linking to `/Robotics_Autonomous_Systems` (for ROS integration) and `/Self_Driving_Vehicles` (for driving scenarios).
+- Highlight my journey, showcasing simulation skills for competition-ready systems.
+
+## Curated Resources
+
+### Simulators
+| Name | Link | Description |
+|------|------|-------------|
+| Formula Student Driverless Simulator | [github.com/FS-Driverless/Formula-Student-Driverless-Simulator](https://github.com/FS-Driverless/Formula-Student-Driverless-Simulator) | Simulator for Formula Student driverless competitions, ideal for F1TENTH. |
+| NVIDIA Isaac GR00T | [github.com/NVIDIA/Isaac-GR00T](https://github.com/NVIDIA/Isaac-GR00T) | NVIDIA’s simulator for humanoid robots and autonomous systems. |
+| MuJoCo | [github.com/google-deepmind/mujoco](https://github.com/google-deepmind/mujoco) | Physics-based simulator for robotics and RL research. |
+| AutoDRIVE | [github.com/Tinker-Twins/AutoDRIVE](https://github.com/Tinker-Twins/AutoDRIVE) | Simulator for autonomous driving, supporting ROS2 and F1TENTH-style testing. |
+| Webots | [cyberbotics.com/](https://cyberbotics.com/) | Open-source robot simulator, compatible with ROS for robot modeling. |
+| AirSim | [github.com/microsoft/AirSim](https://github.com/microsoft/AirSim) | Simulator for drones and vehicles, with ROS and Unreal Engine support. |
+| CARLA | [github.com/carla-simulator/carla](https://github.com/carla-simulator/carla) | Open-source autonomous driving simulator, widely used for perception and planning. |
+| Autonomous Mobile Robot | [github.com/bandasaikrishna/Autonomous_Mobile_Robot](https://github.com/bandasaikrishna/Autonomous_Mobile_Robot) | Mobile robot simulation framework, with ROS integration. |
+| Robot Assets | [github.com/ankurhanda/robot-assets](https://github.com/ankurhanda/robot-assets) | Collection of robot models for simulation in Gazebo and other platforms. |
+| Gazebo Fuel | [gazebosim.org/docs/fortress/fuel_insert/](https://gazebosim.org/docs/fortress/fuel_insert/) | Gazebo Fuel for importing robot models and environments. |
+
+### Tutorials
+| Name | Link | Description |
+|------|------|-------------|
+| ROS Robotics Learning | [rosroboticslearning.com/](https://www.rosroboticslearning.com/) | Tutorials for ROS-based simulation, including Gazebo and TurtleBot3. |
+| CoppeliaSim Manual | [manual.coppeliarobotics.com/index.html](https://manual.coppeliarobotics.com/index.html) | Official manual for CoppeliaSim (formerly V-REP), a versatile robot simulator. |
+| FS Driverless Simulator Docs | [fs-driverless.github.io/Formula-Student-Driverless-Simulator/v2.2.0/](https://fs-driverless.github.io/Formula-Student-Driverless-Simulator/v2.2.0/) | Documentation for setting up the Formula Student Driverless Simulator. |
+| ROS2 and CARLA Setup Guide | [learnopencv.com/ros2-and-carla-setup-guide/](https://learnopencv.com/ros2-and-carla-setup-guide/) | Guide to integrating ROS2 with CARLA for autonomous driving simulation. |
+| TurtleBot3 in ROS2 Humble | [medium.com/@nilutpolkashyap/setting-up-turtlebot3-simulation-in-ros-2-humble-hawksbill-70a6fcdaf5de](https://medium.com/@nilutpolkashyap/setting-up-turtlebot3-simulation-in-ros-2-humble-hawksbill-70a6fcdaf5de) | Tutorial for setting up TurtleBot3 simulation in ROS2 Humble. |
+| CARLA Simulation Intro | [youtube.com/watch?v=Uz_i_sjVhIM](https://www.youtube.com/watch?v=Uz_i_sjVhIM) | Video intro to CARLA simulator for autonomous driving. |
+| ROS2 Simulation Playlist | [youtube.com/watch?v=inD2KquVzzo&list=PLbRa-L0fnTUzI6T6GBqBDYX9BSJjxySLZ&index=4](https://www.youtube.com/watch?v=inD2KquVzzo&list=PLbRa-L0fnTUzI6T6GBqBDYX9BSJjxySLZ&index=4) | YouTube playlist on ROS2 simulation setups. |
+
+## Projects
+These projects leverage the provided simulator resources to build practical skills, inspired by my competition experience. See `/Simulators/projects/` for code and documentation.
+
+- **F1TENTH Simulation**: Set up a racing environment in [Formula Student Driverless Simulator](https://github.com/FS-Driverless/Formula-Student-Driverless-Simulator) with ROS2 for path planning. (Intermediate, competition-ready.)
+- **CARLA Autonomous Driving**: Implement a lane-following algorithm in [CARLA](https://github.com/carla-simulator/carla) using [ROS2 and CARLA Setup Guide](https://learnopencv.com/ros2-and-carla-setup-guide/). (Intermediate, practical.)
+- **TurtleBot3 Obstacle Avoidance**: Simulate obstacle avoidance with TurtleBot3 in Gazebo using [ROS Robotics Learning](https://www.rosroboticslearning.com/). (Beginner, ROS2-focused.)
+- **Webots Robot Modeling**: Create a robot model in [Webots](https://cyberbotics.com/) with [Robot Assets](https://github.com/ankurhanda/robot-assets) for navigation tasks. (Intermediate, modeling skills.)
+- **MuJoCo RL Environment**: Build an RL environment for a robot using [MuJoCo](https://github.com/google-deepmind/mujoco) for control tasks. (Advanced, RL-focused.)
+- **Markdown Guide on Simulator Setup**: Document the setup process for CARLA and ROS2 based on [ROS2 and CARLA Setup Guide](https://learnopencv.com/ros2-and-carla-setup-guide/) in `/docs/simulator_setup.md`. (Beginner, educational.)
+
+## Repository Structure
+```
+Simulators/
+├── docs/            # Notes and summaries (e.g., simulator_setup.md)
+├── projects/        # Project code and notebooks (e.g., carla_lane_following)
+├── README.md        # This file
+```
