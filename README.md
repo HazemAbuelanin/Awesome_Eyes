@@ -270,6 +270,80 @@ Research, innovation, and teaching others.
 - [Project Euler](https://projecteuler.net/)  
 - [Google Code Jam](https://codingcompetitions.withgoogle.com/codejam)  
 
+# Problem Solving Repository
+
+## Table of Contents
+- [Overview](#overview)
+- [Curated Resources](#curated-resources)
+  - [Repositories](#repositories)
+  - [Practice Platforms](#practice-platforms)
+  - [Courses and Tutorials](#courses-and-tutorials)
+- [Projects](#projects)
+- [Repository Structure](#repository-structure)
+- [How to Use This Repository](#how-to-use-this-repository)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Overview
+This section is designed to:
+- Curate high-quality **resources** for competitive programming and problem-solving, covering guides, platforms, and tools.
+- Provide practical **projects** inspired by my competition experience (e.g., algorithm optimization for autonomous vehicles).
+- Integrate with my broader repo, linking to `/Programming_Problem_Solving` (for coding skills) and `/Robotics_Autonomous_Systems` (for algorithmic applications).
+- Highlight my journey, showcasing problem-solving skills for robotics competitions and engineering challenges.
+
+The resources below cover awesome lists, platforms, and courses for problem solving, organized for easy access.
+
+## Curated Resources
+
+### Repositories
+| Name | Link | Description |
+|------|------|-------------|
+| Competitive Programming Guideline | [github.com/ShahjalalShohag/Competitive-Programming-A-Complete-Guideline](https://github.com/ShahjalalShohag/Competitive-Programming-A-Complete-Guideline) | Complete guide to competitive programming, including algorithms and tips. |
+| Arabic Competitive Programming | [github.com/mostafa-saad/ArabicCompetitiveProgramming](https://github.com/mostafa-saad/ArabicCompetitiveProgramming) | Arabic resources for competitive programming, great for non-English speakers. |
+| Awesome Competitive Programming | [github.com/lnishan/awesome-competitive-programming](https://github.com/lnishan/awesome-competitive-programming) | Curated list of competitive programming resources and tools. |
+| Competitive Programming Library | [github.com/hazemadelkhalel/Competitive-Programming-Library](https://github.com/hazemadelkhalel/Competitive-Programming-Library) | Library and roadmap for competitive programming. |
+
+### Practice Platforms
+| Name | Link | Description |
+|------|------|-------------|
+| Edabit C++ Challenges | [edabit.com/challenges/cpp](https://edabit.com/challenges/cpp) | C++ challenges for problem-solving practice. |
+| HackerEarth | [hackerearth.com/](https://www.hackerearth.com/) | Platform for coding challenges and hackathons. |
+| VJudge | [vjudge.net/](https://vjudge.net/) | Virtual judge for practicing problems from multiple platforms. |
+| LeetCode Interview | [leetcode.com/interview/](https://leetcode.com/interview/) | Interview preparation with coding problems. |
+| HackerRank | [hackerrank.com/](https://www.hackerrank.com/) | Coding platform with challenges and tutorials. |
+| CodeChef | [codechef.com/](https://www.codechef.com/) | Competitive programming contests and practice. |
+| NeetCode | [neetcode.io/](https://neetcode.io/) | Curated LeetCode problems for interview prep. |
+| Codeforces | [codeforces.com/group/MWSDmqGsZm/contests](https://codeforces.com/group/MWSDmqGsZm/contests) | Contests for competitive programming practice. |
+| Codewars | [codewars.com/](https://www.codewars.com/) | Gamified coding challenges. |
+| SPOJ | [spoj.com/](https://www.spoj.com/) | Sphere Online Judge for algorithm problems. |
+| BeeCrowd | [judge.beecrowd.com/en/login?redirect=%2Fen%2Fcategories](https://judge.beecrowd.com/en/login?redirect=%2Fen%2Fcategories) | Problem-solving platform with categorized challenges. |
+| LeetCode New Users | [leetcode.com/problem-list/challenges-for-new-users/?difficulty=EASY&page=1](https://leetcode.com/problem-list/challenges-for-new-users/?difficulty=EASY&page=1) | Easy problems for new users on LeetCode. |
+
+### Courses and Tutorials
+| Name | Link | Description |
+|------|------|-------------|
+| ITMO Competitive Programming | [courses.edx.org/courses/course-v1:ITMOx+I2CPx+3T2017/bf78f3a948074b16ba7146b1be3b4850/](https://courses.edx.org/courses/course-v1:ITMOx+I2CPx+3T2017/bf78f3a948074b16ba7146b1be3b4850/) | edX course on competitive programming. |
+| Azhar ICPC | [sites.google.com/view/azharicpc/home?authuser=0](https://sites.google.com/view/azharicpc/home?authuser=0) | ICPC preparation resources and guides. |
+| Arabic Competitive Programming (YouTube) | [youtube.com/c/ArabicCompetitiveProgramming](https://www.youtube.com/c/ArabicCompetitiveProgramming) | YouTube channel for Arabic competitive programming tutorials. |
+| Problem Solving Sheet | [docs.google.com/spreadsheets/d/1iJZWP2nS_OB3kCTjq8L6TrJJ4o-5lhxDOyTaocSYc-k/edit?gid=84654839#gid=84654839](https://docs.google.com/spreadsheets/d/1iJZWP2nS_OB3kCTjq8L6TrJJ4o-5lhxDOyTaocSYc-k/edit?gid=84654839#gid=84654839) | Spreadsheet with problem-solving practice problems. |
+| ICPC Global | [icpc.global/](https://icpc.global/) | Official ICPC website for competitions and resources. |
+
+## Projects
+These projects leverage the provided problem-solving resources to build practical skills, inspired by my competition experience. See `/Problem_Solving/projects/` for code and documentation.
+
+- **LeetCode Interview Prep**: Solve interview problems using [LeetCode Interview](https://leetcode.com/interview/) and [NeetCode](https://neetcode.io/) for algorithmic optimization in robotics. (Intermediate, competition-ready.)
+- **Codeforces Contest Simulator**: Participate in virtual contests on [Codeforces](https://codeforces.com/group/MWSDmqGsZm/contests) and implement solutions in C++. (Intermediate, Codeforces-focused.)
+- **HackerRank Challenge Solver**: Build a Python script to solve challenges on [HackerRank](https://www.hackerrank.com/) for graph algorithms in autonomous navigation. (Beginner, practical.)
+- **SPOJ Algorithm Implementation**: Implement dynamic programming problems from [SPOJ](https://www.spoj.com/) for resource allocation in Shell Eco-marathon. (Advanced, algorithm-focused.)
+- **Markdown Guide on CP Roadmap**: Summarize competitive programming roadmap based on [Competitive Programming Library](https://github.com/hazemadelkhalel/Competitive-Programming-Library) in `/docs/cp_roadmap.md`. (Beginner, educational.)
+
+## Repository Structure
+```
+Problem_Solving/
+├── docs/            # Notes and summaries (e.g., cp_roadmap.md)
+├── projects/        # Project code and notebooks (e.g., leetcode_solver)
+├── README.md        # This file
+```
 
 ## Foundations of Computer Engineering 
 
