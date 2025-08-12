@@ -47,6 +47,9 @@ My mission with **amazing_eyes** is simple:
 
 Inspired by the *Deathly Hallows* from Harry Potter — three powerful artifacts that together grant mastery — **The Trinity Approach** is my framework for deep learning:
 
+![deathly hallows](https://github.com/user-attachments/assets/f6ac353e-c04b-4743-a123-3b63bf3a4cf6)
+
+
 **The Three Pillars:**
 1. **Books** – Deep, timeless knowledge
 2. **Courses / Tutorials / Papers** – Structured, guided learning
