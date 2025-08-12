@@ -1801,3 +1801,352 @@ Robotics_Autonomous_Systems/
 ```
 
 
+# Robotics and Autonomous Systems Repository
+
+[![Stars](https://img.shields.io/github/stars/yourusername/awesome-robotics-engineering-roadmap?style=social)](https://github.com/yourusername/awesome-robotics-engineering-roadmap/stargazers) [![Forks](https://img.shields.io/github/forks/yourusername/awesome-robotics-engineering-roadmap?style=social)](https://github.com/yourusername/awesome-robotics-engineering-roadmap/network) [![License](https://img.shields.io/github/license/yourusername/awesome-robotics-engineering-roadmap)](LICENSE)
+
+Welcome to the **Robotics and Autonomous Systems** section of my GitHub repository, documenting my journey as a computer engineering student passionate about robotics and autonomous vehicles. This category focuses on **ROS/ROS2**, the backbone of modern robotics, with curated resources to help you master robot software development for applications like autonomous navigation and competition vehicles (e.g., F1TENTH, Shell Eco-marathon). Built using the **trinity approach** (Books, Courses/Tutorials, Projects), this section provides a foundation for building, simulating, and deploying robotic systems.
+
+This README serves as the hub for the provided resources, including ROS/ROS2 repositories, books, and tutorials, carefully organized for quick reference. Whether you're a beginner learning ROS/ROS2 basics, a hobbyist building a TurtleBot, or a recruiter exploring my competition-driven projects, this repo is designed to inspire and guide. Star, fork, or contribute to make it even better! 🌟
+
+## Table of Contents
+- [Overview](#overview)
+- [Curated Resources](#curated-resources)
+  - [ROS/ROS2 Repositories](#rosros2-repositories)
+  - [Books](#books)
+  - [Courses and Tutorials](#courses-and-tutorials)
+  - [Core Robotics & AI](#core-robotics--ai)
+  - [Tools & Frameworks](#tools--frameworks)
+  - [Embodied AI & Humanoids](#embodied-ai--humanoids)
+  - [Reinforcement Learning for Robotics](#reinforcement-learning-for-robotics)
+  - [Hardware & Actuators](#hardware--actuators)
+  - [Motion Planning & Control](#motion-planning--control)
+  - [Autonomous Driving & Simulation](#autonomous-driving--simulation)
+  - [SLAM & Perception](#slam--perception)
+  - [Simulators](#simulators)
+- [Projects](#projects)
+- [Repository Structure](#repository-structure)
+
+## Overview
+This section is designed to:
+- Curate high-quality **resources** to support learning and development in robotics and autonomous systems, with a special emphasis on ROS/ROS2 as a foundational framework.
+- Provide practical **projects** that align with real-world applications, drawing from my experience in F1TENTH and Shell Eco-marathon.
+- Integrate with my broader repo, linking to `/Systems_Hardware` (for ROS drivers) and `/Artificial_Intelligence` (for perception).
+- Highlight my journey, showcasing competition-ready skills in autonomous navigation and control.
+
+The resources below are organized by the subheadings from the provided list, covering repositories, books, courses, and industry tools for robotics/autonomous systems. This is the starting point for a growing collection—more categories and resources will be added incrementally.
+
+## Curated Resources
+
+Below is a curated list of resources, organized by the provided categories. Each includes a brief description and its relevance to robotics/autonomous systems.
+
+### ROS/ROS2 Repositories
+| Name | Link | Description |
+|------|------|-------------|
+| ROS2 Migration Tools | [github.com/awslabs/ros2-migration-tools](https://github.com/awslabs/ros2-migration-tools) | Tools to migrate from ROS1 to ROS2, ideal for updating legacy robot projects. |
+| Inmoov ROS2 | [github.com/aalonsopuig/Inmoov_ROS2](https://github.com/aalonsopuig/Inmoov_ROS2) | ROS2 integration for Inmoov, a 3D-printed humanoid robot, great for learning ROS2 with humanoids. |
+| GP-MPPI | [github.com/IhabMohamed/GP-MPPI](https://github.com/IhabMohamed/GP-MPPI) | Gaussian Process-based Model Predictive Path Integral control for autonomous navigation, useful for F1TENTH planners. |
+| RealSense ROS | [github.com/IntelRealSense/realsense-ros](https://github.com/IntelRealSense/realsense-ros) | ROS wrapper for Intel RealSense cameras, key for perception in autonomous robots. |
+| RF2O Laser Odometry | [github.com/MAPIRlab/rf2o_laser_odometry](https://github.com/MAPIRlab/rf2o_laser_odometry) | Lightweight laser odometry for ROS, perfect for SLAM in resource-constrained robots. |
+| TurtleBot3 | [github.com/ROBOTIS-GIT/turtlebot3](https://github.com/ROBOTIS-GIT/turtlebot3) | Official TurtleBot3 repo, a versatile platform for learning ROS/ROS2 basics and navigation. |
+| TurtleBot3 Deliver | [github.com/ROBOTIS-GIT/turtlebot3_deliver](https://github.com/ROBOTIS-GIT/turtlebot3_deliver) | TurtleBot3 delivery application, showcasing ROS for service robots. |
+| NASA JPL ROSA | [github.com/nasa-jpl/rosa](https://github.com/nasa-jpl/rosa) | NASA’s ROS-based autonomy software, ideal for studying advanced robotic systems. |
+| Autonomy Stack (Mecanum) | [github.com/jizhang-cmu/autonomy_stack_mecanum_wheel_platform](https://github.com/jizhang-cmu/autonomy_stack_mecanum_wheel_platform) | ROS-based autonomy stack for mecanum wheel robots, useful for omnidirectional navigation. |
+| Autonomous Racing | [github.com/Autonomous-Racing-PG/ar-tu-do](https://github.com/Autonomous-Racing-PG/ar-tu-do) | ROS-based autonomous racing framework, directly applicable to F1TENTH competitions. |
+| ROS Motion Planning | [github.com/ai-winter/ros_motion_planning](https://github.com/ai-winter/ros_motion_planning) | ROS package for motion planning, including path planning algorithms for robots. |
+| MoveIt | [github.com/moveit/moveit](https://github.com/moveit/moveit) | ROS motion planning framework for robotic arms, key for manipulation tasks. |
+| Costmap Depth Camera | [github.com/tsengapola/costmap_depth_camera](https://github.com/tsengapola/costmap_depth_camera) | ROS package to create costmaps from depth cameras, useful for obstacle avoidance. |
+| ROS Navigation | [github.com/ros-planning/navigation](https://github.com/ros-planning/navigation) | Official ROS navigation stack for mobile robots, critical for autonomous vehicle navigation. |
+
+### Books
+| Name | Link | Description |
+|------|------|-------------|
+| A Gentle Introduction to ROS | [jokane.net/agitr/agitr-letter.pdf](jokane.net/agitr/agitr-letter.pdf) | Free PDF introducing ROS concepts, perfect for beginners starting with TurtleBot or simulation. |
+| Programming Robots with ROS | [alvarestech.com/temp/capp/GDT_p Form3D/Programming%20Robots%20with%20ROS.pdf](alvarestech.com/temp/capp/GDT_p Form3D/Programming%20Robots%20with%20ROS.pdf) | Practical guide to ROS programming, with examples for sensors and navigation. |
+| Mastering ROS for Robotics Programming (3rd Ed) | [github.com/PacktPublishing/Mastering-ROS-for-Robotics-Programming-Third-edition](https://github.com/PacktPublishing/Mastering-ROS-for-Robotics-Programming-Third-edition) | Comprehensive ROS guide covering advanced topics like navigation and manipulation. |
+| Learning ROS for Robotics Programming | [vladestivill-castro.net/teaching/robotics.d/READINGS/Learning%20ROS%20for%20Robotics%20Programming%20[eBook].pdf](vladestivill-castro.net/teaching/robotics.d/READINGS/Learning%20ROS%20for%20Robotics%20Programming%20[eBook].pdf) | Beginner-friendly eBook on ROS, with practical examples for robot control. |
+| ROS2 Cookbook | [github.com/mikeferguson/ros2_cookbook](https://github.com/mikeferguson/ros2_cookbook) | Collection of ROS2 recipes and examples, great for transitioning to ROS2 projects. |
+
+### Courses and Tutorials
+| Name | Link | Description |
+|------|------|-------------|
+| ROS Python Course | [theconstruct.ai/robotigniteacademy_learnros/ros-courses-library/ros-python-course/](https://theconstruct.ai/robotigniteacademy_learnros/ros-courses-library/ros-python-course/) | Python-based ROS course, ideal for scripting robot behaviors in simulation. |
+| ROS for Beginners (Udemy) | [udemy.com/course/ros-for-beginners](https://udemy.com/course/ros-for-beginners) | Beginner-friendly course covering ROS basics, nodes, and topics (often discounted). |
+| ROS Humble Installation | [docs.ros.org/en/humble/Installation/Alternatives/Ubuntu-Development-Setup.html](https://docs.ros.org/en/humble/Installation/Alternatives/Ubuntu-Development-Setup.html) | Official guide to install ROS2 Humble, essential for setting up a development environment. |
+| ROS Humble Tutorials | [docs.ros.org/en/humble/Tutorials.html](https://docs.ros.org/en/humble/Tutorials.html) | Official ROS2 Humble tutorials, covering nodes, publishers, and subscribers. |
+| ROS Tutorial Series (YouTube) | [youtube.com/watch?v=9U6GDonGFHw](https://youtube.com/watch?v=9U6GDonGFHw) | Video series on ROS basics, great for visual learners starting with ROS. |
+
+### Core Robotics & AI
+| Name | Link | Description |
+|------|------|-------------|
+| Lichtblick (ROS 2 Suite) | [github.com/lichtblick-suite/lichtblick](https://github.com/lichtblick-suite/lichtblick) | ROS2 visualization tool for debugging and monitoring robot data. |
+| Survey Autonomous Driving Unstructured Environments | [github.com/chaytonmin/Survey-Autonomous-Driving-in-Unstructured-Environments](https://github.com/chaytonmin/Survey-Autonomous-Driving-in-Unstructured-Environments) | Survey on autonomous driving in unstructured environments, useful for off-road robotics. |
+| NVIDIA Redtail (UGV) | [github.com/NVIDIA-AI-IOT/redtail](https://github.com/NVIDIA-AI-IOT/redtail) | AI framework for unmanned ground vehicles (UGV), integrating ROS for perception and navigation. |
+| SLAM Resources for Beginner | [github.com/Taeyoung96/SLAM-Resources-for-Beginner](https://github.com/Taeyoung96/SLAM-Resources-for-Beginner) | Beginner-friendly resources for SLAM, including ROS-based tutorials. |
+| Awesome Robotic Tooling | [github.com/Ly0n/awesome-robotic-tooling](https://github.com/Ly0n/awesome-robotic-tooling) | Curated list of robotics tools, including ROS extensions and simulators. |
+| End-to-End Autonomous Driving | [github.com/OpenDriveLab/End-to-end-Autonomous-Driving](https://github.com/OpenDriveLab/End-to-end-Autonomous-Driving) | End-to-end learning for autonomous driving, with ROS integration for vehicle control. |
+| Robotics Python Tutorials | [github.com/kimsooyoung/robotics_python](https://github.com/kimsooyoung/robotics_python) | Python tutorials for robotics, including ROS and motion planning. |
+| Open Robot Actuator Hardware | [github.com/open-dynamic-robot-initiative/open_robot_actuator_hardware](https://github.com/open-dynamic-robot-initiative/open_robot_actuator_hardware) | Open-source actuator hardware for robots, compatible with ROS for control. |
+| OttoNinja (DIY Robot) | [github.com/OttoDIY/OttoNinja](https://github.com/OttoDIY/OttoNinja) | DIY humanoid robot with ROS support for learning basic robotics. |
+| Awesome Embodied AI | [github.com/TinyEmbodiedAI/Awesome-embodied-ai](https://github.com/TinyEmbodiedAI/Awesome-embodied-ai) | Curated list of embodied AI resources, including ROS for physical robots. |
+| Berkeley Humanoid Lite | [github.com/HybridRobotics/Berkeley-Humanoid-Lite](https://github.com/HybridRobotics/Berkeley-Humanoid-Lite) | Lightweight humanoid robot framework, with ROS2 integration for embodied AI. |
+| Embodied AI Paper List | [github.com/HCPLab-SYSU/Embodied_AI_Paper_List](https://github.com/HCPLab-SYSU/Embodied_AI_Paper_List) | List of papers on embodied AI, relevant for ROS-based robot intelligence. |
+| RSE Prob Robotics | [github.com/carlos-argueta/rse_prob_robotics](https://github.com/carlos-argueta/rse_prob_robotics) | Probabilistic robotics with ROS, for uncertainty handling in autonomous systems. |
+| Xtreme1 (3D Data Platform) | [github.com/xtreme1-io/xtreme1](https://github.com/xtreme1-io/xtreme1) | Platform for 3D data in robotics, compatible with ROS for perception. |
+| Path Planning | [github.com/gabrielegilardi/PathPlanning](https://github.com/gabrielegilardi/PathPlanning) | Path planning algorithms for robots, integrating with ROS navigation. |
+| Robot VLMs | [github.com/Robot-VLAs/RoboVLMs](https://github.com/Robot-VLAs/RoboVLMs) | Vision-language models for robots, with ROS2 support for embodied tasks. |
+| Openpilot Deepdive | [github.com/OpenDriveLab/Openpilot-Deepdive](https://github.com/OpenDriveLab/Openpilot-Deepdive) | Deep dive into Openpilot for autonomous driving, with ROS-like structures. |
+| Awesome Interaction-Aware Trajectory Prediction | [github.com/jiachenli94/Awesome-Interaction-Aware-Trajectory-Prediction](https://github.com/jiachenli94/Awesome-Interaction-Aware-Trajectory-Prediction) | Resources for trajectory prediction in autonomous vehicles, useful for ROS planning. |
+| Lyft Motion Prediction | [github.com/JerryIshihara/lyft-motion-prediction-for-autonomous-vehicle](https://github.com/JerryIshihara/lyft-motion-prediction-for-autonomous-vehicle) | Motion prediction for autonomous vehicles, integrating with ROS navigation. |
+| Awesome Lane Detection | [github.com/amusi/awesome-lane-detection](https://github.com/amusi/awesome-lane-detection) | Lane detection resources for autonomous driving, ROS-compatible for perception. |
+| Awesome RGB-D Datasets | [github.com/alelopes/awesome-rgbd-datasets](https://github.com/alelopes/awesome-rgbd-datasets) | RGB-D datasets for robotics perception, used in ROS SLAM. |
+| NPYViewer | [github.com/csmailis/NPYViewer](https://github.com/csmailis/NPYViewer) | Viewer for NumPy files in robotics data analysis, useful with ROS. |
+| Carla Multimodal Sensing | [github.com/joedlopes/carla-simulator-multimodal-sensing](https://github.com/joedlopes/carla-simulator-multimodal-sensing) | Multimodal sensing in CARLA simulator, ROS-integrated for autonomous testing. |
+| Collision Avoidance Carla DRL MPC | [github.com/gustavomoers/CollisionAvoidance-Carla-DRL-MPC](https://github.com/gustavomoers/CollisionAvoidance-Carla-DRL-MPC) | Collision avoidance using DRL and MPC in CARLA, with ROS support. |
+| Gym-Carla | [github.com/cjy1992/gym-carla](https://github.com/cjy1992/gym-carla) | Gym environment for CARLA, for RL in autonomous driving with ROS. |
+| Awesome CARLA | [github.com/Amin-Tgz/awesome-CARLA](https://github.com/Amin-Tgz/awesome-CARLA) | Curated CARLA resources, including ROS integrations for simulation. |
+| Carla Lidar Mapping | [github.com/casper-auto/carla_lidar_mapping](https://github.com/casper-auto/carla_lidar_mapping) | LiDAR mapping in CARLA, useful for ROS SLAM testing. |
+| Carla Scenario Runner | [github.com/carla-simulator/scenario_runner](https://github.com/carla-simulator/scenario_runner) | Scenario runner for CARLA, for autonomous vehicle testing with ROS. |
+| CarDreamer | [github.com/ucd-dare/CarDreamer](https://github.com/ucd-dare/CarDreamer) | CARLA-based RL environment for driving, ROS-compatible. |
+| Shell Urban Simulator | [github.com/Shell-Urban-Concept-Autonomous/shell_urban_simulator](https://github.com/Shell-Urban-Concept-Autonomous/shell_urban_simulator) | Simulator for urban autonomous vehicles, inspired by Shell Eco-marathon. |
+| OceanSim (Marine Robotics) | [github.com/umfieldrobotics/OceanSim](https://github.com/umfieldrobotics/OceanSim) | Marine robotics simulator, extendable with ROS for underwater autonomy. |
+| Faster (LiDAR SLAM) | [github.com/mit-acl/faster](https://github.com/mit-acl/faster) | Fast LiDAR SLAM, ROS-integrated for real-time mapping. |
+| Roman (Robotics Manipulation) | [github.com/mit-acl/roman](https://github.com/mit-acl/roman) | Robotics manipulation framework, with ROS support for arms. |
+| ICP Localization | [github.com/leggedrobotics/icp_localization](https://github.com/leggedrobotics/icp_localization) | ICP-based localization for robots, ROS-compatible. |
+| Tinker (Humanoid Robot) | [github.com/Yuexuan9/Tinker](https://github.com/Yuexuan9/Tinker) | Tinker humanoid robot, with ROS2 for embodied AI. |
+| AgiBot-World | [github.com/OpenDriveLab/AgiBot-World](https://github.com/OpenDriveLab/AgiBot-World) | AGI for robots in simulation, ROS-integrated. |
+| Lerobot (Hugging Face) | [github.com/huggingface/lerobot](https://github.com/huggingface/lerobot) | Learning-based robot control, with ROS support. |
+| RSL RL (Legged Robotics) | [github.com/leggedrobotics/rsl_rl](https://github.com/leggedrobotics/rsl_rl) | RL for legged robots, ROS-compatible for training. |
+| Genesis Embodied AI | [github.com/Genesis-Embodied-AI/Genesis](https://github.com/Genesis-Embodied-AI/Genesis) | Embodied AI framework for robots, with ROS2. |
+| OpenVLA | [github.com/openvla/openvla](https://github.com/openvla/openvla) | Open vision-language-action model for robots, ROS-integrated. |
+| Robot VLMs | [github.com/Robot-VLAs/RoboVLMs](https://github.com/Robot-VLAs/RoboVLMs) | Vision-language models for robots, with ROS support. |
+| Vision-Language Models Overview | [github.com/zli12321/Vision-Language-Models-Overview](https://github.com/zli12321/Vision-Language-Models-Overview) | Overview of VLMs for robotics perception. |
+| HCPLab Embodied AI Paper List | [github.com/HCPLab-SYSU/Embodied_AI_Paper_List](https://github.com/HCPLab-SYSU/Embodied_AI_Paper_List) | Papers on embodied AI, relevant for ROS-based robots. |
+| Awesome Embodied AI | [github.com/haoranD/Awesome-Embodied-AI](https://github.com/haoranD/Awesome-Embodied-AI) | Curated embodied AI resources, including ROS tools. |
+| Awesome Quadrupedal Robots | [github.com/curieuxjy/Awesome_Quadrupedal_Robots](https://github.com/curieuxjy/Awesome_Quadrupedal_Robots) | Resources for quadrupedal robots, with ROS integrations. |
+| LeCAR HumanoidVerse | [github.com/LeCAR-Lab/HumanoidVerse](https://github.com/LeCAR-Lab/HumanoidVerse) | Humanoid robot framework, ROS2-based. |
+| Humanoid Bench | [github.com/carlosferrazza/humanoid-bench](https://github.com/carlosferrazza/humanoid-bench) | Benchmark for humanoid robots, with ROS support. |
+| 3D Afford Splat | [github.com/HCPLab-SYSU/3DAffordSplat](https://github.com/HCPLab-SYSU/3DAffordSplat) | 3D affordance mapping for robots, ROS-integrated. |
+| Deep Dynamics | [github.com/linklab-uva/deep-dynamics](https://github.com/linklab-uva/deep-dynamics) | Deep learning for robot dynamics, with ROS. |
+| ModernControl UGV | [github.com/seyedsaleh/ModernControl-UGV](https://github.com/seyedsaleh/ModernControl-UGV) | Modern control for unmanned ground vehicles, ROS-based. |
+| Awesome Control Theory | [github.com/A-make/awesome-control-theory](https://github.com/A-make/awesome-control-theory) | Curated control theory resources for robotics. |
+| GP-MPC | [github.com/helgeanl/GP-MPC](https://github.com/helgeanl/GP-MPC) | Gaussian Process MPC for autonomous systems. |
+| Multi-Purpose MPC | [github.com/matssteinweg/Multi-Purpose-MPC](https://github.com/matssteinweg/Multi-Purpose-MPC) | Multi-purpose MPC for robot control. |
+| Robust Tube MPC | [github.com/HiroIshida/robust-tube-mpc](https://github.com/HiroIshida/robust-tube-mpc) | Robust MPC for tube-based control in robots. |
+| TUMFTM Vehicle Dynamics Control | [github.com/TUMFTM/mod_vehicle_dynamics_control](https://github.com/TUMFTM/mod_vehicle_dynamics_control) | Vehicle dynamics control for autonomous driving. |
+| TUMFTM Ethical Trajectory Planning | [github.com/TUMFTM/EthicalTrajectoryPlanning](https://github.com/TUMFTM/EthicalTrajectoryPlanning) | Ethical planning for autonomous vehicles. |
+| Pyroki | [github.com/chungmin99/pyroki](https://github.com/chungmin99/pyroki) | PyTorch-based robotics kinematics library. |
+| Awesome Motion Planning | [github.com/AGV-IIT-KGP/awesome-motion-planning](https://github.com/AGV-IIT-KGP/awesome-motion-planning) | Curated motion planning resources. |
+| OMPL | [github.com/ompl/ompl](https://github.com/ompl/ompl) | Open Motion Planning Library for robots. |
+| MotionPlanning | [github.com/zhm-real/MotionPlanning](https://github.com/zhm-real/MotionPlanning) | Motion planning algorithms for autonomous systems. |
+| PathPlanning | [github.com/zhm-real/PathPlanning](https://github.com/zhm-real/PathPlanning) | Path planning tools for robots. |
+| Path Planner | [github.com/karlkurzer/path_planner](https://github.com/karlkurzer/path_planner) | A* and hybrid path planners for ROS. |
+| Robotics-Path-Planning-03-Hybrid-A-Star | [github.com/ChenBohan/Robotics-Path-Planning-03-Hybrid-A-Star](https://github.com/ChenBohan/Robotics-Path-Planning-03-Hybrid-A-Star) | Hybrid A* for path planning. |
+| Robotics-Path-Planning-04-Quintic-Polynomial-Solver | [github.com/ChenBohan/Robotics-Path-Planning-04-Quintic-Polynomial-Solver](https://github.com/ChenBohan/Robotics-Path-Planning-04-Quintic-Polynomial-Solver) | Quintic polynomial solver for smooth trajectories. |
+| Hybrid Path Planning | [github.com/armando-genis/hybrid_path_planning](https://github.com/armando-genis/hybrid_path_planning) | Hybrid planning for autonomous navigation. |
+| Autonomous Dynamic Path Planning | [github.com/armando-genis/Autonomous_dynamic_path_planning](https://github.com/armando-genis/Autonomous_dynamic_path_planning) | Dynamic path planning for robots. |
+| Frenet Optimal Trajectory Planner | [github.com/erdos-project/frenet_optimal_trajectory_planner](https://github.com/erdos-project/frenet_optimal_trajectory_planner) | Frenet-based optimal trajectory for vehicles. |
+| Robust Tube MPC | [github.com/HiroIshida/robust-tube-mpc](https://github.com/HiroIshida/robust-tube-mpc) | Robust MPC for robot control.
+| JJulio AHRobot | [github.com/JJulio/AHRobot](https://github.com/JJulio/AHRobot) | Open-source humanoid robot. |
+| Andro Robot | [github.com/devjewel01/Robot-Blueberry](https://github.com/devjewel01/Robot-Blueberry) | Blueberry robot project. (Note: Duplicate entry in provided resources.)
+| VoxelMapPlus FASTLIO2 | [github.com/liangheming/VoxelMapPlus_FASTLIO2](https://github.com/liangheming/VoxelMapPlus_FASTLIO2) | Voxel-based SLAM with FAST-LIO2. |
+| Open Source Sensor Fusion | [github.com/memsindustrygroup/Open-Source-Sensor-Fusion](https://github.com/memsindustrygroup/Open-Source-Sensor-Fusion) | Open-source sensor fusion for robotics. |
+| VINS-Fusion | [github.com/HKUST-Aerial-Robotics/VINS-Fusion](https://github.com/HKUST-Aerial-Robotics/VINS-Fusion) | VINS-Fusion for visual-inertial SLAM. |
+| XRDSLAM | [github.com/openxrlab/xrdslam](https://github.com/openxrlab/xrdslam) | XR-based SLAM for robots. |
+| Vellons Humandroid | [github.com/vellons/Humandroid](https://github.com/vellons/Humandroid) | Humandroid humanoid robot. |
+| Poppy Humanoid | [github.com/poppy-project/poppy-humanoid](https://github.com/poppy-project/poppy-humanoid) | Poppy humanoid robot platform. |
+| PCrnjak PAROL6 | [github.com/PCrnjak/PAROL6-Desktop-robot-arm](https://github.com/PCrnjak/PAROL6-Desktop-robot-arm) | Desktop robotic arm. |
+| Roboterax Humanoid Gym | [github.com/roboterax/humanoid-gym](https://github.com/roboterax/humanoid-gym) | Gym environment for humanoids. |
+| EngineAI Humanoid | [github.com/engineai-robotics/engineai_humanoid](https://github.com/engineai-robotics/engineai_humanoid) | EngineAI humanoid robot. |
+| Pinocchio | [github.com/stack-of-tasks/pinocchio](https://github.com/stack-of-tasks/pinocchio) | Robot dynamics library. |
+| CppRobotics | [github.com/onlytailei/CppRobotics](https://github.com/onlytailei/CppRobotics) | C++ robotics library. |
+| Dusty NV Jetson Containers | [github.com/dusty-nv/jetson-containers](https://github.com/dusty-nv/jetson-containers) | Jetson containers for AI/robotics. |
+| NVIDIA JetRacer | [github.com/NVIDIA-AI-IOT/jetracer](https://github.com/NVIDIA-AI-IOT/jetracer) | JetRacer for autonomous racing. |
+| NVIDIA JetBot | [github.com/NVIDIA-AI-IOT/jetbot](https://github.com/NVIDIA-AI-IOT/jetbot) | JetBot for AI robotics. |
+| RoboSapiens | [robosapiens-eu.tech/](https://robosapiens-eu.tech/) | RoboSapiens platform for humanoid robotics. |
+| AllenAI Embodied AI | [allenai.org/embodied-ai](https://allenai.org/embodied-ai) | Embodied AI research from AllenAI. |
+| Humanoid Bench | [humanoid-bench.github.io/](https://humanoid-bench.github.io/) | Benchmark for humanoid robots. |
+| KScale | [www.kscale.dev/](https://www.kscale.dev/) | KScale robotics platform. |
+| SWRI | [swri.org](https://www.swri.org/markets/manufacturing-construction/manufacturing-technologies/industrial-robotics-automation) - Industrial robotics automation.
+| arXiv Paper | [arxiv.org/html/2408.06113v1](https://arxiv.org/html/2408.06113v1) | Paper on robotics topics. |
+| Santa Fe Embodied Intelligence | [santafe.edu/research/projects/theory-of-embodied-intelligence](https://www.santafe.edu/research/projects/theory-of-embodied-intelligence) | Theory of embodied intelligence. |
+| GitLab Autoware Core Planning | [gitlab.com/autowarefoundation/autoware.ai/core_planning/-/tree/master/mpc_follower/src](https://gitlab.com/autowarefoundation/autoware.ai/core_planning/-/tree/master/mpc_follower/src) | MPC follower for Autoware. |
+| Microsoft Embodied AI | [microsoft.com/en-us/research/collaboration/embodied-ai](https://www.microsoft.com/en-us/research/collaboration/embodied-ai/) | Microsoft’s embodied AI research. |
+
+### Tools & Frameworks
+| Name | Link | Description |
+|------|------|-------------|
+| Autonomous Driving | [github.com/daohu527/awesome-self-driving-car](https://github.com/daohu527/awesome-self-driving-car) | Curated self-driving car resources. |
+| Awesome Autonomous Vehicles | [github.com/manfreddiaz/awesome-autonomous-vehicles](https://github.com/manfreddiaz/awesome-autonomous-vehicles) | Awesome list for autonomous vehicles. |
+| Self-Driving-Ish CV | [github.com/iwatake2222/self-driving-ish_computer_vision_system](https://github.com/iwatake2222/self-driving-ish_computer_vision_system) | Computer vision for self-driving simulation. |
+| AutoCarROS2 | [github.com/winstxnhdw/AutoCarROS2](https://github.com/winstxnhdw/AutoCarROS2) | ROS2 for autonomous car simulation. |
+| MATLAB Driving Scenarios | [mathworks.com/videos/creating-driving-scenarios-from-recorded-vehicle-data-for-validating-lane-centering-systems-in-highway-traffic-1592820033589.html](https://www.mathworks.com/videos/creating-driving-scenarios-from-recorded-vehicle-data-for-validating-lane-centering-systems-in-highway-traffic-1592820033589.html) | MATLAB for driving scenarios. |
+| Coursera Self-Driving Cars | [coursera.org/specializations/self-driving-cars](https://www.coursera.org/specializations/self-driving-cars) | Coursera specialization on self-driving cars. |
+| SAE J3016 Standard | [sae.org/standards/content/j3016_201806/](https://www.sae.org/standards/content/j3016_201806/) | SAE autonomy levels standard. |
+| arXiv Survey | [arxiv.org/abs/2003.04882](https://arxiv.org/abs/2003.04882) | Survey on autonomous driving. |
+| Self-Driving Car Playlist | [youtube.com/watch?v=wcibIqiRb04&list=PL8EeqqtDev54yyF5-o2jUEOhAm2GSZm6e&index=4](https://www.youtube.com/watch?v=wcibIqiRb04&list=PL8EeqqtDev54yyF5-o2jUEOhAm2GSZm6e&index=4) | YouTube playlist on self-driving cars. |
+| KITTI Dataset | [cvlibs.net/datasets/kitti/](https://www.cvlibs.net/datasets/kitti/) | KITTI dataset for autonomous driving. |
+| Apollo Auto | [github.com/ApolloAuto/apollo](https://github.com/ApolloAuto/apollo) | Apollo autonomous driving platform. |
+| Gym-Ignition | [github.com/robotology-legacy/gym-ignition](https://github.com/robotology-legacy/gym-ignition) | Gym environment for ignition simulator. |
+| Autoware Universe | [autowarefoundation.github.io/autoware_universe/main/](https://autowarefoundation.github.io/autoware_universe/main/) | Autoware for autonomous driving. |
+
+### Embodied AI & Humanoids
+| Name | Link | Description |
+|------|------|-------------|
+| Genesis Embodied AI | [github.com/Genesis-Embodied-AI/Genesis](https://github.com/Genesis-Embodied-AI/Genesis) | Embodied AI framework for robots. |
+| OpenVLA | [github.com/openvla/openvla](https://github.com/openvla/openvla) | Open vision-language-action model for robots. |
+| Robot VLMs | [github.com/Robot-VLAs/RoboVLMs](https://github.com/Robot-VLAs/RoboVLMs) | Vision-language models for robots. |
+| Vision-Language Models Overview | [github.com/zli12321/Vision-Language-Models-Overview](https://github.com/zli12321/Vision-Language-Models-Overview) | Overview of VLMs for robotics perception. |
+| HCPLab Embodied AI Paper List | [github.com/HCPLab-SYSU/Embodied_AI_Paper_List](https://github.com/HCPLab-SYSU/Embodied_AI_Paper_List) | Papers on embodied AI. |
+| Awesome Embodied AI | [github.com/haoranD/Awesome-Embodied-AI](https://github.com/haoranD/Awesome-Embodied-AI) | Curated embodied AI resources. |
+| Awesome Humanoid Manipulation | [github.com/Tsunami-kun/awesome-humanoid-manipulation](https://github.com/Tsunami-kun/awesome-humanoid-manipulation) | Resources for humanoid manipulation. |
+| Awesome Quadrupedal Robots | [github.com/curieuxjy/Awesome_Quadrupedal_Robots](https://github.com/curieuxjy/Awesome_Quadrupedal_Robots) | Curated quadrupedal robot resources. |
+| LeCAR HumanoidVerse | [github.com/LeCAR-Lab/HumanoidVerse](https://github.com/LeCAR-Lab/HumanoidVerse) | Humanoid robot framework. |
+| Humanoid Bench | [github.com/carlosferrazza/humanoid-bench](https://github.com/carlosferrazza/humanoid-bench) | Benchmark for humanoid robots. |
+| 3D Afford Splat | [github.com/HCPLab-SYSU/3DAffordSplat](https://github.com/HCPLab-SYSU/3DAffordSplat) | 3D affordance mapping for robots. |
+
+### Reinforcement Learning for Robotics
+| Name | Link | Description |
+|------|------|-------------|
+| Gymnasium Robotics | [github.com/Farama-Foundation/Gymnasium-Robotics](https://github.com/Farama-Foundation/Gymnasium-Robotics) | Gymnasium environments for robotics RL. |
+| F1TENTH RL | [github.com/MichaelBosello/f1tenth-RL](https://github.com/MichaelBosello/f1tenth-RL) | RL for F1TENTH autonomous racing. |
+| Mathematical Foundation of RL Book | [github.com/MathFoundationRL/Book-Mathematical-Foundation-of-Reinforcement-Learning](https://github.com/MathFoundationRL/Book-Mathematical-Foundation-of-Reinforcement-Learning) | Book on mathematical foundations of RL for robotics. |
+| KSim-Gym | [github.com/kscalelabs/ksim-gym](https://github.com/kscalelabs/ksim-gym) | Gym for robot simulation in RL. |
+| ASAPRL | [github.com/Letian-Wang/asaprl](https://github.com/Letian-Wang/asaprl) | ASAP RL for robotics. |
+| F1TENTH RL (Duplicate) | [github.com/MichaelBosello/f1tenth-RL](https://github.com/MichaelBosello/f1tenth-RL) | RL for F1TENTH (duplicate for emphasis). |
+| RSL RL | [github.com/leggedrobotics/rsl_rl](https://github.com/leggedrobotics/rsl_rl) | RL for legged robots. |
+| Robust Tube MPC | [github.com/HiroIshida/robust-tube-mpc](https://github.com/HiroIshida/robust-tube-mpc) | Robust MPC with RL elements. |
+| JJulio AHRobot | [github.com/JJulio/AHRobot](https://github.com/JJulio/AHRobot) | Open-source robot for RL experiments. |
+| Robust Tube MPC (Duplicate) | [github.com/HiroIshida/robust-tube-mpc](https://github.com/HiroIshida/robust-tube-mpc) | Robust MPC (duplicate for emphasis). |
+| DRL Air Hockey | [github.com/AndrejOrsula/drl_air_hockey](https://github.com/AndrejOrsula/drl_air_hockey) | DRL for air hockey robot. |
+
+### Hardware & Actuators
+| Name | Link | Description |
+|------|------|-------------|
+| Open Robot Actuator Hardware | [github.com/open-dynamic-robot-initiative/open_robot_actuator_hardware](https://github.com/open-dynamic-robot-initiative/open_robot_actuator_hardware) | Open-source actuators for robots. |
+| NVIDIA JetBot | [github.com/NVIDIA-AI-IOT/jetbot](https://github.com/NVIDIA-AI-IOT/jetbot) | JetBot hardware for AI robotics. |
+
+### Motion Planning & Control
+| Name | Link | Description |
+|------|------|-------------|
+| Awesome Control Theory | [github.com/A-make/awesome-control-theory](https://github.com/A-make/awesome-control-theory) | Curated control theory resources. |
+| GP-MPC | [github.com/helgeanl/GP-MPC](https://github.com/helgeanl/GP-MPC) | GP-MPC for autonomous control. |
+| Filippo MPC RL | [github.com/FilippoAiraldi/mpc-reinforcement-learning](https://github.com/FilippoAiraldi/mpc-reinforcement-learning) | MPC with RL for robots. |
+| Multi-Purpose MPC | [github.com/matssteinweg/Multi-Purpose-MPC](https://github.com/matssteinweg/Multi-Purpose-MPC) | Multi-purpose MPC for control. |
+| Robust Tube MPC | [github.com/HiroIshida/robust-tube-mpc](https://github.com/HiroIshida/robust-tube-mpc) | Robust tube MPC for robots. |
+| TUMFTM Vehicle Dynamics Control | [github.com/TUMFTM/mod_vehicle_dynamics_control](https://github.com/TUMFTM/mod_vehicle_dynamics_control) | Vehicle dynamics control. |
+| TUMFTM Ethical Trajectory Planning | [github.com/TUMFTM/EthicalTrajectoryPlanning](https://github.com/TUMFTM/EthicalTrajectoryPlanning) | Ethical trajectory planning. |
+| Chungmin Pyroki | [github.com/chungmin99/pyroki](https://github.com/chungmin99/pyroki) | PyTorch kinematics for robots. |
+| Awesome Motion Planning | [github.com/AGV-IIT-KGP/awesome-motion-planning](https://github.com/AGV-IIT-KGP/awesome-motion-planning) | Curated motion planning resources. |
+| OMPL | [github.com/ompl/ompl](https://github.com/ompl/ompl) | Open Motion Planning Library. |
+| MotionPlanning | [github.com/zhm-real/MotionPlanning](https://github.com/zhm-real/MotionPlanning) | Motion planning algorithms. |
+| Karlkurzer Path Planner | [github.com/karlkurzer/path_planner](https://github.com/karlkurzer/path_planner) | Path planner for robots. |
+| Robotics-Path-Planning-03-Hybrid-A-Star | [github.com/ChenBohan/Robotics-Path-Planning-03-Hybrid-A-Star](https://github.com/ChenBohan/Robotics-Path-Planning-03-Hybrid-A-Star) | Hybrid A* for path planning. |
+| Robotics-Path-Planning-04-Quintic-Polynomial-Solver | [github.com/ChenBohan/Robotics-Path-Planning-04-Quintic-Polynomial-Solver](https://github.com/ChenBohan/Robotics-Path-Planning-04-Quintic-Polynomial-Solver) | Quintic polynomial solver for trajectories. |
+| Hybrid Path Planning | [github.com/armando-genis/hybrid_path_planning](https://github.com/armando-genis/hybrid_path_planning) | Hybrid planning for autonomy. |
+| Autonomous Dynamic Path Planning | [github.com/armando-genis/Autonomous_dynamic_path_planning](https://github.com/armando-genis/Autonomous_dynamic_path_planning) | Dynamic path planning. |
+| Frenet Optimal Trajectory Planner | [github.com/erdos-project/frenet_optimal_trajectory_planner](https://github.com/erdos-project/frenet_optimal_trajectory_planner) | Frenet-based trajectory planner. |
+| TUM-AVS Frenetix | [github.com/TUM-AVS/Frenetix](https://github.com/TUM-AVS/Frenetix) | Frenetix planner for vehicles. |
+| TUM-AVS Frenetix Motion Planner | [github.com/TUM-AVS/Frenetix-Motion-Planner](https://github.com/TUM-AVS/Frenetix-Motion-Planner) | Motion planner using Frenet frame. |
+| RL Frenet Trajectory Planning in CARLA | [github.com/MajidMoghadam2006/RL-frenet-trajectory-planning-in-CARLA](https://github.com/MajidMoghadam2006/RL-frenet-trajectory-planning-in-CARLA) | RL for Frenet planning in CARLA. |
+| Behavior Planning by Finite State Machine | [github.com/A2Amir/Behavior-Planning-by-Finite-State-Machine](https://github.com/A2Amir/Behavior-Planning-by-Finite-State-Machine) | FSM for behavior planning. |
+| YulinLi Navigation with Tree of Free Regions | [github.com/YulinLi0/navigation_with_tree_of_free_regions](https://github.com/YulinLi0/navigation_with_tree_of_free_regions) | Navigation using tree of free regions. |
+| A2Amir Prediction Phase in Trajectory Generation | [github.com/A2Amir/Prediction-Phase-in-the-trajectory-generation-of-cars](https://github.com/A2Amir/Prediction-Phase-in-the-trajectory-generation-of-cars) | Prediction phase for trajectory generation. |
+| Awesome FSM | [github.com/leonardomso/awesome-fsm](https://github.com/leonardomso/awesome-fsm) | Curated finite state machine resources. |
+| StateSmith | [github.com/StateSmith/StateSmith](https://github.com/StateSmith/StateSmith) | State machine tool for robots. |
+| Kalman and Bayesian Filters in Python | [github.com/rlabbe/Kalman-and-Bayesian-Filters-in-Python](https://github.com/rlabbe/Kalman-and-Bayesian-Filters-in-Python) | Kalman filters for state estimation. |
+
+### Autonomous Driving & Simulation
+| Name | Link | Description |
+|------|------|-------------|
+| Carla Apollo Maps | [github.com/MaisJamal/Carla_apollo_maps](https://github.com/MaisJamal/Carla_apollo_maps) | Maps for CARLA and Apollo integration. |
+| OpenLane-V2 | [github.com/OpenDriveLab/OpenLane-V2](https://github.com/OpenDriveLab/OpenLane-V2) | OpenLane-V2 for lane detection. |
+| DriveAGI | [github.com/OpenDriveLab/DriveAGI](https://github.com/OpenDriveLab/DriveAGI) | AGI for driving. |
+| DriveLM | [github.com/OpenDriveLab/DriveLM](https://github.com/OpenDriveLab/DriveLM) | Language models for driving. |
+| End-to-End Autonomous Driving | [github.com/OpenDriveLab/End-to-end-Autonomous-Driving](https://github.com/OpenDriveLab/End-to-end-Autonomous-Driving) | End-to-end autonomy. |
+| UniAD | [github.com/OpenDriveLab/UniAD](https://github.com/OpenDriveLab/UniAD) | Unified autonomous driving framework. |
+| BEVFormer | [github.com/fundamentalvision/BEVFormer](https://github.com/fundamentalvision/BEVFormer) | Bird's-eye view transformer for driving. |
+| Awesome 3D Object Detection | [github.com/TianhaoFu/Awesome-3D-Object-Detection](https://github.com/TianhaoFu/Awesome-3D-Object-Detection) | 3D object detection resources. |
+| SFA3D | [github.com/maudzung/SFA3D](https://github.com/maudzung/SFA3D) | Super-fast and accurate 3D detection. |
+| OpenPCDet | [github.com/open-mmlab/OpenPCDet](https://github.com/open-mmlab/OpenPCDet) | Open-source point cloud detection. |
+| MMDetection3D | [github.com/open-mmlab/mmdetection3d](https://github.com/open-mmlab/mmdetection3d) | 3D detection framework. |
+| Depth Anything | [github.com/LiheYoung/Depth-Anything](https://github.com/LiheYoung/Depth-Anything) | Depth estimation for robotics. |
+| TUM-AVS Frenetix | [github.com/TUM-AVS/Frenetix](https://github.com/TUM-AVS/Frenetix) | Frenetix planner (duplicate for emphasis). |
+| Frenetix Motion Planner | [github.com/TUM-AVS/Frenetix-Motion-Planner](https://github.com/TUM-AVS/Frenetix-Motion-Planner) | Motion planner using Frenet (duplicate for emphasis). |
+| RL Frenet in CARLA | [github.com/MajidMoghadam2006/RL-frenet-trajectory-planning-in-CARLA](https://github.com/MajidMoghadam2006/RL-frenet-trajectory-planning-in-CARLA) | RL for Frenet planning in CARLA. |
+| Behavior Planning FSM | [github.com/A2Amir/Behavior-Planning-by-Finite-State-Machine](https://github.com/A2Amir/Behavior-Planning-by-Finite-State-Machine) | FSM for behavior planning (duplicate for emphasis). |
+| Navigation with Tree of Free Regions | [github.com/YulinLi0/navigation_with_tree_of_free_regions](https://github.com/YulinLi0/navigation_with_tree_of_free_regions) | Navigation using tree of free regions (duplicate for emphasis). |
+| Prediction Phase Trajectory Generation | [github.com/A2Amir/Prediction-Phase-in-the-trajectory-generation-of-cars](https://github.com/A2Amir/Prediction-Phase-in-the-trajectory-generation-of-cars) | Prediction phase for trajectory generation (duplicate for emphasis). |
+| Awesome FSM | [github.com/leonardomso/awesome-fsm](https://github.com/leonardomso/awesome-fsm) | Awesome FSM resources (duplicate for emphasis). |
+| StateSmith | [github.com/StateSmith/StateSmith](https://github.com/StateSmith/StateSmith) | State machine tool (duplicate for emphasis). |
+| Kalman and Bayesian Filters in Python | [github.com/rlabbe/Kalman-and-Bayesian-Filters-in-Python](https://github.com/rlabbe/Kalman-and-Bayesian-Filters-in-Python) | Kalman filters for estimation (duplicate for emphasis). |
+
+### SLAM & Perception
+| Name | Link | Description |
+|------|------|-------------|
+| VoxelMapPlus FASTLIO2 | [github.com/liangheming/VoxelMapPlus_FASTLIO2](https://github.com/liangheming/VoxelMapPlus_FASTLIO2) | Voxel-based SLAM with FAST-LIO2. |
+| Open Source Sensor Fusion | [github.com/memsindustrygroup/Open-Source-Sensor-Fusion](https://github.com/memsindustrygroup/Open-Source-Sensor-Fusion) | Open-source sensor fusion. |
+| VINS-Fusion | [github.com/HKUST-Aerial-Robotics/VINS-Fusion](https://github.com/HKUST-Aerial-Robotics/VINS-Fusion) | VINS-Fusion for SLAM. |
+| XRDSLAM | [github.com/openxrlab/xrdslam](https://github.com/openxrlab/xrdslam) | XR SLAM. |
+| Vellons Humandroid | [github.com/vellons/Humandroid](https://github.com/vellons/Humandroid) | Humandroid humanoid. |
+| Poppy Humanoid | [github.com/poppy-project/poppy-humanoid](https://github.com/poppy-project/poppy-humanoid) | Poppy humanoid platform. |
+| PCrnjak PAROL6 | [github.com/PCrnjak/PAROL6-Desktop-robot-arm](https://github.com/PCrnjak/PAROL6-Desktop-robot-arm) | Desktop robotic arm (duplicate for emphasis). |
+| Roboterax Humanoid Gym | [github.com/roboterax/humanoid-gym](https://github.com/roboterax/humanoid-gym) | Humanoid gym environment. |
+| EngineAI Humanoid | [github.com/engineai-robotics/engineai_humanoid](https://github.com/engineai-robotics/engineai_humanoid) | EngineAI humanoid. |
+| Pinocchio | [github.com/stack-of-tasks/pinocchio](https://github.com/stack-of-tasks/pinocchio) | Pinocchio dynamics library (duplicate for emphasis). |
+| CppRobotics | [github.com/onlytailei/CppRobotics](https://github.com/onlytailei/CppRobotics) | C++ robotics library (duplicate for emphasis). |
+| Dusty NV Jetson Containers | [github.com/dusty-nv/jetson-containers](https://github.com/dusty-nv/jetson-containers) | Jetson containers (duplicate for emphasis). |
+| NVIDIA JetRacer | [github.com/NVIDIA-AI-IOT/jetracer](https://github.com/NVIDIA-AI-IOT/jetracer) | JetRacer (duplicate for emphasis). |
+| NVIDIA JetBot | [github.com/NVIDIA-AI-IOT/jetbot](https://github.com/NVIDIA-AI-IOT/jetbot) | JetBot (duplicate for emphasis). |
+| RoboSapiens | [robosapiens-eu.tech/](https://robosapiens-eu.tech/) | RoboSapiens platform (duplicate for emphasis). |
+| AllenAI Embodied AI | [allenai.org/embodied-ai](https://allenai.org/embodied-ai) | AllenAI embodied AI (duplicate for emphasis). |
+| Humanoid Bench | [humanoid-bench.github.io/](https://humanoid-bench.github.io/) | Humanoid benchmark (duplicate for emphasis). |
+| KScale | [www.kscale.dev/](https://www.kscale.dev/) | KScale robotics (duplicate for emphasis). |
+| SWRI | [swri.org](https://www.swri.org/markets/manufacturing-construction/manufacturing-technologies/industrial-robotics-automation) - SWRI robotics (duplicate for emphasis). |
+| arXiv Paper | [arxiv.org/html/2408.06113v1](https://arxiv.org/html/2408.06113v1) | Robotics paper (duplicate for emphasis). |
+| Santa Fe Embodied Intelligence | [santafe.edu/research/projects/theory-of-embodied-intelligence](https://www.santafe.edu/research/projects/theory-of-embodied-intelligence) | Embodied intelligence theory (duplicate for emphasis). |
+| GitLab Autoware Core Planning | [gitlab.com/autowarefoundation/autoware.ai/core_planning/-/tree/master/mpc_follower/src](https://gitlab.com/autowarefoundation/autoware.ai/core_planning/-/tree/master/mpc_follower/src) | Autoware MPC (duplicate for emphasis). |
+| Microsoft Embodied AI | [microsoft.com/en-us/research/collaboration/embodied-ai](https://www.microsoft.com/en-us/research/collaboration/embodied-ai/) | Microsoft embodied AI (duplicate for emphasis). |
+
+### Simulators
+| Name | Link | Description |
+|------|------|-------------|
+| FS Driverless Simulator | [github.com/FS-Driverless/Formula-Student-Driverless-Simulator](https://github.com/FS-Driverless/Formula-Student-Driverless-Simulator) | Simulator for formula student driverless. |
+| AutoDRIVE | [github.com/Tinker-Twins/AutoDRIVE](https://github.com/Tinker-Twins/AutoDRIVE) | AutoDRIVE simulator for autonomous driving. |
+| Gazebo | [gazebosim.org/docs/fortress/fuel_insert/](https://gazebosim.org/docs/fortress/fuel_insert/) | Gazebo simulator docs. |
+| Carla Simulator | [github.com/carla-simulator/carla](https://github.com/carla-simulator/carla) | CARLA simulator for autonomous driving. |
+| AirSim | [github.com/microsoft/AirSim](https://github.com/microsoft/AirSim) | AirSim simulator for drones/vehicles. |
+| MuJoCo | [github.com/google-deepmind/mujoco](https://github.com/google-deepmind/mujoco) | MuJoCo physics simulator for robotics. |
+| Isaac GR00T | [github.com/NVIDIA/Isaac-GR00T](https://github.com/NVIDIA/Isaac-GR00T) | NVIDIA’s Isaac GR00T for humanoid simulation. |
+| Webots | [cyberbotics.com/](https://cyberbotics.com/) | Webots robot simulator. |
+| Carla Scenario Runner | [github.com/carla-simulator/scenario_runner](https://github.com/carla-simulator/scenario_runner) | Scenario runner for CARLA. |
+| CarDreamer | [github.com/ucd-dare/CarDreamer](https://github.com/ucd-dare/CarDreamer) | CARLA-based RL environment. |
+| Shell Urban Simulator | [github.com/Shell-Urban-Concept-Autonomous/shell_urban_simulator](https://github.com/Shell-Urban-Concept-Autonomous/shell_urban_simulator) | Urban simulator for Shell Eco-marathon. |
+| OceanSim | [github.com/umfieldrobotics/OceanSim](https://github.com/umfieldrobotics/OceanSim) | Marine robotics simulator. |
+| Carla Lidar Mapping | [github.com/casper-auto/carla_lidar_mapping](https://github.com/casper-auto/carla_lidar_mapping) | LiDAR mapping in CARLA. |
+| Awesome CARLA | [github.com/Amin-Tgz/awesome-CARLA](https://github.com/Amin-Tgz/awesome-CARLA) | Curated CARLA resources. |
+| Gym-Carla | [github.com/cjy1992/gym-carla](https://github.com/cjy1992/gym-carla) | Gym environment for CARLA. |
+| Carla Multimodal Sensing | [github.com/joedlopes/carla-simulator-multimodal-sensing](https://github.com/joedlopes/carla-simulator-multimodal-sensing) | Multimodal sensing in CARLA. |
+| Carla Apollo Maps | [github.com/MaisJamal/Carla_apollo_maps](https://github.com/MaisJamal/Carla_apollo_maps) | Maps for CARLA and Apollo. |
+| OpenLane-V2 | [github.com/OpenDriveLab/OpenLane-V2](https://github.com/OpenDriveLab/OpenLane-V2) | OpenLane-V2 for simulation. |
+| DriveAGI | [github.com/OpenDriveLab/DriveAGI](https://github.com/OpenDriveLab/DriveAGI) | AGI for driving simulation. |
+| DriveLM | [github.com/OpenDriveLab/DriveLM](https://github.com/OpenDriveLab/DriveLM) | Language models for driving simulation. |
+| End-to-End Autonomous Driving | [github.com/OpenDriveLab/End-to-end-Autonomous-Driving](https://github.com/OpenDriveLab/End-to-end-Autonomous-Driving) | End-to-end driving simulation. |
+| UniAD | [github.com/OpenDriveLab/UniAD](https://github.com/OpenDriveLab/UniAD) | Unified autonomous driving in simulation. |
+| BEVFormer | [github.com/fundamentalvision/BEVFormer](https://github.com/fundamentalvision/BEVFormer) | BEV transformer for simulation. |
+| Awesome 3D Object Detection | [github.com/TianhaoFu/Awesome-3D-Object-Detection](https://github.com/TianhaoFu/Awesome-3D-Object-Detection) | 3D detection for simulation. |
+| SFA3D | [github.com/maudzung/SFA3D](https://github.com/maudzung/SFA3D) | SFA3D for 3D detection in simulation. |
+| OpenPCDet | [github.com/open-mmlab/OpenPCDet](https://github.com/open-mmlab/OpenPCDet) | OpenPCDet for point cloud detection. |
+| MMDetection3D | [github.com/open-mmlab/mmdetection3d](https://github.com/open-mmlab/mmdetection3d) | MM Detection for 3D. |
+| Depth Anything | [github.com/LiheYoung/Depth-Anything](https://github.com/LiheYoung/Depth-Anything) | Depth estimation for simulation. |
+
+## Projects
+These projects leverage the provided resources to build practical skills, inspired by my competition experience. See `/Robotics_Autonomous_Systems/projects/` for code and documentation.
+
+- **TurtleBot3 Navigation**: Use the [TurtleBot3](https://github.com/ROBOTIS-GIT/turtlebot3) repo and [ROS Navigation](https://github.com/ros-planning/navigation) to implement a navigation stack in Gazebo. (Beginner, simulates F1TENTH navigation.)
+- **RealSense Camera Integration**: Integrate an Intel RealSense camera with [RealSense ROS](https://github.com/IntelRealSense/realsense-ros) to process depth data for obstacle avoidance. (Intermediate, useful for Shell Eco-marathon sensor fusion.)
+- **F1TENTH Autonomous Racing**: Build a ROS-based racing node using [Autonomous Racing](https://github.com/Autonomous-Racing-PG/ar-tu-do) and [GP-MPPI](https://github.com/IhabMohamed/GP-MPPI) for path planning. (Advanced, competition-ready.)
+- **Costmap with Depth Camera**: Create a costmap for navigation using [Costmap Depth Camera](https://github.com/tsengapola/costmap_depth_camera) in a simulated environment. (Intermediate, enhances autonomous navigation.)
+- **MoveIt Robotic Arm**: Implement a pick-and-place task with [MoveIt](https://github.com/moveit/moveit) for a robotic arm in simulation. (Advanced, explores manipulation.)
+- **Jupyter Notebook on ROS2 Setup**: Document ROS2 Humble installation and basic node creation using [ROS Humble Tutorials](https://docs.ros.org/en/humble/Tutorials.html). (Beginner, educational.)
+- **Markdown Guide on ROS Basics**: Summarize key ROS concepts (nodes, topics, services) based on [A Gentle Introduction to ROS](jokane.net/agitr/agitr-letter.pdf) (`/docs/ros_basics.md`). (Beginner, learning aid.)
