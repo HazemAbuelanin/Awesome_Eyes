@@ -34,7 +34,7 @@ My interests span:
 - Systems Engineering
 - Mathematics, Programming, and Problem Solving
 
-And yes — I’ve competed in **autonomous vehicle competitions** and learned a lot about turning theory into real-world performance.
+From the fundamentals to advanced systems, this is where learning transforms into building, and building transforms into breakthroughs.
 
 My mission with **amazing_eyes** is simple:
 1. Share the best resources I’ve found  
