@@ -1790,6 +1790,212 @@ PCB_Design_Electronics/
 ```
 
 
+
+# Self Driving Vehicles 
+
+## Table of Contents
+- [Overview](#overview)
+- [Curated Resources](#curated-resources)
+  - [Repositories](#repositories)
+  - [Books](#books)
+  - [Courses and Tutorials](#courses-and-tutorials)
+  - [Projects and Datasets](#projects-and-datasets)
+- [Projects](#projects)
+- [Repository Structure](#repository-structure)
+- [How to Use This Repository](#how-to-use-this-repository)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Overview
+This section is designed to:
+- Curate high-quality **resources** for learning and developing self-driving car technologies, with a focus on perception, planning, and control.
+- Provide practical **projects** inspired by my competition experience (e.g., F1TENTH racing, Shell Eco-marathon).
+- Integrate with my broader repo, linking to `/Robotics_Autonomous_Systems` (for ROS) and `/Artificial_Intelligence` (for perception models).
+- Highlight my journey, showcasing skills in autonomous vehicle navigation and control.
+
+The resources below cover repositories, books, courses, and datasets for self-driving vehicles, organized for easy access and practical application.
+
+## Curated Resources
+
+### Repositories
+| Name | Link | Description |
+|------|------|-------------|
+| Awesome Self-Driving Car | [github.com/daohu527/awesome-self-driving-car](https://github.com/daohu527/awesome-self-driving-car) | Curated list of self-driving car resources, covering tools, datasets, and frameworks. |
+| Awesome Autonomous Vehicles | [github.com/manfreddiaz/awesome-autonomous-vehicles](https://github.com/manfreddiaz/awesome-autonomous-vehicles) | Comprehensive list of autonomous vehicle resources, including perception and planning tools. |
+| Self-Driving-Ish CV System | [github.com/iwatake2222/self-driving-ish_computer_vision_system](https://github.com/iwatake2222/self-driving-ish_computer_vision_system) | Computer vision system for self-driving, focusing on lane detection and object recognition. |
+| Self-Driving Cars | [github.com/qiaoxu123/Self-Driving-Cars](https://github.com/qiaoxu123/Self-Driving-Cars) | Collection of self-driving car projects and resources, with code examples. |
+| Awesome Vehicle Security | [github.com/jaredthecoder/awesome-vehicle-security](https://github.com/jaredthecoder/awesome-vehicle-security) | Resources for securing autonomous vehicles, critical for safe deployment. |
+| AutoCarROS2 | [github.com/winstxnhdw/AutoCarROS2](https://github.com/winstxnhdw/AutoCarROS2) | ROS2-based autonomous car framework, ideal for F1TENTH-style navigation. |
+| F1TENTH RL | [github.com/MichaelBosello/f1tenth-RL](https://github.com/MichaelBosello/f1tenth-RL) | Reinforcement learning for F1TENTH racing, focusing on path optimization. |
+
+### Books
+| Name | Link | Description |
+|------|------|-------------|
+| Self-Driving Car Resources | [github.com/ndrplz/self-driving-car](https://github.com/ndrplz/self-driving-car) | Curated list of books and resources for self-driving cars, covering theory and practice. |
+
+### Courses and Tutorials
+| Name | Link | Description |
+|------|------|-------------|
+| Coursera Self-Driving Cars Specialization | [coursera.org/specializations/self-driving-cars](https://www.coursera.org/specializations/self-driving-cars) | Comprehensive course on self-driving cars, covering perception, planning, and control (free audit available). |
+| SAE J3016 Standard | [sae.org/standards/content/j3016_201806/](https://www.sae.org/standards/content/j3016_201806/) | Standard defining autonomy levels, essential for understanding self-driving systems. |
+| Autonomous Driving Survey | [arxiv.org/abs/2003.04882](https://arxiv.org/abs/2003.04882) | Survey paper on autonomous driving technologies and challenges. |
+| Self-Driving Car Playlist | [youtube.com/watch?v=wcibIqiRb04&list=PL8EeqqtDev54yyF5-o2jUEOhAm2GSZm6e&index=4](https://www.youtube.com/watch?v=wcibIqiRb04&list=PL8EeqqtDev54yyF5-o2jUEOhAm2GSZm6e&index=4) | YouTube playlist covering self-driving car concepts, great for visual learners. |
+| Pure Pursuit in ROS Noetic | [medium.com/@jefffer705/pure-pursuit-in-ros-noetic-7b2c0a3c36ef](https://medium.com/@jefffer705/pure-pursuit-in-ros-noetic-7b2c0a3c36ef) | Tutorial on implementing Pure Pursuit algorithm in ROS for vehicle path tracking. |
+| Low-Cost Path to Self-Driving Engineer | [linkedin.com/pulse/low-cost-path-become-self-driving-cars-engineer-ricardo-tellez/](https://www.linkedin.com/pulse/low-cost-path-become-self-driving-cars-engineer-ricardo-tellez/) | Guide to becoming a self-driving car engineer with affordable resources. |
+| Autonomous Driving Intro | [youtube.com/watch?v=eOevF5jFSoc](https://www.youtube.com/watch?v=eOevF5jFSoc) | Video introduction to autonomous driving concepts and applications. |
+
+### Projects and Datasets
+| Name | Link | Description |
+|------|------|-------------|
+| KITTI Dataset | [cvlibs.net/datasets/kitti/](https://www.cvlibs.net/datasets/kitti/) | Industry-standard dataset for autonomous driving, with LiDAR, camera, and GPS data. |
+| Apollo Auto | [github.com/ApolloAuto/apollo](https://github.com/ApolloAuto/apollo) | Open-source autonomous driving platform, supporting end-to-end vehicle control. |
+| Gym-Ignition | [github.com/robotology-legacy/gym-ignition](https://github.com/robotology-legacy/gym-ignition) | Gym environment for Ignition Gazebo, ideal for RL in autonomous driving. |
+| Autoware Universe | [autowarefoundation.github.io/autoware_universe/main/](https://autowarefoundation.github.io/autoware_universe/main/) | Open-source autonomous driving stack, with ROS2 integration for navigation. |
+
+## Projects
+These projects leverage the provided resources to build practical skills, inspired by my competition experience. See `/Self_Driving_Vehicles/projects/` for code and documentation.
+
+- **KITTI Dataset Analysis**: Use the [KITTI Dataset](https://www.cvlibs.net/datasets/kitti/) to process LiDAR and camera data for object detection in a Jupyter notebook. (Intermediate, builds perception skills.)
+- **Pure Pursuit Path Tracking**: Implement the Pure Pursuit algorithm using [Pure Pursuit in ROS Noetic](https://medium.com/@jefffer705/pure-pursuit-in-ros-noetic-7b2c0a3c36ef) in a ROS2 node for F1TENTH racing. (Intermediate, competition-ready.)
+- **F1TENTH RL Navigation**: Build an RL-based navigation system using [F1TENTH RL](https://github.com/MichaelBosello/f1tenth-RL) in a simulated environment. (Advanced, competition-focused.)
+- **Apollo Auto Simulation**: Deploy a basic autonomous driving pipeline with [Apollo Auto](https://github.com/ApolloAuto/apollo) in a simulator like CARLA. (Advanced, end-to-end autonomy.)
+- **Autoware ROS2 Node**: Create a ROS2 node for path planning using [Autoware Universe](https://autowarefoundation.github.io/autoware_universe/main/) for urban driving scenarios. (Intermediate, practical.)
+- **Markdown Guide on Autonomy Levels**: Summarize SAE J3016 autonomy levels based on [SAE J3016 Standard](https://www.sae.org/standards/content/j3016_201806/) in `/docs/autonomy_levels.md`. (Beginner, educational.)
+
+## Repository Structure
+```
+Self_Driving_Vehicles/
+├── docs/            # Notes and summaries (e.g., autonomy_levels.md)
+├── projects/        # Project code and notebooks (e.g., kitti_analysis)
+├── README.md        # This file
+```
+
+## Tools and Ecosystems
+
+## Table of Contents
+- [Overview](#overview)
+- [Curated Resources](#curated-resources)
+  - [Simulators](#simulators)
+  - [Tutorials](#tutorials)
+- [Projects](#projects)
+- [Repository Structure](#repository-structure)
+- [How to Use This Repository](#how-to-use-this-repository)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Overview
+This section is designed to:
+- Curate high-quality **simulator resources** for testing robotics and autonomous vehicle algorithms in virtual environments.
+- Provide practical **projects** inspired by my competition experience (e.g., F1TENTH, Shell Eco-marathon).
+- Integrate with my broader repo, linking to `/Robotics_Autonomous_Systems` (for ROS integration) and `/Self_Driving_Vehicles` (for driving scenarios).
+- Highlight my journey, showcasing simulation skills for competition-ready systems.
+
+## Curated Resources
+
+### Simulators
+| Name | Link | Description |
+|------|------|-------------|
+| Formula Student Driverless Simulator | [github.com/FS-Driverless/Formula-Student-Driverless-Simulator](https://github.com/FS-Driverless/Formula-Student-Driverless-Simulator) | Simulator for Formula Student driverless competitions, ideal for F1TENTH. |
+| NVIDIA Isaac GR00T | [github.com/NVIDIA/Isaac-GR00T](https://github.com/NVIDIA/Isaac-GR00T) | NVIDIA’s simulator for humanoid robots and autonomous systems. |
+| MuJoCo | [github.com/google-deepmind/mujoco](https://github.com/google-deepmind/mujoco) | Physics-based simulator for robotics and RL research. |
+| AutoDRIVE | [github.com/Tinker-Twins/AutoDRIVE](https://github.com/Tinker-Twins/AutoDRIVE) | Simulator for autonomous driving, supporting ROS2 and F1TENTH-style testing. |
+| Webots | [cyberbotics.com/](https://cyberbotics.com/) | Open-source robot simulator, compatible with ROS for robot modeling. |
+| AirSim | [github.com/microsoft/AirSim](https://github.com/microsoft/AirSim) | Simulator for drones and vehicles, with ROS and Unreal Engine support. |
+| CARLA | [github.com/carla-simulator/carla](https://github.com/carla-simulator/carla) | Open-source autonomous driving simulator, widely used for perception and planning. |
+| Autonomous Mobile Robot | [github.com/bandasaikrishna/Autonomous_Mobile_Robot](https://github.com/bandasaikrishna/Autonomous_Mobile_Robot) | Mobile robot simulation framework, with ROS integration. |
+| Robot Assets | [github.com/ankurhanda/robot-assets](https://github.com/ankurhanda/robot-assets) | Collection of robot models for simulation in Gazebo and other platforms. |
+| Gazebo Fuel | [gazebosim.org/docs/fortress/fuel_insert/](https://gazebosim.org/docs/fortress/fuel_insert/) | Gazebo Fuel for importing robot models and environments. |
+
+### Tutorials
+| Name | Link | Description |
+|------|------|-------------|
+| ROS Robotics Learning | [rosroboticslearning.com/](https://www.rosroboticslearning.com/) | Tutorials for ROS-based simulation, including Gazebo and TurtleBot3. |
+| CoppeliaSim Manual | [manual.coppeliarobotics.com/index.html](https://manual.coppeliarobotics.com/index.html) | Official manual for CoppeliaSim (formerly V-REP), a versatile robot simulator. |
+| FS Driverless Simulator Docs | [fs-driverless.github.io/Formula-Student-Driverless-Simulator/v2.2.0/](https://fs-driverless.github.io/Formula-Student-Driverless-Simulator/v2.2.0/) | Documentation for setting up the Formula Student Driverless Simulator. |
+| ROS2 and CARLA Setup Guide | [learnopencv.com/ros2-and-carla-setup-guide/](https://learnopencv.com/ros2-and-carla-setup-guide/) | Guide to integrating ROS2 with CARLA for autonomous driving simulation. |
+| TurtleBot3 in ROS2 Humble | [medium.com/@nilutpolkashyap/setting-up-turtlebot3-simulation-in-ros-2-humble-hawksbill-70a6fcdaf5de](https://medium.com/@nilutpolkashyap/setting-up-turtlebot3-simulation-in-ros-2-humble-hawksbill-70a6fcdaf5de) | Tutorial for setting up TurtleBot3 simulation in ROS2 Humble. |
+| CARLA Simulation Intro | [youtube.com/watch?v=Uz_i_sjVhIM](https://www.youtube.com/watch?v=Uz_i_sjVhIM) | Video intro to CARLA simulator for autonomous driving. |
+| ROS2 Simulation Playlist | [youtube.com/watch?v=inD2KquVzzo&list=PLbRa-L0fnTUzI6T6GBqBDYX9BSJjxySLZ&index=4](https://www.youtube.com/watch?v=inD2KquVzzo&list=PLbRa-L0fnTUzI6T6GBqBDYX9BSJjxySLZ&index=4) | YouTube playlist on ROS2 simulation setups. |
+
+## Projects
+These projects leverage the provided simulator resources to build practical skills, inspired by my competition experience. See `/Simulators/projects/` for code and documentation.
+
+- **F1TENTH Simulation**: Set up a racing environment in [Formula Student Driverless Simulator](https://github.com/FS-Driverless/Formula-Student-Driverless-Simulator) with ROS2 for path planning. (Intermediate, competition-ready.)
+- **CARLA Autonomous Driving**: Implement a lane-following algorithm in [CARLA](https://github.com/carla-simulator/carla) using [ROS2 and CARLA Setup Guide](https://learnopencv.com/ros2-and-carla-setup-guide/). (Intermediate, practical.)
+- **TurtleBot3 Obstacle Avoidance**: Simulate obstacle avoidance with TurtleBot3 in Gazebo using [ROS Robotics Learning](https://www.rosroboticslearning.com/). (Beginner, ROS2-focused.)
+- **Webots Robot Modeling**: Create a robot model in [Webots](https://cyberbotics.com/) with [Robot Assets](https://github.com/ankurhanda/robot-assets) for navigation tasks. (Intermediate, modeling skills.)
+- **MuJoCo RL Environment**: Build an RL environment for a robot using [MuJoCo](https://github.com/google-deepmind/mujoco) for control tasks. (Advanced, RL-focused.)
+- **Markdown Guide on Simulator Setup**: Document the setup process for CARLA and ROS2 based on [ROS2 and CARLA Setup Guide](https://learnopencv.com/ros2-and-carla-setup-guide/) in `/docs/simulator_setup.md`. (Beginner, educational.)
+
+## Repository Structure
+```
+Simulators/
+├── docs/            # Notes and summaries (e.g., simulator_setup.md)
+├── projects/        # Project code and notebooks (e.g., carla_lane_following)
+├── README.md        # This file
+```
+
+## Communities, Competitions and Growth
+
+## Table of Contents
+- [Overview](#overview)
+- [Curated Resources](#curated-resources)
+  - [Competition Platforms and Hubs](#competition-platforms-and-hubs)
+  - [Tutorials and Guides](#tutorials-and-guides)
+- [Projects](#projects)
+- [Repository Structure](#repository-structure)
+- [How to Use This Repository](#how-to-use-this-repository)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Overview
+This section is designed to:
+- Curate high-quality **resources** for robotics and autonomous vehicle competitions, covering platforms, challenges, and preparation guides.
+- Provide practical **projects** inspired by my competition experience (e.g., F1TENTH, Shell Eco-marathon).
+- Integrate with my broader repo, linking to `/Robotics_Autonomous_Systems` (for ROS) and `/Simulators` (for testing).
+- Highlight my journey, showcasing competition-ready skills in autonomous navigation and control.
+
+The resources below cover major competitions like CARLA Leaderboard, RoboCup, and Teknofest, along with preparation tools and tutorials.
+
+## Curated Resources
+
+### Competition Platforms and Hubs
+| Name | Link | Description |
+|------|------|-------------|
+| MATLAB-Simulink Challenge Project Hub | [github.com/mathworks/MATLAB-Simulink-Challenge-Project-Hub](https://github.com/mathworks/MATLAB-Simulink-Challenge-Project-Hub) | MATLAB/Simulink projects for robotics and autonomous vehicle challenges. |
+| SEM-APC Student Docker Environment | [github.com/swri-robotics/sem-apc-student-docker-environment](https://github.com/swri-robotics/sem-apc-student-docker-environment) | Docker environment for Shell Eco-marathon Autonomous Programming Competition. |
+| IMechE | [imeche.org/](https://www.imeche.org/) | Institution hosting competitions like Formula Student, relevant for autonomous vehicles. |
+| CARLA Leaderboard | [leaderboard.carla.org/](https://leaderboard.carla.org/) | Leaderboard for CARLA autonomous driving challenges, ideal for testing algorithms. |
+| Teknofest Robotaxi | [teknofest.org/en/competitions/robotaxi-full-scale-autonomous-vehicle-competition/](https://www.teknofest.org/en/competitions/robotaxi-full-scale-autonomous-vehicle-competition/) | Full-scale autonomous vehicle competition, focusing on real-world driving. |
+| RoboCup | [robocup.org/](https://www.robocup.org/) | Global robotics competition, including autonomous navigation and manipulation. |
+| Robocon | [robocon.io/](https://www.robocon.io/) | Robotics competition for innovative robot designs and tasks. |
+| Roboracer AI | [roboracer.ai/](https://www.roboracer.ai/) | AI-driven racing competition, similar to F1TENTH. |
+| Indy Autonomous Challenge | [indyautonomouschallenge.com/](https://www.indyautonomouschallenge.com/) | High-speed autonomous racing challenge for advanced teams. |
+| NASA Space Apps Cairo | [spaceappschallenge.org/nasa-space-apps-2024/2024-local-events/cairo/](https://www.spaceappschallenge.org/nasa-space-apps-2024/2024-local-events/cairo/) | Space-related robotics and autonomy challenges, hosted in Cairo. |
+
+### Tutorials and Guides
+| Name | Link | Description |
+|------|------|-------------|
+| CARLA Leaderboard Intro | [youtube.com/watch?v=9KuySHCagYc](https://www.youtube.com/watch?v=9KuySHCagYc) | Video guide to participating in the CARLA Leaderboard challenge. |
+
+## Projects
+These projects leverage the provided competition resources to build practical skills, inspired by my experience. See `/Competitions/projects/` for code and documentation.
+
+- **CARLA Leaderboard Submission**: Develop a driving algorithm for the [CARLA Leaderboard](https://leaderboard.carla.org/) using ROS2 and CARLA simulator. (Advanced, competition-ready.)
+- **Shell Eco-marathon Autonomy**: Create an energy-efficient planner for [SEM-APC Student Docker Environment](https://github.com/swri-robotics/sem-apc-student-docker-environment) in a simulated urban environment. (Intermediate, Shell Eco-marathon-focused.)
+- **F1TENTH Race Prep**: Build a ROS2-based navigation stack for [Roboracer AI](https://roboracer.ai/) using Pure Pursuit or MPC. (Intermediate, F1TENTH-style.)
+- **RoboCup Simulation**: Implement a navigation task for RoboCup Junior in Webots using [RoboCup](https://www.robocup.org/) resources. (Intermediate, practical.)
+- **MATLAB Challenge Project**: Develop a control system for an autonomous vehicle using [MATLAB-Simulink Challenge Project Hub](https://github.com/mathworks/MATLAB-Simulink-Challenge-Project-Hub). (Intermediate, MATLAB-focused.)
+- **Markdown Guide on Competition Prep**: Summarize strategies for CARLA Leaderboard based on [CARLA Leaderboard Intro](https://youtube.com/watch?v=9KuySHCagYc) in `/docs/competition_prep.md`. (Beginner, educational.)
+
+## Repository Structure
+```
+Competitions/
+├── docs/            # Notes and summaries (e.g., competition_prep.md)
+├── projects/        # Project code and notebooks (e.g., carla_leaderboard)
+├── README.md        # This file
+```
+
 ## Resources I Gathered from the Open Source Community
 
 # Robotics and Autonomous Systems Repository
@@ -1900,6 +2106,7 @@ This README serves as the hub for the provided resources, including ROS/ROS2 rep
   - [Simulators](#simulators)
 - [Projects](#projects)
 - [Repository Structure](#repository-structure)
+- [General Resources Repository](#general-resources-repository)
 
 ## Overview
 This section is designed to:
@@ -2225,213 +2432,6 @@ These projects leverage the provided resources to build practical skills, inspir
 - **Jupyter Notebook on ROS2 Setup**: Document ROS2 Humble installation and basic node creation using [ROS Humble Tutorials](https://docs.ros.org/en/humble/Tutorials.html). (Beginner, educational.)
 - **Markdown Guide on ROS Basics**: Summarize key ROS concepts (nodes, topics, services) based on [A Gentle Introduction to ROS](jokane.net/agitr/agitr-letter.pdf) (`/docs/ros_basics.md`). (Beginner, learning aid.)
 - 
-
-# Self Driving Vehicles 
-
-## Table of Contents
-- [Overview](#overview)
-- [Curated Resources](#curated-resources)
-  - [Repositories](#repositories)
-  - [Books](#books)
-  - [Courses and Tutorials](#courses-and-tutorials)
-  - [Projects and Datasets](#projects-and-datasets)
-- [Projects](#projects)
-- [Repository Structure](#repository-structure)
-- [How to Use This Repository](#how-to-use-this-repository)
-- [Contributing](#contributing)
-- [License](#license)
-
-## Overview
-This section is designed to:
-- Curate high-quality **resources** for learning and developing self-driving car technologies, with a focus on perception, planning, and control.
-- Provide practical **projects** inspired by my competition experience (e.g., F1TENTH racing, Shell Eco-marathon).
-- Integrate with my broader repo, linking to `/Robotics_Autonomous_Systems` (for ROS) and `/Artificial_Intelligence` (for perception models).
-- Highlight my journey, showcasing skills in autonomous vehicle navigation and control.
-
-The resources below cover repositories, books, courses, and datasets for self-driving vehicles, organized for easy access and practical application.
-
-## Curated Resources
-
-### Repositories
-| Name | Link | Description |
-|------|------|-------------|
-| Awesome Self-Driving Car | [github.com/daohu527/awesome-self-driving-car](https://github.com/daohu527/awesome-self-driving-car) | Curated list of self-driving car resources, covering tools, datasets, and frameworks. |
-| Awesome Autonomous Vehicles | [github.com/manfreddiaz/awesome-autonomous-vehicles](https://github.com/manfreddiaz/awesome-autonomous-vehicles) | Comprehensive list of autonomous vehicle resources, including perception and planning tools. |
-| Self-Driving-Ish CV System | [github.com/iwatake2222/self-driving-ish_computer_vision_system](https://github.com/iwatake2222/self-driving-ish_computer_vision_system) | Computer vision system for self-driving, focusing on lane detection and object recognition. |
-| Self-Driving Cars | [github.com/qiaoxu123/Self-Driving-Cars](https://github.com/qiaoxu123/Self-Driving-Cars) | Collection of self-driving car projects and resources, with code examples. |
-| Awesome Vehicle Security | [github.com/jaredthecoder/awesome-vehicle-security](https://github.com/jaredthecoder/awesome-vehicle-security) | Resources for securing autonomous vehicles, critical for safe deployment. |
-| AutoCarROS2 | [github.com/winstxnhdw/AutoCarROS2](https://github.com/winstxnhdw/AutoCarROS2) | ROS2-based autonomous car framework, ideal for F1TENTH-style navigation. |
-| F1TENTH RL | [github.com/MichaelBosello/f1tenth-RL](https://github.com/MichaelBosello/f1tenth-RL) | Reinforcement learning for F1TENTH racing, focusing on path optimization. |
-
-### Books
-| Name | Link | Description |
-|------|------|-------------|
-| Self-Driving Car Resources | [github.com/ndrplz/self-driving-car](https://github.com/ndrplz/self-driving-car) | Curated list of books and resources for self-driving cars, covering theory and practice. |
-
-### Courses and Tutorials
-| Name | Link | Description |
-|------|------|-------------|
-| Coursera Self-Driving Cars Specialization | [coursera.org/specializations/self-driving-cars](https://www.coursera.org/specializations/self-driving-cars) | Comprehensive course on self-driving cars, covering perception, planning, and control (free audit available). |
-| SAE J3016 Standard | [sae.org/standards/content/j3016_201806/](https://www.sae.org/standards/content/j3016_201806/) | Standard defining autonomy levels, essential for understanding self-driving systems. |
-| Autonomous Driving Survey | [arxiv.org/abs/2003.04882](https://arxiv.org/abs/2003.04882) | Survey paper on autonomous driving technologies and challenges. |
-| Self-Driving Car Playlist | [youtube.com/watch?v=wcibIqiRb04&list=PL8EeqqtDev54yyF5-o2jUEOhAm2GSZm6e&index=4](https://www.youtube.com/watch?v=wcibIqiRb04&list=PL8EeqqtDev54yyF5-o2jUEOhAm2GSZm6e&index=4) | YouTube playlist covering self-driving car concepts, great for visual learners. |
-| Pure Pursuit in ROS Noetic | [medium.com/@jefffer705/pure-pursuit-in-ros-noetic-7b2c0a3c36ef](https://medium.com/@jefffer705/pure-pursuit-in-ros-noetic-7b2c0a3c36ef) | Tutorial on implementing Pure Pursuit algorithm in ROS for vehicle path tracking. |
-| Low-Cost Path to Self-Driving Engineer | [linkedin.com/pulse/low-cost-path-become-self-driving-cars-engineer-ricardo-tellez/](https://www.linkedin.com/pulse/low-cost-path-become-self-driving-cars-engineer-ricardo-tellez/) | Guide to becoming a self-driving car engineer with affordable resources. |
-| Autonomous Driving Intro | [youtube.com/watch?v=eOevF5jFSoc](https://www.youtube.com/watch?v=eOevF5jFSoc) | Video introduction to autonomous driving concepts and applications. |
-
-### Projects and Datasets
-| Name | Link | Description |
-|------|------|-------------|
-| KITTI Dataset | [cvlibs.net/datasets/kitti/](https://www.cvlibs.net/datasets/kitti/) | Industry-standard dataset for autonomous driving, with LiDAR, camera, and GPS data. |
-| Apollo Auto | [github.com/ApolloAuto/apollo](https://github.com/ApolloAuto/apollo) | Open-source autonomous driving platform, supporting end-to-end vehicle control. |
-| Gym-Ignition | [github.com/robotology-legacy/gym-ignition](https://github.com/robotology-legacy/gym-ignition) | Gym environment for Ignition Gazebo, ideal for RL in autonomous driving. |
-| Autoware Universe | [autowarefoundation.github.io/autoware_universe/main/](https://autowarefoundation.github.io/autoware_universe/main/) | Open-source autonomous driving stack, with ROS2 integration for navigation. |
-
-## Projects
-These projects leverage the provided resources to build practical skills, inspired by my competition experience. See `/Self_Driving_Vehicles/projects/` for code and documentation.
-
-- **KITTI Dataset Analysis**: Use the [KITTI Dataset](https://www.cvlibs.net/datasets/kitti/) to process LiDAR and camera data for object detection in a Jupyter notebook. (Intermediate, builds perception skills.)
-- **Pure Pursuit Path Tracking**: Implement the Pure Pursuit algorithm using [Pure Pursuit in ROS Noetic](https://medium.com/@jefffer705/pure-pursuit-in-ros-noetic-7b2c0a3c36ef) in a ROS2 node for F1TENTH racing. (Intermediate, competition-ready.)
-- **F1TENTH RL Navigation**: Build an RL-based navigation system using [F1TENTH RL](https://github.com/MichaelBosello/f1tenth-RL) in a simulated environment. (Advanced, competition-focused.)
-- **Apollo Auto Simulation**: Deploy a basic autonomous driving pipeline with [Apollo Auto](https://github.com/ApolloAuto/apollo) in a simulator like CARLA. (Advanced, end-to-end autonomy.)
-- **Autoware ROS2 Node**: Create a ROS2 node for path planning using [Autoware Universe](https://autowarefoundation.github.io/autoware_universe/main/) for urban driving scenarios. (Intermediate, practical.)
-- **Markdown Guide on Autonomy Levels**: Summarize SAE J3016 autonomy levels based on [SAE J3016 Standard](https://www.sae.org/standards/content/j3016_201806/) in `/docs/autonomy_levels.md`. (Beginner, educational.)
-
-## Repository Structure
-```
-Self_Driving_Vehicles/
-├── docs/            # Notes and summaries (e.g., autonomy_levels.md)
-├── projects/        # Project code and notebooks (e.g., kitti_analysis)
-├── README.md        # This file
-```
-
-## Tools and Ecosystems
-
-## Table of Contents
-- [Overview](#overview)
-- [Curated Resources](#curated-resources)
-  - [Simulators](#simulators)
-  - [Tutorials](#tutorials)
-- [Projects](#projects)
-- [Repository Structure](#repository-structure)
-- [How to Use This Repository](#how-to-use-this-repository)
-- [Contributing](#contributing)
-- [License](#license)
-
-## Overview
-This section is designed to:
-- Curate high-quality **simulator resources** for testing robotics and autonomous vehicle algorithms in virtual environments.
-- Provide practical **projects** inspired by my competition experience (e.g., F1TENTH, Shell Eco-marathon).
-- Integrate with my broader repo, linking to `/Robotics_Autonomous_Systems` (for ROS integration) and `/Self_Driving_Vehicles` (for driving scenarios).
-- Highlight my journey, showcasing simulation skills for competition-ready systems.
-
-## Curated Resources
-
-### Simulators
-| Name | Link | Description |
-|------|------|-------------|
-| Formula Student Driverless Simulator | [github.com/FS-Driverless/Formula-Student-Driverless-Simulator](https://github.com/FS-Driverless/Formula-Student-Driverless-Simulator) | Simulator for Formula Student driverless competitions, ideal for F1TENTH. |
-| NVIDIA Isaac GR00T | [github.com/NVIDIA/Isaac-GR00T](https://github.com/NVIDIA/Isaac-GR00T) | NVIDIA’s simulator for humanoid robots and autonomous systems. |
-| MuJoCo | [github.com/google-deepmind/mujoco](https://github.com/google-deepmind/mujoco) | Physics-based simulator for robotics and RL research. |
-| AutoDRIVE | [github.com/Tinker-Twins/AutoDRIVE](https://github.com/Tinker-Twins/AutoDRIVE) | Simulator for autonomous driving, supporting ROS2 and F1TENTH-style testing. |
-| Webots | [cyberbotics.com/](https://cyberbotics.com/) | Open-source robot simulator, compatible with ROS for robot modeling. |
-| AirSim | [github.com/microsoft/AirSim](https://github.com/microsoft/AirSim) | Simulator for drones and vehicles, with ROS and Unreal Engine support. |
-| CARLA | [github.com/carla-simulator/carla](https://github.com/carla-simulator/carla) | Open-source autonomous driving simulator, widely used for perception and planning. |
-| Autonomous Mobile Robot | [github.com/bandasaikrishna/Autonomous_Mobile_Robot](https://github.com/bandasaikrishna/Autonomous_Mobile_Robot) | Mobile robot simulation framework, with ROS integration. |
-| Robot Assets | [github.com/ankurhanda/robot-assets](https://github.com/ankurhanda/robot-assets) | Collection of robot models for simulation in Gazebo and other platforms. |
-| Gazebo Fuel | [gazebosim.org/docs/fortress/fuel_insert/](https://gazebosim.org/docs/fortress/fuel_insert/) | Gazebo Fuel for importing robot models and environments. |
-
-### Tutorials
-| Name | Link | Description |
-|------|------|-------------|
-| ROS Robotics Learning | [rosroboticslearning.com/](https://www.rosroboticslearning.com/) | Tutorials for ROS-based simulation, including Gazebo and TurtleBot3. |
-| CoppeliaSim Manual | [manual.coppeliarobotics.com/index.html](https://manual.coppeliarobotics.com/index.html) | Official manual for CoppeliaSim (formerly V-REP), a versatile robot simulator. |
-| FS Driverless Simulator Docs | [fs-driverless.github.io/Formula-Student-Driverless-Simulator/v2.2.0/](https://fs-driverless.github.io/Formula-Student-Driverless-Simulator/v2.2.0/) | Documentation for setting up the Formula Student Driverless Simulator. |
-| ROS2 and CARLA Setup Guide | [learnopencv.com/ros2-and-carla-setup-guide/](https://learnopencv.com/ros2-and-carla-setup-guide/) | Guide to integrating ROS2 with CARLA for autonomous driving simulation. |
-| TurtleBot3 in ROS2 Humble | [medium.com/@nilutpolkashyap/setting-up-turtlebot3-simulation-in-ros-2-humble-hawksbill-70a6fcdaf5de](https://medium.com/@nilutpolkashyap/setting-up-turtlebot3-simulation-in-ros-2-humble-hawksbill-70a6fcdaf5de) | Tutorial for setting up TurtleBot3 simulation in ROS2 Humble. |
-| CARLA Simulation Intro | [youtube.com/watch?v=Uz_i_sjVhIM](https://www.youtube.com/watch?v=Uz_i_sjVhIM) | Video intro to CARLA simulator for autonomous driving. |
-| ROS2 Simulation Playlist | [youtube.com/watch?v=inD2KquVzzo&list=PLbRa-L0fnTUzI6T6GBqBDYX9BSJjxySLZ&index=4](https://www.youtube.com/watch?v=inD2KquVzzo&list=PLbRa-L0fnTUzI6T6GBqBDYX9BSJjxySLZ&index=4) | YouTube playlist on ROS2 simulation setups. |
-
-## Projects
-These projects leverage the provided simulator resources to build practical skills, inspired by my competition experience. See `/Simulators/projects/` for code and documentation.
-
-- **F1TENTH Simulation**: Set up a racing environment in [Formula Student Driverless Simulator](https://github.com/FS-Driverless/Formula-Student-Driverless-Simulator) with ROS2 for path planning. (Intermediate, competition-ready.)
-- **CARLA Autonomous Driving**: Implement a lane-following algorithm in [CARLA](https://github.com/carla-simulator/carla) using [ROS2 and CARLA Setup Guide](https://learnopencv.com/ros2-and-carla-setup-guide/). (Intermediate, practical.)
-- **TurtleBot3 Obstacle Avoidance**: Simulate obstacle avoidance with TurtleBot3 in Gazebo using [ROS Robotics Learning](https://www.rosroboticslearning.com/). (Beginner, ROS2-focused.)
-- **Webots Robot Modeling**: Create a robot model in [Webots](https://cyberbotics.com/) with [Robot Assets](https://github.com/ankurhanda/robot-assets) for navigation tasks. (Intermediate, modeling skills.)
-- **MuJoCo RL Environment**: Build an RL environment for a robot using [MuJoCo](https://github.com/google-deepmind/mujoco) for control tasks. (Advanced, RL-focused.)
-- **Markdown Guide on Simulator Setup**: Document the setup process for CARLA and ROS2 based on [ROS2 and CARLA Setup Guide](https://learnopencv.com/ros2-and-carla-setup-guide/) in `/docs/simulator_setup.md`. (Beginner, educational.)
-
-## Repository Structure
-```
-Simulators/
-├── docs/            # Notes and summaries (e.g., simulator_setup.md)
-├── projects/        # Project code and notebooks (e.g., carla_lane_following)
-├── README.md        # This file
-```
-
-## Communities, Competitions and Growth
-
-## Table of Contents
-- [Overview](#overview)
-- [Curated Resources](#curated-resources)
-  - [Competition Platforms and Hubs](#competition-platforms-and-hubs)
-  - [Tutorials and Guides](#tutorials-and-guides)
-- [Projects](#projects)
-- [Repository Structure](#repository-structure)
-- [How to Use This Repository](#how-to-use-this-repository)
-- [Contributing](#contributing)
-- [License](#license)
-
-## Overview
-This section is designed to:
-- Curate high-quality **resources** for robotics and autonomous vehicle competitions, covering platforms, challenges, and preparation guides.
-- Provide practical **projects** inspired by my competition experience (e.g., F1TENTH, Shell Eco-marathon).
-- Integrate with my broader repo, linking to `/Robotics_Autonomous_Systems` (for ROS) and `/Simulators` (for testing).
-- Highlight my journey, showcasing competition-ready skills in autonomous navigation and control.
-
-The resources below cover major competitions like CARLA Leaderboard, RoboCup, and Teknofest, along with preparation tools and tutorials.
-
-## Curated Resources
-
-### Competition Platforms and Hubs
-| Name | Link | Description |
-|------|------|-------------|
-| MATLAB-Simulink Challenge Project Hub | [github.com/mathworks/MATLAB-Simulink-Challenge-Project-Hub](https://github.com/mathworks/MATLAB-Simulink-Challenge-Project-Hub) | MATLAB/Simulink projects for robotics and autonomous vehicle challenges. |
-| SEM-APC Student Docker Environment | [github.com/swri-robotics/sem-apc-student-docker-environment](https://github.com/swri-robotics/sem-apc-student-docker-environment) | Docker environment for Shell Eco-marathon Autonomous Programming Competition. |
-| IMechE | [imeche.org/](https://www.imeche.org/) | Institution hosting competitions like Formula Student, relevant for autonomous vehicles. |
-| CARLA Leaderboard | [leaderboard.carla.org/](https://leaderboard.carla.org/) | Leaderboard for CARLA autonomous driving challenges, ideal for testing algorithms. |
-| Teknofest Robotaxi | [teknofest.org/en/competitions/robotaxi-full-scale-autonomous-vehicle-competition/](https://www.teknofest.org/en/competitions/robotaxi-full-scale-autonomous-vehicle-competition/) | Full-scale autonomous vehicle competition, focusing on real-world driving. |
-| RoboCup | [robocup.org/](https://www.robocup.org/) | Global robotics competition, including autonomous navigation and manipulation. |
-| Robocon | [robocon.io/](https://www.robocon.io/) | Robotics competition for innovative robot designs and tasks. |
-| Roboracer AI | [roboracer.ai/](https://www.roboracer.ai/) | AI-driven racing competition, similar to F1TENTH. |
-| Indy Autonomous Challenge | [indyautonomouschallenge.com/](https://www.indyautonomouschallenge.com/) | High-speed autonomous racing challenge for advanced teams. |
-| NASA Space Apps Cairo | [spaceappschallenge.org/nasa-space-apps-2024/2024-local-events/cairo/](https://www.spaceappschallenge.org/nasa-space-apps-2024/2024-local-events/cairo/) | Space-related robotics and autonomy challenges, hosted in Cairo. |
-
-### Tutorials and Guides
-| Name | Link | Description |
-|------|------|-------------|
-| CARLA Leaderboard Intro | [youtube.com/watch?v=9KuySHCagYc](https://www.youtube.com/watch?v=9KuySHCagYc) | Video guide to participating in the CARLA Leaderboard challenge. |
-
-## Projects
-These projects leverage the provided competition resources to build practical skills, inspired by my experience. See `/Competitions/projects/` for code and documentation.
-
-- **CARLA Leaderboard Submission**: Develop a driving algorithm for the [CARLA Leaderboard](https://leaderboard.carla.org/) using ROS2 and CARLA simulator. (Advanced, competition-ready.)
-- **Shell Eco-marathon Autonomy**: Create an energy-efficient planner for [SEM-APC Student Docker Environment](https://github.com/swri-robotics/sem-apc-student-docker-environment) in a simulated urban environment. (Intermediate, Shell Eco-marathon-focused.)
-- **F1TENTH Race Prep**: Build a ROS2-based navigation stack for [Roboracer AI](https://roboracer.ai/) using Pure Pursuit or MPC. (Intermediate, F1TENTH-style.)
-- **RoboCup Simulation**: Implement a navigation task for RoboCup Junior in Webots using [RoboCup](https://www.robocup.org/) resources. (Intermediate, practical.)
-- **MATLAB Challenge Project**: Develop a control system for an autonomous vehicle using [MATLAB-Simulink Challenge Project Hub](https://github.com/mathworks/MATLAB-Simulink-Challenge-Project-Hub). (Intermediate, MATLAB-focused.)
-- **Markdown Guide on Competition Prep**: Summarize strategies for CARLA Leaderboard based on [CARLA Leaderboard Intro](https://youtube.com/watch?v=9KuySHCagYc) in `/docs/competition_prep.md`. (Beginner, educational.)
-
-## Repository Structure
-```
-Competitions/
-├── docs/            # Notes and summaries (e.g., competition_prep.md)
-├── projects/        # Project code and notebooks (e.g., carla_leaderboard)
-├── README.md        # This file
-```
-
-
 
 # General Resources Repository
 
