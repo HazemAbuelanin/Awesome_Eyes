@@ -2107,6 +2107,7 @@ This README serves as the hub for the provided resources, including ROS/ROS2 rep
 - [Projects](#projects)
 - [Repository Structure](#repository-structure)
 - [General Resources Repository](#general-resources-repository)
+- [Embedded Systems and Low-Level Programming Repository](#embedded-systems-and-low-level-programming-repository)
 
 ## Overview
 This section is designed to:
@@ -2519,5 +2520,156 @@ These projects leverage the provided general resources to build practical skills
 General_Resources/
 ├── docs/            # Notes and summaries (e.g., learning_platforms.md)
 ├── projects/        # Project code and notebooks (e.g., system_design)
+├── README.md        # This file
+```
+
+## Embedded Systems and Low-Level Programming Repository
+
+## Table of Contents
+- [Overview](#overview)
+- [Curated Resources](#curated-resources)
+  - [Repositories](#repositories)
+  - [YouTube Videos and Playlists](#youtube-videos-and-playlists)
+  - [Books](#books)
+  - [Courses and Tutorials](#courses-and-tutorials)
+  - [Papers](#papers)
+  - [Tools and Websites](#tools-and-websites)
+- [Projects](#projects)
+- [Repository Structure](#repository-structure)
+- [How to Use This Repository](#how-to-use-this-repository)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Overview
+This section is designed to:
+- Curate high-quality **resources** for embedded systems and low-level programming, covering microcontrollers, Linux kernels, and hardware interfacing.
+- Provide practical **projects** inspired by my competition experience (e.g., embedded controllers for autonomous vehicles).
+- Integrate with my broader repo, linking to `/Systems_Hardware` (for OS integration) and `/Robotics_Autonomous_Systems` (for robot applications).
+- Highlight my journey, showcasing low-level programming skills for robotics competitions and lab work.
+
+The resources below cover repositories, videos, books, courses, papers, and tools for embedded systems, organized for easy access.
+
+## Curated Resources
+
+### Repositories
+| Name | Link | Description |
+|------|------|-------------|
+| Nexmon (Wi-Fi Firmware) | [github.com/seemoo-lab/nexmon](https://github.com/seemoo-lab/nexmon) | Firmware patching for Wi-Fi chips, useful for embedded networking. |
+| Serial Studio | [github.com/Serial-Studio/Serial-Studio](https://github.com/Serial-Studio/Serial-Studio) | Multi-purpose serial data visualization tool for embedded debugging (duplicate for emphasis). |
+| Amun (Embedded Framework) | [github.com/AmrDeveloper/Amun](https://github.com/AmrDeveloper/Amun) | Embedded framework for low-level programming. |
+| Rust-CUDA | [github.com/Rust-GPU/Rust-CUDA](https://github.com/Rust-GPU/Rust-CUDA) | Rust bindings for CUDA, for GPU-accelerated embedded systems. |
+| Mastering Embedded Linux (3rd Ed) | [github.com/PacktPublishing/Mastering-Embedded-Linux-Programming-Third-Edition](https://github.com/PacktPublishing/Mastering-Embedded-Linux-Programming-Third-Edition) | Code and resources for embedded Linux programming. |
+| Awesome Embedded Linux | [github.com/fkromer/awesome-embedded-linux](https://github.com/fkromer/awesome-embedded-linux) | Curated list of embedded Linux resources. |
+| Embedded Network Programming Guide | [github.com/cpq/embedded-network-programming-guide](https://github.com/cpq/embedded-network-programming-guide) | Guide to network programming in embedded systems. |
+| Bare Metal Programming Guide | [github.com/cpq/bare-metal-programming-guide](https://github.com/cpq/bare-metal-programming-guide) | Guide to bare-metal low-level programming. |
+| Awesome Embedded | [github.com/nhivp/Awesome-Embedded](https://github.com/nhivp/Awesome-Embedded) | Curated embedded systems resources (duplicate for emphasis). |
+| FPGA-ASIC Roadmap | [github.com/m3y54m/FPGA-ASIC-Roadmap](https://github.com/m3y54m/FPGA-ASIC-Roadmap) | Roadmap for FPGA/ASIC design in embedded systems. |
+| Parallel Computing CUDA C | [github.com/CisMine/Parallel-Computing-Cuda-C](https://github.com/CisMine/Parallel-Computing-Cuda-C) | CUDA C for parallel computing in embedded GPUs. |
+| Embedded Linux with Yocto | [github.com/Rabie45/Embedded-Linux-System-with-the-Yocto-Project](https://github.com/Rabie45/Embedded-Linux-System-with-the-Yocto-Project) | Project for building embedded Linux with Yocto. |
+| EEPROM Programmer | [github.com/beneater/eeprom-programmer](https://github.com/beneater/eeprom-programmer) | EEPROM programmer for low-level memory operations. |
+
+### YouTube Videos and Playlists
+| Name | Link | Description |
+|------|------|-------------|
+| Embedded Linux Basics | [youtube.com/watch?v=eF9qWbuQLuw](https://www.youtube.com/watch?v=eF9qWbuQLuw) | Intro to embedded Linux. |
+| ARM Cortex-M Series | [youtube.com/watch?v=3l10o0DYJXg](https://www.youtube.com/watch?v=3l10o0DYJXg) | ARM Cortex-M microcontroller basics. |
+| RTOS Explained | [youtube.com/watch?v=RWlI6O7yxMw](https://www.youtube.com/watch?v=RWlI6O7yxMw) | Explanation of real-time operating systems. |
+| Bare Metal Programming | [youtube.com/watch?v=cIG1nxoLw6U](https://www.youtube.com/watch?v=cIG1nxoLw6U) | Bare metal programming intro. |
+| Embedded C++ | [youtube.com/watch?v=GeSSkvwFDHs](https://www.youtube.com/watch?v=GeSSkvwFDHs) | Embedded C++ programming. |
+| STM32 HAL Tutorials | [youtube.com/watch?v=qJgsuQoy9bc&list=PLqCJpWy5Fohdz6Nu2yG6Loubocqk3sRNR](https://www.youtube.com/watch?v=qJgsuQoy9bc&list=PLqCJpWy5Fohdz6Nu2yG6Loubocqk3sRNR) | STM32 HAL library tutorials. |
+| AVR Microcontrollers | [youtube.com/watch?v=qJgsuQoy9bc&list=PLLwK93hM93Z13TRzPx9JqTIn33feefl37](https://www.youtube.com/watch?v=qJgsuQoy9bc&list=PLLwK93hM93Z13TRzPx9JqTIn33feefl37) | AVR microcontroller series. |
+| FPGA Design | [youtube.com/watch?v=scjT2yVA5tg&list=PLZ42ZUInDWC7NxkE0m1Dla2_HUtD5r1WM](https://www.youtube.com/watch?v=scjT2yVA5tg&list=PLZ42ZUInDWC7NxkE0m1Dla2_HUtD5r1WM) | FPGA design playlist. |
+| Altium Academy | [youtube.com/@AltiumAcademy](https://www.youtube.com/@AltiumAcademy) | Altium PCB design tutorials. |
+| Computer Architecture | [youtube.com/watch?v=5PHm2jkkXmi5CxxI7b3JCL1TWybTDtKq](https://www.youtube.com/watch?v=5PHm2jkkXmi5CxxI7b3JCL1TWybTDtKq) | Computer architecture series. |
+| Embedded Linux with Yocto | [youtube.com/watch?v=ULY7rbJoROQ&list=PL6XhtJWb6Qa-fLyGoPdcp6sQtxbeChfTOOBd](https://www.youtube.com/watch?v=ULY7rbJoROQ&list=PL6XhtJWb6Qa-fLyGoPdcp6sQtxbeChfTOOBd) | Yocto for embedded Linux. |
+| Circuit Simulation | [circuitstoday.com/](https://circuitstoday.com/) | Circuit simulation resources. |
+| Embedded C Programming | [youtube.com/watch?v=71SRVEcbEwc&list=PLfIJKC1ud8gga7xeUUJ-bRUbeChfTOOBd](https://www.youtube.com/watch?v=71SRVEcbEwc&list=PLfIJKC1ud8gga7xeUUJ-bRUbeChfTOOBd) | Embedded C series. |
+| Build a Computer | [youtube.com/watch?v=XbPMfoKi8kk](https://www.youtube.com/watch?v=XbPMfoKi8kk) | Building a computer from scratch. |
+| Programmable Hardware | [eng.ox.ac.uk/computing/projects/programmable-hardware/](https://eng.ox.ac.uk/computing/projects/programmable-hardware/) | Programmable hardware projects. |
+| VHDL for Embedded | [youtube.com/watch?v=OW1EmG7b4DU](https://www.youtube.com/watch?v=OW1EmG7b4DU) | VHDL for embedded systems. |
+| Low-Level Programming | [youtube.com/watch?v=LnzuMJLZRdU&list=PLowKtXNTBypFbtuVMUVXNR0z1mu7dp7eH&index=2](https://www.youtube.com/watch?v=LnzuMJLZRdU&list=PLowKtXNTBypFbtuVMUVXNR0z1mu7dp7eH&index=2) | Low-level programming series. |
+| ARM Assembly | [youtube.com/watch?v=U6uMWm7-VJg](https://www.youtube.com/watch?v=U6uMWm7-VJg) | ARM assembly programming. |
+| MIPS Architecture | [youtube.com/watch?v=8zbpe43k4Qg&list=PL5Q2soXY2Zi_FRrloMa2fUYWPGiZUBQo2beChfKaKa9](https://www.youtube.com/watch?v=8zbpe43k4Qg&list=PL5Q2soXY2Zi_FRrloMa2fUYWPGiZUBQo2beChfKaKa9) | MIPS architecture tutorials. |
+| Embedded Systems Design | [youtube.com/watch?v=6caLyckwo7U](https://www.youtube.com/watch?v=6caLyckwo7U) | Embedded systems design. |
+| Build a Computer (Coursera) | [coursera.org/learn/build-a-computer](https://coursera.org/learn/build-a-computer) | Coursera course on building a computer. |
+| Robotics ECS154B | [jlpteaching.github.io/ECS154B/modules/introduction/index/](https://jlpteaching.github.io/ECS154B/modules/introduction/index/) | Robotics course materials. |
+| Computer Architecture Playlist | [youtube.com/watch?v=5PHm2jkkXmi5CxxI7b3JCL1TWybTDtKq](https://www.youtube.com/watch?v=5PHm2jkkXmi5CxxI7b3JCL1TWybTDtKq) | Computer architecture playlist (duplicate for emphasis). |
+| Low-Level C | [youtube.com/watch?v=bNkejpBBLAg&list=PLa4kqtM7SuFyf4P0EWHLpVGCxot0cAlPD](https://www.youtube.com/watch?v=bNkejpBBLAg&list=PLa4kqtM7SuFyf4P0EWHLpVGCxot0cAlPD) | Low-level C programming. |
+| Circuit Simulation | [circuitstoday.com/](https://circuitstoday.com/) | Circuit simulation resources (duplicate for emphasis). |
+| Embedded Systems Playlist | [youtube.com/watch?v=71SRVEcbEwc&list=PLfIJKC1ud8gga7xeUUJ-bRUbeChfTOOBd](https://www.youtube.com/watch?v=71SRVEcbEwc&list=PLfIJKC1ud8gga7xeUUJ-bRUbeChfTOOBd) | Embedded systems series (duplicate for emphasis). |
+| Build a Computer Video | [youtube.com/watch?v=XbPMfoKi8kk](https://www.youtube.com/watch?v=XbPMfoKi8kk) | Video on building a computer (duplicate for emphasis). |
+| Programmable Hardware | [eng.ox.ac.uk/computing/projects/programmable-hardware/](https://eng.ox.ac.uk/computing/projects/programmable-hardware/) | Programmable hardware projects (duplicate for emphasis). |
+
+### Books
+| Name | Link | Description |
+|------|------|-------------|
+| Mastering Embedded Linux (3rd Ed) | [github.com/PacktPublishing/Mastering-Embedded-Linux-Programming-Third-Edition](https://github.com/PacktPublishing/Mastering-Embedded-Linux-Programming-Third-Edition) | Book on advanced embedded Linux programming. |
+
+### Courses and Tutorials
+| Name | Link | Description |
+|------|------|-------------|
+| ARM Embedded Linux | [arm.com/resources/education/online-courses/embedded-linux](https://www.arm.com/resources/education/online-courses/embedded-linux) | Online course on embedded Linux with ARM. |
+| Embedded Linux Roadmap | [linkedin.com/pulse/embedded-linux-road-map-part-1-hazem-khaled-igfdf/](https://www.linkedin.com/pulse/embedded-linux-road-map-part-1-hazem-khaled-igfdf/) | Roadmap for embedded Linux. |
+| Steve Branam Blog | [embeddedrelated.com/blogs-1/nf/Steve_Branam.php](https://www.embeddedrelated.com/blogs-1/nf/Steve_Branam.php) | Blog on embedded systems. |
+| Azhar ICPC | [sites.google.com/view/azharicpc/home?authuser=0](https://sites.google.com/view/azharicpc/home?authuser=0) | ICPC preparation, relevant for low-level coding. |
+| Master Micro Professional Courses | [master-micro.com/professional-courses](https://www.master-micro.com/professional-courses) | Professional courses on microcontrollers (duplicate for emphasis). |
+| CircuitLab | [circuitlab.com/editor/](https://circuitlab.com/editor/) | Online circuit editor. |
+| Mastering Microcontroller | [udemy.com/course/mastering-microcontroller-with-peripheral-driver-development/](https://www.udemy.com/course/mastering-microcontroller-with-peripheral-driver-development/) | Udemy course on microcontrollers (coupon available). |
+| Master Micro Professional Courses | [master-micro.com/professional-courses](https://www.master-micro.com/professional-courses) | Professional courses (duplicate for emphasis). |
+| ST Community | [community.st.com/](https://community.st.com) | ST Microelectronics community. |
+| Altium Education | [education.altium.com/](https://education.altium.com/) | Altium PCB education resources. |
+| Embedded Linux with Yocto | [youtube.com/watch?v=ULY7rbJoROQ&list=PL6XhtJWb6Qa-fLyGoPdcp6sQtxbeChfTOOBd](https://www.youtube.com/watch?v=ULY7rbJoROQ&list=PL6XhtJWb6Qa-fLyGoPdcp6sQtxbeChfTOOBd) | Yocto tutorial playlist. |
+| Circuit Simulation | [circuitstoday.com/](https://circuitstoday.com/) | Circuit tutorials. |
+| Embedded Systems | [youtube.com/watch?v=71SRVEcbEwc&list=PLfIJKC1ud8gga7xeUUJ-bRUbeChfTOOBd](https://www.youtube.com/watch?v=71SRVEcbEwc&list=PLfIJKC1ud8gga7xeUUJ-bRUbeChfTOOBd) | Embedded systems playlist. |
+| Build a Computer | [youtube.com/watch?v=XbPMfoKi8kk](https://www.youtube.com/watch?v=XbPMfoKi8kk) | Build a computer video. |
+| Programmable Hardware | [eng.ox.ac.uk/computing/projects/programmable-hardware/](https://eng.ox.ac.uk/computing/projects/programmable-hardware/) | Programmable hardware. |
+| VHDL for Embedded | [youtube.com/watch?v=OW1EmG7b4DU](https://www.youtube.com/watch?v=OW1EmG7b4DU) | VHDL tutorial. |
+| Low-Level Programming | [youtube.com/watch?v=LnzuMJLZRdU&list=PLowKtXNTBypFbtuVMUVXNR0z1mu7dp7eH&index=2](https://www.youtube.com/watch?v=LnzuMJLZRdU&list=PLowKtXNTBypFbtuVMUVXNR0z1mu7dp7eH&index=2) | Low-level programming playlist. |
+| ARM Assembly | [youtube.com/watch?v=U6uMWm7-VJg](https://www.youtube.com/watch?v=U6uMWm7-VJg) | ARM assembly. |
+| MIPS Architecture | [youtube.com/watch?v=8zbpe43k4Qg&list=PL5Q2soXY2Zi_FRrloMa2fUYWPGiZUBQo2beChfKaKa9](https://www.youtube.com/watch?v=8zbpe43k4Qg&list=PL5Q2soXY2Zi_FRrloMa2fUYWPGiZUBQo2beChfKaKa9) | MIPS tutorials. |
+| Embedded Systems Design | [youtube.com/watch=v6caLyckwo7U](https://www.youtube.com/watch=v6caLyckwo7U) | Embedded design. |
+| Build a Computer (Coursera) | [coursera.org/learn/build-a-computer](https://coursera.org/learn/build-a-computer) | Coursera course. |
+| Robotics ECS154B | [jlpteaching.github.io/ECS154B/modules/introduction/index/](https://jlpteaching.github.io/ECS154B/modules/introduction/index/) | Robotics course. |
+| Computer Architecture Playlist | [youtube.com/watch?v=5PHm2jkkXmi5CxxI7b3JCL1TWybTDtKq](https://www.youtube.com/watch?v=5PHm2jkkXmi5CxxI7b3JCL1TWybTDtKq) | Computer architecture. |
+| Low-Level C | [youtube.com/watch?v=bNkejpBBLAg&list=PLa4kqtM7SuFyf4P0EWHLpVGCxot0cAlPD](https://www.youtube.com/watch?v=bNkejpBBLAg&list=PLa4kqtM7SuFyf4P0EWHLpVGCxot0cAlPD) | Low-level C. |
+| Circuit Simulation | [circuitstoday.com/](https://circuitstoday.com/) | Circuit resources. |
+| Embedded Systems Playlist | [youtube.com/watch?v=71SRVEcbEwc&list=PLfIJKC1ud8gga7xeUUJ-bRUbeChfTOOBd](https://www.youtube.com/watch?v=71SRVEcbEwc&list=PLfIJKC1ud8gga7xeUUJ-bRUbeChfTOOBd) | Embedded playlist. |
+| Build a Computer Video | [youtube.com/watch?v=XbPMfoKi8kk](https://www.youtube.com/watch?v=XbPMfoKi8kk) | Build a computer. |
+| Programmable Hardware | [eng.ox.ac.uk/computing/projects/programmable-hardware/](https://eng.ox.ac.uk/computing/projects/programmable-hardware/) | Programmable hardware. |
+
+### Papers
+| Name | Link | Description |
+|------|------|-------------|
+| Step-by-Step CPU Architecture | [researchgate.net/publication/262153059_Step-by-step_design_and_simulation_of_a_simple_CPU_architecture](https://www.researchgate.net/publication/262153059_Step-by-step_design_and_simulation_of_a_simple_CPU_architecture) | Paper on CPU architecture design. |
+| AVR Architecture Guide | [exploreembedded.com/wiki/1._AVR_Architecture](https://exploreembedded.com/wiki/1._AVR_Architecture) | Guide to AVR architecture. |
+
+### Tools and Websites
+| Name | Link | Description |
+|------|------|-------------|
+| LeetGPU | [leetgpu.com/](https://leetgpu.com/) | GPU-focused tool for low-level computing. |
+| ST Community | [community.st.com/](https://community.st.com) | ST Microelectronics community. |
+| Microchip University | [mu.microchip.com/page/all-courses](https://mu.microchip.com/page/all-courses) | Microchip courses for embedded. |
+| Altium Education | [education.altium.com/](https://education.altium.com/) | Altium PCB education. |
+| Datasheets.com | [datasheets.com/](https://datasheets.com/) | Component datasheets. |
+| CircuitLab | [circuitlab.com/editor/](https://circuitlab.com/editor/) | Online circuit editor. |
+| MIPS | [mips.com/](https://mips.com/) | MIPS architecture resources. |
+| Circuitstoday | [circuitstoday.com/](https://circuitstoday.com/) | Circuit tutorials. |
+| Skyfi Labs Embedded Projects | [skyfilabs.com/blog/list-of-good-embedded-systems-projects-for-engineering-students](https://www.skyfilabs.com/blog/list-of-good-embedded-systems-projects-for-engineering-students) | List of embedded projects. |
+
+## Projects
+These projects leverage the provided resources to build practical skills, inspired by my competition experience. See `/Embedded_Systems_Low_Level_Programming/projects/` for code and documentation.
+
+- **Nexmon Wi-Fi Firmware Patch**: Modify Wi-Fi firmware using [Nexmon](https://github.com/seemoo-lab/nexmon) for embedded networking in a robot. (Advanced, competition-ready.)
+- **Serial Studio Debugger**: Build a serial data visualizer using [Serial Studio](https://github.com/Serial-Studio/Serial-Studio) for F1TENTH sensor debugging. (Intermediate, practical.)
+- **Rust-CUDA Embedded Accelerator**: Implement a CUDA kernel in Rust using [Rust-CUDA](https://github.com/Rust-GPU/Rust-CUDA) for GPU-accelerated low-level tasks. (Advanced, performance-focused.)
+- **Bare Metal Bootloader**: Create a bare-metal bootloader using [Bare Metal Programming Guide](https://github.com/cpq/bare-metal-programming-guide) for a microcontroller. (Intermediate, low-level.)
+- **STM32 Peripheral Driver**: Develop a peripheral driver using [STM32 HAL Tutorials](https://www.youtube.com/watch?v=qJgsuQoy9bc&list=PLqCJpWy5Fohdz6Nu2yG6Loubocqk3sRNR) for a robotics sensor. (Intermediate, hardware-focused.)
+- **Markdown Guide on Embedded Linux**: Summarize embedded Linux concepts based on [Mastering Embedded Linux (3rd Ed)](https://github.com/PacktPublishing/Mastering-Embedded-Linux-Programming-Third-Edition) in `/docs/embedded_linux_guide.md`. (Beginner, educational.)
+
+## Repository Structure
+```
+Embedded_Systems_Low_Level_Programming/
+├── docs/            # Notes and summaries (e.g., embedded_linux_guide.md)
+├── projects/        # Project code and notebooks (e.g., nexmon_firmware)
 ├── README.md        # This file
 ```
