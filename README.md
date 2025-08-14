@@ -2,6 +2,7 @@
 
 > A journey to mastering engineering through **The Triangular Approach** — Books, Courses, and Projects — to become a **full-rounded engineer**.  
 > This is my open notebook, my playbook, and my gift to the community.
+> Note: The repo is undergoing fixations of broken links.
 
 ---
 
